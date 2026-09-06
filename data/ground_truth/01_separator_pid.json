@@ -1,0 +1,882 @@
+{
+  "drawing_id": "01",
+  "drawing_type": "P&ID",
+  "title": "Crude Charge and Feed Section",
+  "drawing_no": "PID-CRUDE-FEED-001",
+  "canvas_size": {
+    "width": 3840,
+    "height": 1600
+  },
+  "equipment": [
+    {
+      "tag": "T-101",
+      "type": "tank",
+      "service": "Crude Charge Tank",
+      "bbox": [
+        179.2,
+        499.2,
+        460.8,
+        1100.8
+      ]
+    },
+    {
+      "tag": "P-101A",
+      "type": "pump",
+      "service": "Crude Charge Pump A",
+      "bbox": [
+        659.2,
+        659.2,
+        783.84,
+        780.8
+      ]
+    },
+    {
+      "tag": "P-101B",
+      "type": "pump",
+      "service": "Crude Charge Pump B (spare)",
+      "bbox": [
+        659.2,
+        979.2,
+        783.84,
+        1100.8
+      ]
+    },
+    {
+      "tag": "PSV-101",
+      "type": "psv",
+      "service": "V-101 overhead drum overpressure relief",
+      "bbox": [
+        2933.76,
+        10.026666666666657,
+        3046.24,
+        80.0
+      ]
+    },
+    {
+      "tag": "E-101",
+      "type": "heat_exchanger",
+      "service": "Crude/product preheat",
+      "bbox": [
+        979.2,
+        659.2,
+        1260.8000000000002,
+        940.8000000000001
+      ]
+    },
+    {
+      "tag": "E-102",
+      "type": "heat_exchanger",
+      "service": "Crude/HVGO heat",
+      "bbox": [
+        1459.2,
+        659.2,
+        1740.8000000000002,
+        940.8000000000001
+      ]
+    },
+    {
+      "tag": "F-101",
+      "type": "furnace",
+      "service": "Crude charge heater",
+      "bbox": [
+        1939.2,
+        499.2,
+        2220.8,
+        1100.8
+      ]
+    },
+    {
+      "tag": "C-101",
+      "type": "column",
+      "service": "Atmospheric distillation tower",
+      "bbox": [
+        2419.2,
+        179.20000000000005,
+        2700.7999999999997,
+        1420.8
+      ]
+    },
+    {
+      "tag": "V-101",
+      "type": "vessel",
+      "service": "Overhead reflux drum",
+      "bbox": [
+        2899.2,
+        179.2,
+        3180.7999999999997,
+        620.8
+      ]
+    },
+    {
+      "tag": "P-102A",
+      "type": "pump",
+      "service": "Reflux pump A",
+      "bbox": [
+        3379.2,
+        339.2,
+        3503.84,
+        460.8
+      ]
+    },
+    {
+      "tag": "P-102B",
+      "type": "pump",
+      "service": "Reflux pump B (spare)",
+      "bbox": [
+        3379.2,
+        659.2,
+        3503.84,
+        780.8
+      ]
+    },
+    {
+      "tag": "V-102",
+      "type": "vessel",
+      "service": "Bottoms surge drum",
+      "bbox": [
+        2899.2,
+        1139.2,
+        3180.7999999999997,
+        1420.8000000000002
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "tag": "LT-101",
+      "function": "LT",
+      "loop_id": "101",
+      "located_on": "T-101",
+      "bbox": [
+        35.199999999999996,
+        515.2,
+        124.80000000000001,
+        604.8
+      ]
+    },
+    {
+      "tag": "FT-101",
+      "function": "FT",
+      "loop_id": "101",
+      "located_on": "P-101A",
+      "bbox": [
+        675.2,
+        515.2,
+        764.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "PT-102",
+      "function": "PT",
+      "loop_id": "102",
+      "located_on": "P-101A",
+      "bbox": [
+        835.2,
+        675.2,
+        924.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "TT-103",
+      "function": "TT",
+      "loop_id": "103",
+      "located_on": "E-101",
+      "bbox": [
+        995.2,
+        515.2,
+        1084.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "TT-104",
+      "function": "TT",
+      "loop_id": "104",
+      "located_on": "E-102",
+      "bbox": [
+        1475.2,
+        515.2,
+        1564.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "TT-105",
+      "function": "TT",
+      "loop_id": "105",
+      "located_on": "F-101",
+      "bbox": [
+        2275.2,
+        515.2,
+        2364.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "PT-106",
+      "function": "PT",
+      "loop_id": "106",
+      "located_on": "C-101",
+      "bbox": [
+        2435.2,
+        35.199999999999996,
+        2524.8,
+        124.80000000000001
+      ]
+    },
+    {
+      "tag": "LT-107",
+      "function": "LT",
+      "loop_id": "107",
+      "located_on": "C-101",
+      "bbox": [
+        2435.2,
+        1475.2,
+        2524.8,
+        1564.8
+      ]
+    },
+    {
+      "tag": "LT-108",
+      "function": "LT",
+      "loop_id": "108",
+      "located_on": "V-101",
+      "bbox": [
+        3235.2,
+        195.2,
+        3324.8,
+        284.8
+      ]
+    },
+    {
+      "tag": "FIC-109",
+      "function": "FIC",
+      "loop_id": "109",
+      "located_on": "P-102A",
+      "bbox": [
+        3395.2,
+        195.2,
+        3484.8,
+        284.8
+      ]
+    },
+    {
+      "tag": "LT-110",
+      "function": "LT",
+      "loop_id": "110",
+      "located_on": "V-102",
+      "bbox": [
+        2755.2,
+        1155.2,
+        2844.8,
+        1244.8
+      ]
+    },
+    {
+      "tag": "FIC-111",
+      "function": "FIC",
+      "loop_id": "111",
+      "located_on": "V-102",
+      "bbox": [
+        3235.2,
+        1155.2,
+        3324.8,
+        1244.8
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "line_no": "4\"-RFX-113-CS",
+      "size": "4\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "P-102A",
+      "to_tag": "C-101",
+      "geometry": [
+        [
+          3503.84,
+          400.0
+        ],
+        [
+          3280.0,
+          400.0
+        ],
+        [
+          3280.0,
+          720.0
+        ],
+        [
+          2800.0,
+          720.0
+        ],
+        [
+          2800.0,
+          400.0
+        ],
+        [
+          2640.0,
+          400.0
+        ],
+        [
+          2700.7999999999997,
+          402.688
+        ]
+      ]
+    },
+    {
+      "line_no": "10\"-AGO-115-CS",
+      "size": "10\"",
+      "service": "AGO",
+      "spec": "CS",
+      "from_tag": "C-101",
+      "to_tag": "V-102",
+      "geometry": [
+        [
+          2560.0,
+          1420.8
+        ],
+        [
+          2640.0,
+          1360.0
+        ],
+        [
+          2800.0,
+          1360.0
+        ],
+        [
+          2800.0,
+          1040.0
+        ],
+        [
+          3120.0,
+          1040.0
+        ],
+        [
+          3120.0,
+          1200.0
+        ],
+        [
+          3040.0,
+          1139.2
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-CRD-101-CS",
+      "size": "12\"",
+      "service": "CRD",
+      "spec": "CS",
+      "from_tag": "T-101",
+      "to_tag": "P-101A",
+      "geometry": [
+        [
+          320.0,
+          1100.8
+        ],
+        [
+          400.0,
+          1040.0
+        ],
+        [
+          560.0,
+          1040.0
+        ],
+        [
+          560.0,
+          720.0
+        ],
+        [
+          659.2,
+          720.0
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-RFX-111-CS",
+      "size": "6\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "V-101",
+      "to_tag": "P-102A",
+      "geometry": [
+        [
+          3040.0,
+          620.8
+        ],
+        [
+          3120.0,
+          560.0
+        ],
+        [
+          3440.0,
+          560.0
+        ],
+        [
+          3440.0,
+          400.0
+        ],
+        [
+          3379.2,
+          400.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-CRD-104-CS",
+      "size": "8\"",
+      "service": "CRD",
+      "spec": "CS",
+      "from_tag": "P-101B",
+      "to_tag": "E-101",
+      "geometry": [
+        [
+          783.84,
+          1040.0
+        ],
+        [
+          880.0,
+          1040.0
+        ],
+        [
+          880.0,
+          720.0
+        ],
+        [
+          1040.0,
+          720.0
+        ],
+        [
+          979.2,
+          743.68
+        ]
+      ]
+    },
+    {
+      "line_no": "14\"-OVH-110-CS",
+      "size": "14\"",
+      "service": "OVH",
+      "spec": "CS",
+      "from_tag": "C-101",
+      "to_tag": "V-101",
+      "geometry": [
+        [
+          2560.0,
+          179.20000000000005
+        ],
+        [
+          2640.0,
+          240.0
+        ],
+        [
+          2640.0,
+          80.0
+        ],
+        [
+          2320.0,
+          80.0
+        ],
+        [
+          2320.0,
+          1520.0
+        ],
+        [
+          3600.0,
+          1520.0
+        ],
+        [
+          3600.0,
+          240.0
+        ],
+        [
+          3120.0,
+          240.0
+        ],
+        [
+          3040.0,
+          179.2
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-RFX-112-CS",
+      "size": "6\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "V-101",
+      "to_tag": "P-102B",
+      "geometry": [
+        [
+          3040.0,
+          620.8
+        ],
+        [
+          3120.0,
+          560.0
+        ],
+        [
+          3120.0,
+          880.0
+        ],
+        [
+          3440.0,
+          880.0
+        ],
+        [
+          3440.0,
+          720.0
+        ],
+        [
+          3379.2,
+          720.0
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-CRD-102-CS",
+      "size": "12\"",
+      "service": "CRD",
+      "spec": "CS",
+      "from_tag": "T-101",
+      "to_tag": "P-101B",
+      "geometry": [
+        [
+          320.0,
+          1100.8
+        ],
+        [
+          400.0,
+          1040.0
+        ],
+        [
+          400.0,
+          1200.0
+        ],
+        [
+          720.0,
+          1200.0
+        ],
+        [
+          720.0,
+          1040.0
+        ],
+        [
+          659.2,
+          1040.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-CRD-108-CS",
+      "size": "8\"",
+      "service": "CRD",
+      "spec": "CS",
+      "from_tag": "E-102",
+      "to_tag": "F-101",
+      "geometry": [
+        [
+          1740.8000000000002,
+          743.68
+        ],
+        [
+          1680.0,
+          720.0
+        ],
+        [
+          1840.0,
+          720.0
+        ],
+        [
+          1840.0,
+          880.0
+        ],
+        [
+          2000.0,
+          880.0
+        ],
+        [
+          1939.2,
+          920.32
+        ]
+      ]
+    },
+    {
+      "line_no": "10\"-CRD-109-1.25Cr",
+      "size": "10\"",
+      "service": "CRD",
+      "spec": "1.25Cr",
+      "from_tag": "F-101",
+      "to_tag": "C-101",
+      "geometry": [
+        [
+          2220.8,
+          739.84
+        ],
+        [
+          2160.0,
+          720.0
+        ],
+        [
+          2320.0,
+          720.0
+        ],
+        [
+          2320.0,
+          880.0
+        ],
+        [
+          2480.0,
+          880.0
+        ],
+        [
+          2419.2,
+          800.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-CRD-103-CS",
+      "size": "8\"",
+      "service": "CRD",
+      "spec": "CS",
+      "from_tag": "P-101A",
+      "to_tag": "E-101",
+      "geometry": [
+        [
+          783.84,
+          720.0
+        ],
+        [
+          720.0,
+          720.0
+        ],
+        [
+          720.0,
+          560.0
+        ],
+        [
+          1040.0,
+          560.0
+        ],
+        [
+          1040.0,
+          720.0
+        ],
+        [
+          979.2,
+          743.68
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-CRD-107-CS",
+      "size": "8\"",
+      "service": "CRD",
+      "spec": "CS",
+      "from_tag": "E-101",
+      "to_tag": "E-102",
+      "geometry": [
+        [
+          1260.8000000000002,
+          743.68
+        ],
+        [
+          1200.0,
+          720.0
+        ],
+        [
+          1520.0,
+          720.0
+        ],
+        [
+          1459.2,
+          743.68
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-105-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-101",
+      "to_tag": "PSV-101",
+      "geometry": [
+        [
+          3040.0,
+          179.2
+        ],
+        [
+          3120.0,
+          240.0
+        ],
+        [
+          3120.0,
+          80.0
+        ],
+        [
+          2960.0,
+          80.0
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from_tag": "T-101",
+      "to_tag": "P-101A",
+      "type": "pipe",
+      "via_line": "12\"-CRD-101-CS"
+    },
+    {
+      "from_tag": "T-101",
+      "to_tag": "P-101B",
+      "type": "pipe",
+      "via_line": "12\"-CRD-102-CS"
+    },
+    {
+      "from_tag": "P-101A",
+      "to_tag": "E-101",
+      "type": "pipe",
+      "via_line": "8\"-CRD-103-CS"
+    },
+    {
+      "from_tag": "P-101B",
+      "to_tag": "E-101",
+      "type": "pipe",
+      "via_line": "8\"-CRD-104-CS"
+    },
+    {
+      "from_tag": "E-101",
+      "to_tag": "E-102",
+      "type": "pipe",
+      "via_line": "8\"-CRD-107-CS"
+    },
+    {
+      "from_tag": "E-102",
+      "to_tag": "F-101",
+      "type": "pipe",
+      "via_line": "8\"-CRD-108-CS"
+    },
+    {
+      "from_tag": "F-101",
+      "to_tag": "C-101",
+      "type": "pipe",
+      "via_line": "10\"-CRD-109-1.25Cr"
+    },
+    {
+      "from_tag": "V-101",
+      "to_tag": "PSV-101",
+      "type": "pipe",
+      "via_line": "4\"-PSV-105-CS"
+    },
+    {
+      "from_tag": "C-101",
+      "to_tag": "V-101",
+      "type": "pipe",
+      "via_line": "14\"-OVH-110-CS"
+    },
+    {
+      "from_tag": "V-101",
+      "to_tag": "P-102A",
+      "type": "pipe",
+      "via_line": "6\"-RFX-111-CS"
+    },
+    {
+      "from_tag": "V-101",
+      "to_tag": "P-102B",
+      "type": "pipe",
+      "via_line": "6\"-RFX-112-CS"
+    },
+    {
+      "from_tag": "P-102A",
+      "to_tag": "C-101",
+      "type": "pipe",
+      "via_line": "4\"-RFX-113-CS"
+    },
+    {
+      "from_tag": "C-101",
+      "to_tag": "V-102",
+      "type": "pipe",
+      "via_line": "10\"-AGO-115-CS"
+    },
+    {
+      "from_tag": "LT-101",
+      "to_tag": "T-101",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-101",
+      "to_tag": "P-101A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-102",
+      "to_tag": "P-101A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-103",
+      "to_tag": "E-101",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-104",
+      "to_tag": "E-102",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-105",
+      "to_tag": "F-101",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-106",
+      "to_tag": "C-101",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-107",
+      "to_tag": "C-101",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-108",
+      "to_tag": "V-101",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FIC-109",
+      "to_tag": "P-102A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-110",
+      "to_tag": "V-102",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FIC-111",
+      "to_tag": "V-102",
+      "type": "signal"
+    }
+  ],
+  "expected_anomalies": [
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "medium",
+      "violated_by": "V-102",
+      "description": "Bottoms surge drum V-102 has no PSV connection in this excerpt.",
+      "suggestion": "Verify PSV-102 (not modelled here) or add a relief tag."
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "low",
+      "violated_by": "C-101",
+      "description": "Distillation column C-101 has no PSV connection in this excerpt.",
+      "suggestion": "C-101 vents through V-101 / PSV-101; add explicit relief tag for clarity."
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "drawing_id": "03",
+  "drawing_type": "P&ID",
+  "title": "Two-stage Gas Compressor Station",
+  "drawing_no": "PID-CMPR-STN-003",
+  "canvas_size": {
+    "width": 5200,
+    "height": 2000
+  },
+  "equipment": [
+    {
+      "tag": "V-301",
+      "type": "vessel",
+      "service": "Stage-1 Suction KO Drum",
+      "bbox": [
+        179.2,
+        499.2,
+        460.8,
+        1100.8
+      ]
+    },
+    {
+      "tag": "PSV-301",
+      "type": "psv",
+      "service": "V-301 suction KO drum relief",
+      "bbox": [
+        213.76,
+        170.02666666666664,
+        326.24,
+        240.0
+      ]
+    },
+    {
+      "tag": "K-301",
+      "type": "pump",
+      "service": "Stage-1 Centrifugal Compressor",
+      "bbox": [
+        819.2,
+        659.2,
+        943.84,
+        780.8
+      ]
+    },
+    {
+      "tag": "E-301",
+      "type": "air_cooler",
+      "service": "Stage-1 After-cooler",
+      "bbox": [
+        1299.2,
+        499.2,
+        1740.8000000000002,
+        800.8
+      ]
+    },
+    {
+      "tag": "V-302",
+      "type": "vessel",
+      "service": "Inter-stage KO Drum",
+      "bbox": [
+        1939.2,
+        499.2,
+        2220.8,
+        1100.8
+      ]
+    },
+    {
+      "tag": "PSV-302",
+      "type": "psv",
+      "service": "V-302 interstage KO relief",
+      "bbox": [
+        1973.76,
+        170.02666666666664,
+        2086.24,
+        240.0
+      ]
+    },
+    {
+      "tag": "K-302",
+      "type": "pump",
+      "service": "Stage-2 Centrifugal Compressor",
+      "bbox": [
+        2579.2,
+        659.2,
+        2703.84,
+        780.8
+      ]
+    },
+    {
+      "tag": "E-302",
+      "type": "air_cooler",
+      "service": "Stage-2 After-cooler",
+      "bbox": [
+        3059.2,
+        499.2,
+        3500.7999999999997,
+        800.8
+      ]
+    },
+    {
+      "tag": "V-303",
+      "type": "vessel",
+      "service": "Discharge KO Drum",
+      "bbox": [
+        3699.2,
+        499.2,
+        3980.7999999999997,
+        1100.8
+      ]
+    },
+    {
+      "tag": "PSV-303",
+      "type": "psv",
+      "service": "V-303 discharge KO relief",
+      "bbox": [
+        3733.76,
+        170.02666666666664,
+        3846.24,
+        240.0
+      ]
+    },
+    {
+      "tag": "CV-301",
+      "type": "vessel",
+      "service": "Anti-surge recycle valve",
+      "bbox": [
+        2899.2,
+        1139.2,
+        3020.7999999999997,
+        1260.8
+      ]
+    },
+    {
+      "tag": "V-304",
+      "type": "vessel",
+      "service": "Liquids Catchpot",
+      "bbox": [
+        4019.2,
+        1139.2,
+        4300.8,
+        1420.8000000000002
+      ]
+    },
+    {
+      "tag": "FH-301",
+      "type": "vessel",
+      "service": "Flare Header",
+      "bbox": [
+        4339.2,
+        339.2,
+        4620.8,
+        1260.8
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "tag": "LT-301",
+      "function": "LT",
+      "loop_id": "301",
+      "located_on": "V-301",
+      "bbox": [
+        35.199999999999996,
+        515.2,
+        124.80000000000001,
+        604.8
+      ]
+    },
+    {
+      "tag": "LIC-301",
+      "function": "LIC",
+      "loop_id": "301",
+      "located_on": "V-301",
+      "bbox": [
+        515.2,
+        515.2,
+        604.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "PT-302",
+      "function": "PT",
+      "loop_id": "302",
+      "located_on": "V-301",
+      "bbox": [
+        515.2,
+        675.2,
+        604.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "FT-303",
+      "function": "FT",
+      "loop_id": "303",
+      "located_on": "K-301",
+      "bbox": [
+        835.2,
+        515.2,
+        924.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "ST-304",
+      "function": "ST",
+      "loop_id": "304",
+      "located_on": "K-301",
+      "bbox": [
+        835.2,
+        835.2,
+        924.8,
+        924.8
+      ]
+    },
+    {
+      "tag": "PIC-303",
+      "function": "PIC",
+      "loop_id": "303",
+      "located_on": "K-301",
+      "bbox": [
+        675.2,
+        675.2,
+        764.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "TT-305",
+      "function": "TT",
+      "loop_id": "305",
+      "located_on": "E-301",
+      "bbox": [
+        1315.2,
+        355.2,
+        1404.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "PT-306",
+      "function": "PT",
+      "loop_id": "306",
+      "located_on": "V-302",
+      "bbox": [
+        1795.2,
+        515.2,
+        1884.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "LT-307",
+      "function": "LT",
+      "loop_id": "307",
+      "located_on": "V-302",
+      "bbox": [
+        2275.2,
+        515.2,
+        2364.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "LIC-307",
+      "function": "LIC",
+      "loop_id": "307",
+      "located_on": "V-302",
+      "bbox": [
+        1955.2,
+        1155.2,
+        2044.8,
+        1244.8
+      ]
+    },
+    {
+      "tag": "FT-308",
+      "function": "FT",
+      "loop_id": "308",
+      "located_on": "K-302",
+      "bbox": [
+        2595.2,
+        515.2,
+        2684.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "ST-309",
+      "function": "ST",
+      "loop_id": "309",
+      "located_on": "K-302",
+      "bbox": [
+        2595.2,
+        835.2,
+        2684.8,
+        924.8
+      ]
+    },
+    {
+      "tag": "PIC-308",
+      "function": "PIC",
+      "loop_id": "308",
+      "located_on": "K-302",
+      "bbox": [
+        2435.2,
+        675.2,
+        2524.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "TT-310",
+      "function": "TT",
+      "loop_id": "310",
+      "located_on": "E-302",
+      "bbox": [
+        3075.2,
+        355.2,
+        3164.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "PT-311",
+      "function": "PT",
+      "loop_id": "311",
+      "located_on": "V-303",
+      "bbox": [
+        3555.2,
+        515.2,
+        3644.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "LT-312",
+      "function": "LT",
+      "loop_id": "312",
+      "located_on": "V-303",
+      "bbox": [
+        4035.2,
+        515.2,
+        4124.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "LT-313",
+      "function": "LT",
+      "loop_id": "313",
+      "located_on": "V-304",
+      "bbox": [
+        4355.2,
+        1315.2,
+        4444.8,
+        1404.8
+      ]
+    },
+    {
+      "tag": "FT-314",
+      "function": "FT",
+      "loop_id": "314",
+      "located_on": "K-301",
+      "bbox": [
+        995.2,
+        675.2,
+        1084.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "FIC-314",
+      "function": "FIC",
+      "loop_id": "314",
+      "located_on": "CV-301",
+      "bbox": [
+        2915.2,
+        995.2,
+        3004.8,
+        1084.8
+      ]
+    },
+    {
+      "tag": "PT-315",
+      "function": "PT",
+      "loop_id": "315",
+      "located_on": "FH-301",
+      "bbox": [
+        4195.2,
+        355.2,
+        4284.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "FT-316",
+      "function": "FT",
+      "loop_id": "316",
+      "located_on": "FH-301",
+      "bbox": [
+        4675.2,
+        355.2,
+        4764.8,
+        444.8
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "line_no": "8\"-RCY-312-CS",
+      "size": "8\"",
+      "service": "RCY",
+      "spec": "CS",
+      "from_tag": "CV-301",
+      "to_tag": "V-301",
+      "geometry": [
+        [
+          2899.2,
+          1200.0
+        ],
+        [
+          560.0,
+          1200.0
+        ],
+        [
+          560.0,
+          560.0
+        ],
+        [
+          400.0,
+          560.0
+        ],
+        [
+          320.0,
+          499.2
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-RCY-311-CS",
+      "size": "8\"",
+      "service": "RCY",
+      "spec": "CS",
+      "from_tag": "V-303",
+      "to_tag": "CV-301",
+      "geometry": [
+        [
+          3840.0,
+          1100.8
+        ],
+        [
+          3920.0,
+          1040.0
+        ],
+        [
+          3920.0,
+          1200.0
+        ],
+        [
+          2960.0,
+          1200.0
+        ],
+        [
+          2960.0,
+          1139.2
+        ]
+      ]
+    },
+    {
+      "line_no": "20\"-FG-301-CS",
+      "size": "20\"",
+      "service": "FG",
+      "spec": "CS",
+      "from_tag": "V-301",
+      "to_tag": "K-301",
+      "geometry": [
+        [
+          320.0,
+          1100.8
+        ],
+        [
+          400.0,
+          1040.0
+        ],
+        [
+          880.0,
+          1040.0
+        ],
+        [
+          880.0,
+          720.0
+        ],
+        [
+          819.2,
+          720.0
+        ]
+      ]
+    },
+    {
+      "line_no": "14\"-FG-305-CS",
+      "size": "14\"",
+      "service": "FG",
+      "spec": "CS",
+      "from_tag": "V-302",
+      "to_tag": "K-302",
+      "geometry": [
+        [
+          2080.0,
+          1100.8
+        ],
+        [
+          2160.0,
+          1040.0
+        ],
+        [
+          2640.0,
+          1040.0
+        ],
+        [
+          2640.0,
+          720.0
+        ],
+        [
+          2579.2,
+          720.0
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-FG-308-CS",
+      "size": "12\"",
+      "service": "FG",
+      "spec": "CS",
+      "from_tag": "E-302",
+      "to_tag": "V-303",
+      "geometry": [
+        [
+          3500.7999999999997,
+          640.0
+        ],
+        [
+          3440.0,
+          720.0
+        ],
+        [
+          3600.0,
+          720.0
+        ],
+        [
+          3600.0,
+          400.0
+        ],
+        [
+          3920.0,
+          400.0
+        ],
+        [
+          3920.0,
+          560.0
+        ],
+        [
+          3840.0,
+          499.2
+        ]
+      ]
+    },
+    {
+      "line_no": "16\"-FG-303-CS",
+      "size": "16\"",
+      "service": "FG",
+      "spec": "CS",
+      "from_tag": "E-301",
+      "to_tag": "V-302",
+      "geometry": [
+        [
+          1740.8000000000002,
+          640.0
+        ],
+        [
+          1680.0,
+          720.0
+        ],
+        [
+          1840.0,
+          720.0
+        ],
+        [
+          1840.0,
+          400.0
+        ],
+        [
+          2160.0,
+          400.0
+        ],
+        [
+          2160.0,
+          560.0
+        ],
+        [
+          2080.0,
+          499.2
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-FLR-313-CS",
+      "size": "4\"",
+      "service": "FLR",
+      "spec": "CS",
+      "from_tag": "V-304",
+      "to_tag": "FH-301",
+      "geometry": [
+        [
+          4160.0,
+          1139.2
+        ],
+        [
+          4240.0,
+          1200.0
+        ],
+        [
+          4240.0,
+          240.0
+        ],
+        [
+          4720.0,
+          240.0
+        ],
+        [
+          4720.0,
+          1200.0
+        ],
+        [
+          4560.0,
+          1200.0
+        ],
+        [
+          4480.0,
+          1260.8
+        ]
+      ]
+    },
+    {
+      "line_no": "16\"-FG-302-CS",
+      "size": "16\"",
+      "service": "FG",
+      "spec": "CS",
+      "from_tag": "K-301",
+      "to_tag": "E-301",
+      "geometry": [
+        [
+          943.84,
+          720.0
+        ],
+        [
+          1360.0,
+          720.0
+        ],
+        [
+          1299.2,
+          640.0
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-FG-307-CS",
+      "size": "12\"",
+      "service": "FG",
+      "spec": "CS",
+      "from_tag": "K-302",
+      "to_tag": "E-302",
+      "geometry": [
+        [
+          2703.84,
+          720.0
+        ],
+        [
+          3120.0,
+          720.0
+        ],
+        [
+          3059.2,
+          640.0
+        ]
+      ]
+    },
+    {
+      "line_no": "3\"-DRN-310-CS",
+      "size": "3\"",
+      "service": "DRN",
+      "spec": "CS",
+      "from_tag": "V-303",
+      "to_tag": "V-304",
+      "geometry": [
+        [
+          3840.0,
+          1100.8
+        ],
+        [
+          3920.0,
+          1040.0
+        ],
+        [
+          4240.0,
+          1040.0
+        ],
+        [
+          4240.0,
+          1200.0
+        ],
+        [
+          4160.0,
+          1139.2
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-304-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-301",
+      "to_tag": "PSV-301",
+      "geometry": [
+        [
+          320.0,
+          499.2
+        ],
+        [
+          400.0,
+          560.0
+        ],
+        [
+          400.0,
+          240.0
+        ],
+        [
+          240.0,
+          240.0
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-306-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-302",
+      "to_tag": "PSV-302",
+      "geometry": [
+        [
+          2080.0,
+          499.2
+        ],
+        [
+          2160.0,
+          560.0
+        ],
+        [
+          2320.0,
+          560.0
+        ],
+        [
+          2320.0,
+          240.0
+        ],
+        [
+          2000.0,
+          240.0
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-PSV-309-CS",
+      "size": "6\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-303",
+      "to_tag": "PSV-303",
+      "geometry": [
+        [
+          3840.0,
+          499.2
+        ],
+        [
+          3920.0,
+          560.0
+        ],
+        [
+          4080.0,
+          560.0
+        ],
+        [
+          4080.0,
+          240.0
+        ],
+        [
+          3760.0,
+          240.0
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from_tag": "V-301",
+      "to_tag": "K-301",
+      "type": "pipe",
+      "via_line": "20\"-FG-301-CS"
+    },
+    {
+      "from_tag": "K-301",
+      "to_tag": "E-301",
+      "type": "pipe",
+      "via_line": "16\"-FG-302-CS"
+    },
+    {
+      "from_tag": "E-301",
+      "to_tag": "V-302",
+      "type": "pipe",
+      "via_line": "16\"-FG-303-CS"
+    },
+    {
+      "from_tag": "V-301",
+      "to_tag": "PSV-301",
+      "type": "pipe",
+      "via_line": "4\"-PSV-304-CS"
+    },
+    {
+      "from_tag": "V-302",
+      "to_tag": "K-302",
+      "type": "pipe",
+      "via_line": "14\"-FG-305-CS"
+    },
+    {
+      "from_tag": "V-302",
+      "to_tag": "PSV-302",
+      "type": "pipe",
+      "via_line": "4\"-PSV-306-CS"
+    },
+    {
+      "from_tag": "K-302",
+      "to_tag": "E-302",
+      "type": "pipe",
+      "via_line": "12\"-FG-307-CS"
+    },
+    {
+      "from_tag": "E-302",
+      "to_tag": "V-303",
+      "type": "pipe",
+      "via_line": "12\"-FG-308-CS"
+    },
+    {
+      "from_tag": "V-303",
+      "to_tag": "PSV-303",
+      "type": "pipe",
+      "via_line": "6\"-PSV-309-CS"
+    },
+    {
+      "from_tag": "V-303",
+      "to_tag": "V-304",
+      "type": "pipe",
+      "via_line": "3\"-DRN-310-CS"
+    },
+    {
+      "from_tag": "V-303",
+      "to_tag": "CV-301",
+      "type": "pipe",
+      "via_line": "8\"-RCY-311-CS"
+    },
+    {
+      "from_tag": "CV-301",
+      "to_tag": "V-301",
+      "type": "pipe",
+      "via_line": "8\"-RCY-312-CS"
+    },
+    {
+      "from_tag": "V-304",
+      "to_tag": "FH-301",
+      "type": "pipe",
+      "via_line": "4\"-FLR-313-CS"
+    },
+    {
+      "from_tag": "LT-301",
+      "to_tag": "V-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-301",
+      "to_tag": "V-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-302",
+      "to_tag": "V-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-303",
+      "to_tag": "K-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "ST-304",
+      "to_tag": "K-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PIC-303",
+      "to_tag": "K-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-305",
+      "to_tag": "E-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-306",
+      "to_tag": "V-302",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-307",
+      "to_tag": "V-302",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-307",
+      "to_tag": "V-302",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-308",
+      "to_tag": "K-302",
+      "type": "signal"
+    },
+    {
+      "from_tag": "ST-309",
+      "to_tag": "K-302",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PIC-308",
+      "to_tag": "K-302",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-310",
+      "to_tag": "E-302",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-311",
+      "to_tag": "V-303",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-312",
+      "to_tag": "V-303",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-313",
+      "to_tag": "V-304",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-314",
+      "to_tag": "K-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FIC-314",
+      "to_tag": "CV-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-315",
+      "to_tag": "FH-301",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-316",
+      "to_tag": "FH-301",
+      "type": "signal"
+    }
+  ],
+  "expected_anomalies": [
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "ST-304",
+      "description": "Speed transmitter ST-304 on K-301 has no controller pairing in this excerpt.",
+      "suggestion": "Verify SIC-304 placement — typical for compressor speed control."
+    },
+    {
+      "rule": "pipe_spec_inconsistency",
+      "severity": "low",
+      "violated_by": "14\"-FG-305-CS",
+      "description": "Inter-stage line 14\" departs from upstream 16\" header — verify size step is by design.",
+      "suggestion": "Confirm reducer placement on the V-302 outlet vs upstream after-cooler return."
+    }
+  ]
+}

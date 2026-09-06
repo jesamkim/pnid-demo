@@ -1,0 +1,47 @@
+{
+  "title": "P&ID Demo — Full-Stack Architecture",
+  "subtitle": "CloudFront → ALB → ECS Fargate → 4 AgentCore Runtimes + Bedrock + Textract/BDA",
+  "theme": "light",
+  "size": "standard",
+  "nodes": [
+    {"id": "user", "service": "users", "label": "End User", "sublabel": "Browser (HTTPS)", "x": 0, "y": 2},
+
+    {"id": "cf", "service": "cloudfront", "label": "Amazon CloudFront", "sublabel": "OriginReadTimeout 60s", "x": 1, "y": 2},
+    {"id": "cognito", "service": "cognito", "label": "Amazon Cognito", "sublabel": "Hosted UI + Lambda@Edge", "x": 1, "y": 4},
+
+    {"id": "alb", "service": "elb", "label": "Application\nLoad Balancer", "sublabel": "CloudFront PL only", "x": 3, "y": 2, "container": "pub-sub"},
+    {"id": "ecs", "service": "fargate", "label": "ECS Fargate", "sublabel": "FastAPI + Vite SPA", "x": 4, "y": 2, "container": "priv-sub"},
+
+    {"id": "vision", "service": "bedrock-agentcore", "label": "AgentCore Runtime", "sublabel": "pnidvision · Opus 4.7", "x": 6, "y": 0},
+    {"id": "ocr", "service": "bedrock-agentcore", "label": "AgentCore Runtime", "sublabel": "pnidocr · Textract / BDA", "x": 6, "y": 1},
+    {"id": "fusion", "service": "bedrock-agentcore", "label": "AgentCore Runtime", "sublabel": "pnidfusion · Sonnet 4.6", "x": 6, "y": 3},
+    {"id": "summary", "service": "bedrock-agentcore", "label": "AgentCore Runtime", "sublabel": "pnidsummary · Sonnet 4.6", "x": 6, "y": 4},
+
+    {"id": "memory", "service": "bedrock-agentcore", "label": "AgentCore Memory", "sublabel": "Cross-session", "x": 8, "y": 0},
+    {"id": "textract", "service": "textract", "label": "Amazon Textract", "sublabel": "DetectDocumentText", "x": 8, "y": 1},
+    {"id": "bedrock", "service": "bedrock", "label": "Amazon Bedrock", "sublabel": "Sonnet 4.6 + Cohere v4", "x": 8, "y": 3},
+    {"id": "s3", "service": "s3", "label": "Amazon S3", "sublabel": "BDA io · 24h TTL", "x": 8, "y": 4}
+  ],
+  "connections": [
+    {"source": "user", "target": "cf", "label": "HTTPS", "style": "solid", "step_number": 1},
+    {"source": "cf", "target": "cognito", "label": "Auth", "style": "dashed", "color": "#DD344C"},
+    {"source": "cf", "target": "alb", "label": "HTTP", "style": "solid", "step_number": 2},
+    {"source": "alb", "target": "ecs", "label": "", "style": "solid"},
+
+    {"source": "ecs", "target": "vision", "label": "Step 2 Vision", "style": "solid", "color": "#01A88D", "step_number": 3, "source_port": "right", "target_port": "left"},
+    {"source": "ecs", "target": "ocr", "label": "Step 3 OCR", "style": "solid", "color": "#01A88D", "source_port": "right", "target_port": "left"},
+    {"source": "ecs", "target": "fusion", "label": "Step 4 Fusion", "style": "solid", "color": "#01A88D", "source_port": "right", "target_port": "left"},
+    {"source": "ecs", "target": "summary", "label": "Step 7 Summary", "style": "solid", "color": "#01A88D", "source_port": "right", "target_port": "left"},
+
+    {"source": "vision", "target": "memory", "label": "Memory", "style": "dashed", "color": "#01A88D"},
+    {"source": "fusion", "target": "bedrock", "label": "Invoke", "style": "solid", "color": "#01A88D"},
+    {"source": "ocr", "target": "textract", "label": "Textract", "style": "solid", "color": "#01A88D"},
+    {"source": "ocr", "target": "s3", "label": "BDA stage", "style": "dashed", "color": "#7AA116"}
+  ],
+  "containers": [
+    {"id": "cloud", "type": "aws-cloud", "label": "AWS Cloud (us-east-1)", "children": ["vpc", "vision", "ocr", "fusion", "summary", "memory", "bedrock", "textract", "s3", "cognito"]},
+    {"id": "vpc", "type": "vpc", "label": "VPC (private subnets, NAT egress for Bedrock/AgentCore)", "parent": "cloud", "children": ["pub-sub", "priv-sub"]},
+    {"id": "pub-sub", "type": "public-subnet", "label": "ALB Subnet", "parent": "vpc", "children": ["alb"]},
+    {"id": "priv-sub", "type": "private-subnet", "label": "ECS Fargate Subnet", "parent": "vpc", "children": ["ecs"]}
+  ]
+}

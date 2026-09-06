@@ -1,0 +1,26 @@
+{
+  "title": "P&ID Pipeline — 7 Steps",
+  "subtitle": "Image Normalize → Vision → OCR → Fusion → Evaluator → Self-Correction → Index + Summary",
+  "theme": "light",
+  "size": "wide",
+  "nodes": [
+    {"id": "s1", "service": "cli", "label": "Step 1 · Normalize", "sublabel": "pypdfium2 · ≤7800 px", "x": 0, "y": 1},
+    {"id": "s3", "service": "textract", "label": "Step 3 · OCR", "sublabel": "Textract / BDA hint", "x": 1, "y": 0},
+    {"id": "s2", "service": "bedrock-agentcore", "label": "Step 2 · Vision", "sublabel": "Opus 4.7 multimodal", "x": 2, "y": 1},
+    {"id": "s4", "service": "bedrock-agentcore", "label": "Step 4 · Fusion", "sublabel": "Sonnet 4.6 + bbox merge", "x": 3, "y": 1},
+    {"id": "s5", "service": "bedrock", "label": "Step 5 · Evaluator", "sublabel": "Sonnet 4.6 · ISA-5.1", "x": 4, "y": 1},
+    {"id": "s6", "service": "bedrock-agentcore", "label": "Step 6 · Self-Correct", "sublabel": "max 5 iters · verifier", "x": 5, "y": 1},
+    {"id": "s7", "service": "bedrock-agentcore", "label": "Step 7 · Index", "sublabel": "Cohere v4 + Memory + Sonnet", "x": 6, "y": 1}
+  ],
+  "connections": [
+    {"source": "s1", "target": "s3", "label": "PNG", "style": "solid", "step_number": 1, "source_port": "right", "target_port": "left"},
+    {"source": "s3", "target": "s2", "label": "OCR hint", "style": "solid", "step_number": 2, "source_port": "right", "target_port": "left"},
+    {"source": "s1", "target": "s2", "label": "image", "style": "dashed"},
+    {"source": "s2", "target": "s4", "label": "raw", "style": "solid", "step_number": 3},
+    {"source": "s4", "target": "s5", "label": "merged", "style": "solid", "step_number": 4},
+    {"source": "s5", "target": "s6", "label": "verdict", "style": "solid", "step_number": 5},
+    {"source": "s6", "target": "s2", "label": "retry corrections", "style": "dashed", "color": "#ED7100", "source_port": "top", "target_port": "top"},
+    {"source": "s6", "target": "s7", "label": "final", "style": "solid", "step_number": 6}
+  ],
+  "containers": []
+}

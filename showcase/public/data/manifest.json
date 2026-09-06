@@ -1,0 +1,15 @@
+{
+  "drawings": [
+    {
+      "key": "02_din_kaelte",
+      "title": "이 도면(02_din_kaelte)은 암모니아(NH3) 냉동 설비를 포함",
+      "image": "images/02_din_kaelte.png",
+      "metrics": {
+        "equipment": 38,
+        "instruments": 53,
+        "lines": 39,
+        "connections": 92
+      }
+    }
+  ]
+}

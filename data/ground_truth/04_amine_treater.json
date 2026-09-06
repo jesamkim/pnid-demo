@@ -1,0 +1,1286 @@
+{
+  "drawing_id": "04",
+  "drawing_type": "P&ID",
+  "title": "Amine Treater - Contactor + Regenerator + Surge",
+  "drawing_no": "PID-AMINE-TRT-004",
+  "canvas_size": {
+    "width": 4400,
+    "height": 2000
+  },
+  "equipment": [
+    {
+      "tag": "C-401",
+      "type": "column",
+      "service": "Amine Contactor (Absorber)",
+      "bbox": [
+        179.2,
+        179.20000000000005,
+        460.8,
+        1420.8
+      ]
+    },
+    {
+      "tag": "V-401",
+      "type": "vessel",
+      "service": "Rich Amine Flash Drum",
+      "bbox": [
+        659.2,
+        659.2,
+        940.8000000000001,
+        940.8000000000001
+      ]
+    },
+    {
+      "tag": "PSV-401",
+      "type": "psv",
+      "service": "V-401 flash drum relief",
+      "bbox": [
+        693.76,
+        330.02666666666664,
+        806.24,
+        400.0
+      ]
+    },
+    {
+      "tag": "E-401",
+      "type": "heat_exchanger",
+      "service": "Lean/Rich Amine HX",
+      "bbox": [
+        1139.2,
+        659.2,
+        1420.8000000000002,
+        940.8000000000001
+      ]
+    },
+    {
+      "tag": "C-402",
+      "type": "column",
+      "service": "Amine Regenerator",
+      "bbox": [
+        1619.2,
+        179.20000000000005,
+        1900.8000000000002,
+        1420.8
+      ]
+    },
+    {
+      "tag": "E-402",
+      "type": "air_cooler",
+      "service": "Reg Overhead Condenser",
+      "bbox": [
+        2099.2,
+        179.2,
+        2540.7999999999997,
+        480.8
+      ]
+    },
+    {
+      "tag": "V-402",
+      "type": "vessel",
+      "service": "Reg Reflux Drum",
+      "bbox": [
+        2579.2,
+        179.2,
+        2860.7999999999997,
+        460.8
+      ]
+    },
+    {
+      "tag": "PSV-402",
+      "type": "psv",
+      "service": "V-402 reflux drum relief",
+      "bbox": [
+        2613.76,
+        650.0266666666666,
+        2726.24,
+        720.0
+      ]
+    },
+    {
+      "tag": "E-403",
+      "type": "heat_exchanger",
+      "service": "Reboiler (steam)",
+      "bbox": [
+        2099.2,
+        979.2,
+        2380.7999999999997,
+        1260.8000000000002
+      ]
+    },
+    {
+      "tag": "V-403",
+      "type": "vessel",
+      "service": "Lean Amine Surge Tank",
+      "bbox": [
+        1619.2,
+        1619.2,
+        1900.8000000000002,
+        1900.8000000000002
+      ]
+    },
+    {
+      "tag": "PSV-403",
+      "type": "psv",
+      "service": "V-403 surge tank relief",
+      "bbox": [
+        1973.76,
+        1610.0266666666666,
+        2086.24,
+        1680.0
+      ]
+    },
+    {
+      "tag": "F-401",
+      "type": "vessel",
+      "service": "Mechanical Filter (lean amine)",
+      "bbox": [
+        1139.2,
+        1619.2,
+        1420.8000000000002,
+        1740.8
+      ]
+    },
+    {
+      "tag": "P-401A",
+      "type": "pump",
+      "service": "Lean Amine Circulation Pump A",
+      "bbox": [
+        819.2,
+        1619.2,
+        943.84,
+        1740.8
+      ]
+    },
+    {
+      "tag": "P-401B",
+      "type": "pump",
+      "service": "Lean Amine Circulation Pump B (spare)",
+      "bbox": [
+        819.2,
+        1779.2,
+        943.84,
+        1900.8
+      ]
+    },
+    {
+      "tag": "E-404",
+      "type": "heat_exchanger",
+      "service": "Lean Amine Cooler",
+      "bbox": [
+        339.2,
+        1619.2,
+        620.8,
+        1740.8
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "tag": "PT-401",
+      "function": "PT",
+      "loop_id": "401",
+      "located_on": "C-401",
+      "bbox": [
+        35.199999999999996,
+        195.2,
+        124.80000000000001,
+        284.8
+      ]
+    },
+    {
+      "tag": "LT-402",
+      "function": "LT",
+      "loop_id": "402",
+      "located_on": "C-401",
+      "bbox": [
+        515.2,
+        195.2,
+        604.8,
+        284.8
+      ]
+    },
+    {
+      "tag": "LIC-402",
+      "function": "LIC",
+      "loop_id": "402",
+      "located_on": "C-401",
+      "bbox": [
+        195.2,
+        1475.2,
+        284.8,
+        1564.8
+      ]
+    },
+    {
+      "tag": "LT-403",
+      "function": "LT",
+      "loop_id": "403",
+      "located_on": "V-401",
+      "bbox": [
+        675.2,
+        515.2,
+        764.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "LIC-403",
+      "function": "LIC",
+      "loop_id": "403",
+      "located_on": "V-401",
+      "bbox": [
+        675.2,
+        995.2,
+        764.8,
+        1084.8
+      ]
+    },
+    {
+      "tag": "TT-404",
+      "function": "TT",
+      "loop_id": "404",
+      "located_on": "E-401",
+      "bbox": [
+        1155.2,
+        515.2,
+        1244.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "TT-405",
+      "function": "TT",
+      "loop_id": "405",
+      "located_on": "C-402",
+      "bbox": [
+        1955.2,
+        195.2,
+        2044.8,
+        284.8
+      ]
+    },
+    {
+      "tag": "PT-406",
+      "function": "PT",
+      "loop_id": "406",
+      "located_on": "C-402",
+      "bbox": [
+        1475.2,
+        195.2,
+        1564.8,
+        284.8
+      ]
+    },
+    {
+      "tag": "PIC-406",
+      "function": "PIC",
+      "loop_id": "406",
+      "located_on": "C-402",
+      "bbox": [
+        1635.2,
+        1475.2,
+        1724.8,
+        1564.8
+      ]
+    },
+    {
+      "tag": "LT-407",
+      "function": "LT",
+      "loop_id": "407",
+      "located_on": "V-402",
+      "bbox": [
+        2595.2,
+        35.199999999999996,
+        2684.8,
+        124.80000000000001
+      ]
+    },
+    {
+      "tag": "TT-408",
+      "function": "TT",
+      "loop_id": "408",
+      "located_on": "E-403",
+      "bbox": [
+        2115.2,
+        1315.2,
+        2204.8,
+        1404.8
+      ]
+    },
+    {
+      "tag": "TIC-408",
+      "function": "TIC",
+      "loop_id": "408",
+      "located_on": "E-403",
+      "bbox": [
+        2115.2,
+        835.2,
+        2204.8,
+        924.8
+      ]
+    },
+    {
+      "tag": "LT-409",
+      "function": "LT",
+      "loop_id": "409",
+      "located_on": "V-403",
+      "bbox": [
+        1475.2,
+        1635.2,
+        1564.8,
+        1724.8
+      ]
+    },
+    {
+      "tag": "LIC-409",
+      "function": "LIC",
+      "loop_id": "409",
+      "located_on": "V-403",
+      "bbox": [
+        1955.2,
+        1795.2,
+        2044.8,
+        1884.8
+      ]
+    },
+    {
+      "tag": "FT-410",
+      "function": "FT",
+      "loop_id": "410",
+      "located_on": "P-401A",
+      "bbox": [
+        835.2,
+        1475.2,
+        924.8,
+        1564.8
+      ]
+    },
+    {
+      "tag": "FIC-410",
+      "function": "FIC",
+      "loop_id": "410",
+      "located_on": "P-401A",
+      "bbox": [
+        995.2,
+        1635.2,
+        1084.8,
+        1724.8
+      ]
+    },
+    {
+      "tag": "PT-411",
+      "function": "PT",
+      "loop_id": "411",
+      "located_on": "F-401",
+      "bbox": [
+        1155.2,
+        1475.2,
+        1244.8,
+        1564.8
+      ]
+    },
+    {
+      "tag": "TT-412",
+      "function": "TT",
+      "loop_id": "412",
+      "located_on": "E-404",
+      "bbox": [
+        355.2,
+        1475.2,
+        444.8,
+        1564.8
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "line_no": "6\"-LAM-419-CS",
+      "size": "6\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "E-404",
+      "to_tag": "C-401",
+      "geometry": [
+        [
+          620.8,
+          1655.68
+        ],
+        [
+          560.0,
+          1680.0
+        ],
+        [
+          560.0,
+          400.0
+        ],
+        [
+          400.0,
+          400.0
+        ],
+        [
+          460.8,
+          402.688
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-RAM-402-CS",
+      "size": "8\"",
+      "service": "RAM",
+      "spec": "CS",
+      "from_tag": "C-401",
+      "to_tag": "V-401",
+      "geometry": [
+        [
+          320.0,
+          1420.8
+        ],
+        [
+          400.0,
+          1360.0
+        ],
+        [
+          1040.0,
+          1360.0
+        ],
+        [
+          1040.0,
+          720.0
+        ],
+        [
+          880.0,
+          720.0
+        ],
+        [
+          800.0,
+          659.2
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-LAM-411-CS",
+      "size": "8\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "C-402",
+      "to_tag": "E-401",
+      "geometry": [
+        [
+          1760.0,
+          1420.8
+        ],
+        [
+          1840.0,
+          1360.0
+        ],
+        [
+          1840.0,
+          1520.0
+        ],
+        [
+          1200.0,
+          1520.0
+        ],
+        [
+          1200.0,
+          880.0
+        ],
+        [
+          1139.2,
+          856.32
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-LAM-412-CS",
+      "size": "8\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "E-401",
+      "to_tag": "V-403",
+      "geometry": [
+        [
+          1420.8000000000002,
+          856.32
+        ],
+        [
+          1360.0,
+          880.0
+        ],
+        [
+          1520.0,
+          880.0
+        ],
+        [
+          1520.0,
+          80.0
+        ],
+        [
+          2000.0,
+          80.0
+        ],
+        [
+          2000.0,
+          1520.0
+        ],
+        [
+          1840.0,
+          1520.0
+        ],
+        [
+          1840.0,
+          1680.0
+        ],
+        [
+          1760.0,
+          1619.2
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-LAM-414-CS",
+      "size": "8\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "V-403",
+      "to_tag": "F-401",
+      "geometry": [
+        [
+          1760.0,
+          1900.8000000000002
+        ],
+        [
+          1840.0,
+          1840.0
+        ],
+        [
+          2160.0,
+          1840.0
+        ],
+        [
+          2160.0,
+          1520.0
+        ],
+        [
+          1520.0,
+          1520.0
+        ],
+        [
+          1520.0,
+          1840.0
+        ],
+        [
+          1200.0,
+          1840.0
+        ],
+        [
+          1200.0,
+          1680.0
+        ],
+        [
+          1139.2,
+          1680.0
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-LAM-418-CS",
+      "size": "6\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "P-401B",
+      "to_tag": "E-404",
+      "geometry": [
+        [
+          943.84,
+          1840.0
+        ],
+        [
+          400.0,
+          1840.0
+        ],
+        [
+          400.0,
+          1680.0
+        ],
+        [
+          339.2,
+          1655.68
+        ]
+      ]
+    },
+    {
+      "line_no": "14\"-FG-401-CS",
+      "size": "14\"",
+      "service": "FG",
+      "spec": "CS",
+      "from_tag": "C-401",
+      "to_tag": "C-401",
+      "geometry": [
+        [
+          320.0,
+          179.20000000000005
+        ],
+        [
+          400.0,
+          240.0
+        ],
+        [
+          400.0,
+          80.0
+        ],
+        [
+          80.0,
+          80.0
+        ],
+        [
+          80.0,
+          880.0
+        ],
+        [
+          240.0,
+          880.0
+        ],
+        [
+          179.2,
+          800.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-LAM-416-CS",
+      "size": "8\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "F-401",
+      "to_tag": "P-401B",
+      "geometry": [
+        [
+          1420.8000000000002,
+          1680.0
+        ],
+        [
+          1360.0,
+          1680.0
+        ],
+        [
+          1360.0,
+          1840.0
+        ],
+        [
+          819.2,
+          1840.0
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-LAM-417-CS",
+      "size": "6\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "P-401A",
+      "to_tag": "E-404",
+      "geometry": [
+        [
+          943.84,
+          1680.0
+        ],
+        [
+          880.0,
+          1680.0
+        ],
+        [
+          880.0,
+          1520.0
+        ],
+        [
+          400.0,
+          1520.0
+        ],
+        [
+          400.0,
+          1680.0
+        ],
+        [
+          339.2,
+          1655.68
+        ]
+      ]
+    },
+    {
+      "line_no": "10\"-RBO-409-CS",
+      "size": "10\"",
+      "service": "RBO",
+      "spec": "CS",
+      "from_tag": "C-402",
+      "to_tag": "E-403",
+      "geometry": [
+        [
+          1619.2,
+          1321.472
+        ],
+        [
+          1680.0,
+          1360.0
+        ],
+        [
+          1680.0,
+          1520.0
+        ],
+        [
+          2160.0,
+          1520.0
+        ],
+        [
+          2160.0,
+          1200.0
+        ],
+        [
+          2099.2,
+          1176.32
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-403-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-401",
+      "to_tag": "PSV-401",
+      "geometry": [
+        [
+          940.8000000000001,
+          800.0
+        ],
+        [
+          880.0,
+          880.0
+        ],
+        [
+          1040.0,
+          880.0
+        ],
+        [
+          1040.0,
+          400.0
+        ],
+        [
+          720.0,
+          400.0
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-408-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-402",
+      "to_tag": "PSV-402",
+      "geometry": [
+        [
+          2860.7999999999997,
+          320.0
+        ],
+        [
+          2800.0,
+          400.0
+        ],
+        [
+          2800.0,
+          720.0
+        ],
+        [
+          2640.0,
+          720.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-LAM-415-CS",
+      "size": "8\"",
+      "service": "LAM",
+      "spec": "CS",
+      "from_tag": "F-401",
+      "to_tag": "P-401A",
+      "geometry": [
+        [
+          1420.8000000000002,
+          1680.0
+        ],
+        [
+          1360.0,
+          1680.0
+        ],
+        [
+          1360.0,
+          1520.0
+        ],
+        [
+          1040.0,
+          1520.0
+        ],
+        [
+          1040.0,
+          1680.0
+        ],
+        [
+          819.2,
+          1680.0
+        ]
+      ]
+    },
+    {
+      "line_no": "10\"-RBO-410-CS",
+      "size": "10\"",
+      "service": "RBO",
+      "spec": "CS",
+      "from_tag": "E-403",
+      "to_tag": "C-402",
+      "geometry": [
+        [
+          2380.7999999999997,
+          1176.32
+        ],
+        [
+          2320.0,
+          1200.0
+        ],
+        [
+          2320.0,
+          1360.0
+        ],
+        [
+          2000.0,
+          1360.0
+        ],
+        [
+          2000.0,
+          1200.0
+        ],
+        [
+          1840.0,
+          1200.0
+        ],
+        [
+          1900.8000000000002,
+          1234.56
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-RAM-404-CS",
+      "size": "8\"",
+      "service": "RAM",
+      "spec": "CS",
+      "from_tag": "V-401",
+      "to_tag": "E-401",
+      "geometry": [
+        [
+          800.0,
+          940.8000000000001
+        ],
+        [
+          880.0,
+          880.0
+        ],
+        [
+          1040.0,
+          880.0
+        ],
+        [
+          1040.0,
+          720.0
+        ],
+        [
+          1200.0,
+          720.0
+        ],
+        [
+          1139.2,
+          743.68
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-OVH-406-CS",
+      "size": "12\"",
+      "service": "OVH",
+      "spec": "CS",
+      "from_tag": "C-402",
+      "to_tag": "E-402",
+      "geometry": [
+        [
+          1760.0,
+          179.20000000000005
+        ],
+        [
+          1840.0,
+          240.0
+        ],
+        [
+          2000.0,
+          240.0
+        ],
+        [
+          2000.0,
+          400.0
+        ],
+        [
+          2160.0,
+          400.0
+        ],
+        [
+          2099.2,
+          320.0
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-OVH-407-CS",
+      "size": "12\"",
+      "service": "OVH",
+      "spec": "CS",
+      "from_tag": "E-402",
+      "to_tag": "V-402",
+      "geometry": [
+        [
+          2540.7999999999997,
+          320.0
+        ],
+        [
+          2480.0,
+          400.0
+        ],
+        [
+          2480.0,
+          880.0
+        ],
+        [
+          2960.0,
+          880.0
+        ],
+        [
+          2960.0,
+          240.0
+        ],
+        [
+          2800.0,
+          240.0
+        ],
+        [
+          2720.0,
+          179.2
+        ]
+      ]
+    },
+    {
+      "line_no": "2\"-MUW-420-CS",
+      "size": "2\"",
+      "service": "MUW",
+      "spec": "CS",
+      "from_tag": "V-403",
+      "to_tag": "V-403",
+      "geometry": [
+        [
+          1760.0,
+          1619.2
+        ],
+        [
+          1840.0,
+          1680.0
+        ],
+        [
+          1840.0,
+          1840.0
+        ],
+        [
+          1900.8000000000002,
+          1760.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-RAM-405-CS",
+      "size": "8\"",
+      "service": "RAM",
+      "spec": "CS",
+      "from_tag": "E-401",
+      "to_tag": "C-402",
+      "geometry": [
+        [
+          1420.8000000000002,
+          743.68
+        ],
+        [
+          1360.0,
+          720.0
+        ],
+        [
+          1520.0,
+          720.0
+        ],
+        [
+          1520.0,
+          880.0
+        ],
+        [
+          1680.0,
+          880.0
+        ],
+        [
+          1619.2,
+          800.0
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-413-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-403",
+      "to_tag": "PSV-403",
+      "geometry": [
+        [
+          1900.8000000000002,
+          1760.0
+        ],
+        [
+          1840.0,
+          1840.0
+        ],
+        [
+          2000.0,
+          1840.0
+        ],
+        [
+          2000.0,
+          1680.0
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from_tag": "C-401",
+      "to_tag": "C-401",
+      "type": "pipe",
+      "via_line": "14\"-FG-401-CS"
+    },
+    {
+      "from_tag": "C-401",
+      "to_tag": "V-401",
+      "type": "pipe",
+      "via_line": "8\"-RAM-402-CS"
+    },
+    {
+      "from_tag": "V-401",
+      "to_tag": "PSV-401",
+      "type": "pipe",
+      "via_line": "4\"-PSV-403-CS"
+    },
+    {
+      "from_tag": "V-401",
+      "to_tag": "E-401",
+      "type": "pipe",
+      "via_line": "8\"-RAM-404-CS"
+    },
+    {
+      "from_tag": "E-401",
+      "to_tag": "C-402",
+      "type": "pipe",
+      "via_line": "8\"-RAM-405-CS"
+    },
+    {
+      "from_tag": "C-402",
+      "to_tag": "E-402",
+      "type": "pipe",
+      "via_line": "12\"-OVH-406-CS"
+    },
+    {
+      "from_tag": "E-402",
+      "to_tag": "V-402",
+      "type": "pipe",
+      "via_line": "12\"-OVH-407-CS"
+    },
+    {
+      "from_tag": "V-402",
+      "to_tag": "PSV-402",
+      "type": "pipe",
+      "via_line": "4\"-PSV-408-CS"
+    },
+    {
+      "from_tag": "C-402",
+      "to_tag": "E-403",
+      "type": "pipe",
+      "via_line": "10\"-RBO-409-CS"
+    },
+    {
+      "from_tag": "E-403",
+      "to_tag": "C-402",
+      "type": "pipe",
+      "via_line": "10\"-RBO-410-CS"
+    },
+    {
+      "from_tag": "C-402",
+      "to_tag": "E-401",
+      "type": "pipe",
+      "via_line": "8\"-LAM-411-CS"
+    },
+    {
+      "from_tag": "E-401",
+      "to_tag": "V-403",
+      "type": "pipe",
+      "via_line": "8\"-LAM-412-CS"
+    },
+    {
+      "from_tag": "V-403",
+      "to_tag": "PSV-403",
+      "type": "pipe",
+      "via_line": "4\"-PSV-413-CS"
+    },
+    {
+      "from_tag": "V-403",
+      "to_tag": "F-401",
+      "type": "pipe",
+      "via_line": "8\"-LAM-414-CS"
+    },
+    {
+      "from_tag": "F-401",
+      "to_tag": "P-401A",
+      "type": "pipe",
+      "via_line": "8\"-LAM-415-CS"
+    },
+    {
+      "from_tag": "F-401",
+      "to_tag": "P-401B",
+      "type": "pipe",
+      "via_line": "8\"-LAM-416-CS"
+    },
+    {
+      "from_tag": "P-401A",
+      "to_tag": "E-404",
+      "type": "pipe",
+      "via_line": "6\"-LAM-417-CS"
+    },
+    {
+      "from_tag": "P-401B",
+      "to_tag": "E-404",
+      "type": "pipe",
+      "via_line": "6\"-LAM-418-CS"
+    },
+    {
+      "from_tag": "E-404",
+      "to_tag": "C-401",
+      "type": "pipe",
+      "via_line": "6\"-LAM-419-CS"
+    },
+    {
+      "from_tag": "V-403",
+      "to_tag": "V-403",
+      "type": "pipe",
+      "via_line": "2\"-MUW-420-CS"
+    },
+    {
+      "from_tag": "PT-401",
+      "to_tag": "C-401",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-402",
+      "to_tag": "C-401",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-402",
+      "to_tag": "C-401",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-403",
+      "to_tag": "V-401",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-403",
+      "to_tag": "V-401",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-404",
+      "to_tag": "E-401",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-405",
+      "to_tag": "C-402",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-406",
+      "to_tag": "C-402",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PIC-406",
+      "to_tag": "C-402",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-407",
+      "to_tag": "V-402",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-408",
+      "to_tag": "E-403",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TIC-408",
+      "to_tag": "E-403",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-409",
+      "to_tag": "V-403",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-409",
+      "to_tag": "V-403",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-410",
+      "to_tag": "P-401A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FIC-410",
+      "to_tag": "P-401A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-411",
+      "to_tag": "F-401",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-412",
+      "to_tag": "E-404",
+      "type": "signal"
+    }
+  ],
+  "expected_anomalies": [
+    {
+      "rule": "orphan_instrument",
+      "severity": "low",
+      "violated_by": "PT-411",
+      "description": "Filter differential pressure transmitter PT-411 has no controller — operator alarm only.",
+      "suggestion": "Confirm DCS alarm wiring on PT-411 dP high."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+aws:
+  profile: profile2
+  region: us-east-1
+
+models:
+  primary:
+    id: global.anthropic.claude-opus-4-8
+    provider: bedrock
+    context_window: 1000000
+    use_for: [extraction, validation, self_correction, error_analysis, strategy_planning]
+  secondary:
+    id: global.anthropic.claude-sonnet-4-6
+    provider: bedrock
+    context_window: 1000000
+    use_for: [routing, light_eval, nl_query, final_validation]
+
+bedrock:
+  beta_headers:
+    - context-1m-2025-08-07
+  # 32768 to fit large drawings (e.g. 50+ eq / 60+ inst / 50+ lines).
+  # Opus 4.8 supports up to 65536; we leave headroom for safety.
+  max_tokens_default: 32768
+  temperature_default: 0.0
+
+embedding:
+  id: us.cohere.embed-v4:0
+  dimensions: 1536
+
+opensearch:
+  collection_name: pnid-demo
+  index_name: pnid-extracted
+  region: us-east-1
+
+extraction:
+  tile_size: 2048
+  tile_overlap: 256
+  dpi: 300
+  # Raised from 3 to 5 — gives the OCR-driven missing-finding loop
+  # room to re-extract twice when Vision keeps under-counting lines.
+  max_self_correction_iterations: 5
+
+storage:
+  artifacts_dir: .claude/artifacts
+  logs_dir: .claude/logs

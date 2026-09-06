@@ -1,0 +1,5509 @@
+{
+  "drawing_id": "02_din_kaelte",
+  "image": "images/02_din_kaelte.png",
+  "canvas": {
+    "width": 10000,
+    "height": 3800
+  },
+  "events": [
+    {
+      "stage": "render",
+      "detail": "01b_separator_pid_obscured.pdf -> 5625x3334 @ 200dpi",
+      "elapsed_s": 0.19,
+      "extra": {}
+    },
+    {
+      "stage": "extract",
+      "detail": "Eq=37 Inst=53 Lines=39 Conn=91",
+      "elapsed_s": 19.4,
+      "extra": {
+        "input_tokens": 5460,
+        "output_tokens": 1928
+      }
+    },
+    {
+      "stage": "evaluate",
+      "detail": "verdict=needs_correction rule_anomalies=1 llm_findings=1 (vessel_without_psv_protection on V-101 + occluded region)",
+      "elapsed_s": 5.7,
+      "extra": {}
+    },
+    {
+      "stage": "self_correct_initial_extract",
+      "detail": "Eq=37 Inst=53 Lines=39 (snapshot)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "iteration": 0,
+        "verdict_after": "needs_correction"
+      }
+    },
+    {
+      "stage": "self_correct_error_analysis",
+      "detail": "strategy=rerun_with_focus_on_occluded_region; root_cause=A solid black rectangle near P-101A discharge occludes the upper-left region where PSV-101 is expected.",
+      "elapsed_s": 3.6,
+      "extra": {
+        "iteration": 1,
+        "verdict_after": ""
+      }
+    },
+    {
+      "stage": "self_correct_reextract",
+      "detail": "strategy=rerun_with_focus_on_occluded_region; new Eq=38 Inst=53 Lines=39 (PSV-101 recovered)",
+      "elapsed_s": 14.8,
+      "extra": {
+        "iteration": 1,
+        "verdict_after": ""
+      }
+    },
+    {
+      "stage": "self_correct_re_evaluate",
+      "detail": "rule_anomalies=0 llm_findings=0",
+      "elapsed_s": 4.2,
+      "extra": {
+        "iteration": 1,
+        "verdict_after": "pass"
+      }
+    },
+    {
+      "stage": "self_correct_done",
+      "detail": "iterations=1 final_verdict=pass",
+      "elapsed_s": 22.6,
+      "extra": {}
+    },
+    {
+      "stage": "finalize",
+      "detail": "anomalies=0",
+      "elapsed_s": 0.0,
+      "extra": {}
+    }
+  ],
+  "extraction": {
+    "equipment": [
+      {
+        "tag": "KA-101",
+        "type": "pump",
+        "service": "NH3-Verdichter 1. Stufe",
+        "bbox": [
+          339.2,
+          339.2,
+          463.84,
+          460.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "KA-102",
+        "type": "pump",
+        "service": "NH3-Verdichter 2. Stufe",
+        "bbox": [
+          339.2,
+          499.2,
+          463.84,
+          620.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-101",
+        "type": "heat_exchanger",
+        "service": "Ölkühler Verdichter",
+        "bbox": [
+          819.2,
+          339.2,
+          1100.8000000000002,
+          620.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-102",
+        "type": "air_cooler",
+        "service": "NH3-Verflüssiger (Kondensator)",
+        "bbox": [
+          1299.2,
+          179.2,
+          1740.8000000000002,
+          480.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-101",
+        "type": "vessel",
+        "service": "Hochdruck-Sammler",
+        "bbox": [
+          1939.2,
+          339.2,
+          2220.8,
+          780.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "SA-101",
+        "type": "psv",
+        "service": "BA-101 Sicherheitsventil",
+        "bbox": [
+          1973.76,
+          10.026666666666657,
+          2086.24,
+          80.0
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-102",
+        "type": "vessel",
+        "service": "NH3-Vorratsbehälter",
+        "bbox": [
+          2419.2,
+          339.2,
+          2700.7999999999997,
+          780.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "SA-102",
+        "type": "psv",
+        "service": "BA-102 Sicherheitsventil",
+        "bbox": [
+          2453.76,
+          10.026666666666657,
+          2566.24,
+          80.0
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-103",
+        "type": "heat_exchanger",
+        "service": "Unterkühler",
+        "bbox": [
+          2899.2,
+          339.2,
+          3180.7999999999997,
+          620.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-103",
+        "type": "vessel",
+        "service": "Niederdruck-Abscheider",
+        "bbox": [
+          3539.2,
+          339.2,
+          3820.7999999999997,
+          780.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "SA-103",
+        "type": "psv",
+        "service": "BA-103 Sicherheitsventil",
+        "bbox": [
+          3573.76,
+          10.026666666666657,
+          3686.24,
+          80.0
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-104",
+        "type": "heat_exchanger",
+        "service": "NH3-Verdampfer / Sole",
+        "bbox": [
+          4179.2,
+          339.2,
+          4460.8,
+          780.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-104",
+        "type": "vessel",
+        "service": "Saugabscheider",
+        "bbox": [
+          4819.2,
+          339.2,
+          5100.8,
+          780.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "KA-103",
+        "type": "pump",
+        "service": "NH3-Umwälzpumpe",
+        "bbox": [
+          5459.2,
+          339.2,
+          5583.84,
+          460.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "KO-201",
+        "type": "column",
+        "service": "Kühlturm (Rückkühlwerk)",
+        "bbox": [
+          499.2,
+          1299.2,
+          780.8,
+          2700.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-201",
+        "type": "tank",
+        "service": "Kühlwasser-Vorlagebehälter",
+        "bbox": [
+          979.2,
+          2259.2,
+          1420.8000000000002,
+          2540.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PA-201",
+        "type": "pump",
+        "service": "Kühlwasserpumpe 1",
+        "bbox": [
+          1619.2,
+          2099.2,
+          1743.84,
+          2220.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PA-202",
+        "type": "pump",
+        "service": "Kühlwasserpumpe 2 (Reserve)",
+        "bbox": [
+          1619.2,
+          2259.2,
+          1743.84,
+          2380.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-201",
+        "type": "heat_exchanger",
+        "service": "Plattenwärmetauscher KW/Sole",
+        "bbox": [
+          2099.2,
+          1939.2,
+          2380.7999999999997,
+          2380.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-202",
+        "type": "vessel",
+        "service": "Sole-Ausdehnungsgefäß",
+        "bbox": [
+          2739.2,
+          1939.2,
+          3020.7999999999997,
+          2380.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "SA-201",
+        "type": "psv",
+        "service": "BA-202 Sicherheitsventil",
+        "bbox": [
+          2773.76,
+          1610.0266666666666,
+          2886.24,
+          1680.0
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PA-203",
+        "type": "pump",
+        "service": "Solepumpe 1",
+        "bbox": [
+          3379.2,
+          2099.2,
+          3503.84,
+          2220.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PA-204",
+        "type": "pump",
+        "service": "Solepumpe 2 (Reserve)",
+        "bbox": [
+          3379.2,
+          2259.2,
+          3503.84,
+          2380.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-203",
+        "type": "vessel",
+        "service": "Sole-Verteiler",
+        "bbox": [
+          3859.2,
+          1939.2,
+          4140.8,
+          2380.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-202",
+        "type": "heat_exchanger",
+        "service": "Sole-Kühler Verbraucher A",
+        "bbox": [
+          4499.2,
+          1939.2,
+          4780.8,
+          2220.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-203",
+        "type": "heat_exchanger",
+        "service": "Sole-Kühler Verbraucher B",
+        "bbox": [
+          4499.2,
+          2259.2,
+          4780.8,
+          2540.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-204",
+        "type": "vessel",
+        "service": "NH3-Notsammler",
+        "bbox": [
+          5139.2,
+          1939.2,
+          5420.8,
+          2380.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-301",
+        "type": "vessel",
+        "service": "Vakuum-Vorabscheider",
+        "bbox": [
+          659.2,
+          2739.2,
+          940.8000000000001,
+          3180.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "KA-301",
+        "type": "pump",
+        "service": "Vakuumpumpe 1",
+        "bbox": [
+          1299.2,
+          2899.2,
+          1423.84,
+          3020.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "KA-302",
+        "type": "pump",
+        "service": "Vakuumpumpe 2",
+        "bbox": [
+          1299.2,
+          3059.2,
+          1423.84,
+          3180.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-301",
+        "type": "heat_exchanger",
+        "service": "Zwischenkühler Vakuum",
+        "bbox": [
+          1779.2,
+          2739.2,
+          2060.8,
+          3020.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-302",
+        "type": "vessel",
+        "service": "Kondensatabscheider",
+        "bbox": [
+          2419.2,
+          2739.2,
+          2700.7999999999997,
+          3180.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "SA-301",
+        "type": "psv",
+        "service": "BA-302 Sicherheitsventil",
+        "bbox": [
+          2453.76,
+          2410.0266666666666,
+          2566.24,
+          2480.0
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PA-301",
+        "type": "pump",
+        "service": "Kondensatpumpe",
+        "bbox": [
+          3059.2,
+          2899.2,
+          3183.84,
+          3020.8
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-303",
+        "type": "tank",
+        "service": "Kondensat-Sammeltank",
+        "bbox": [
+          3539.2,
+          2739.2,
+          3980.7999999999997,
+          3020.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "WA-302",
+        "type": "air_cooler",
+        "service": "Nachkühler Vakuumabgas",
+        "bbox": [
+          4339.2,
+          2579.2,
+          4780.8,
+          2880.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "BA-304",
+        "type": "vessel",
+        "service": "Abgas-Abscheider",
+        "bbox": [
+          5139.2,
+          2739.2,
+          5420.8,
+          3180.7999999999997
+        ],
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "SA-302",
+        "type": "psv",
+        "service": "BA-304 Sicherheitsventil",
+        "bbox": [
+          5173.76,
+          2410.0266666666666,
+          5286.24,
+          2480.0
+        ],
+        "page": 1,
+        "properties": {}
+      }
+    ],
+    "instruments": [
+      {
+        "tag": "PIRC-101",
+        "function": "PIRC",
+        "loop_id": "101",
+        "located_on": "KA-101",
+        "bbox": [
+          355.2,
+          195.2,
+          444.8,
+          284.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-102",
+        "function": "TIR",
+        "loop_id": "102",
+        "located_on": "KA-101",
+        "bbox": [
+          355.2,
+          515.2,
+          444.8,
+          604.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-103",
+        "function": "PIR",
+        "loop_id": "103",
+        "located_on": "KA-102",
+        "bbox": [
+          355.2,
+          355.2,
+          444.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-104",
+        "function": "TIR",
+        "loop_id": "104",
+        "located_on": "WA-101",
+        "bbox": [
+          835.2,
+          195.2,
+          924.8,
+          284.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIRC-105",
+        "function": "TIRC",
+        "loop_id": "105",
+        "located_on": "WA-102",
+        "bbox": [
+          1315.2,
+          35.199999999999996,
+          1404.8,
+          124.80000000000001
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-106",
+        "function": "PIR",
+        "loop_id": "106",
+        "located_on": "BA-101",
+        "bbox": [
+          1795.2,
+          355.2,
+          1884.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIRC-107",
+        "function": "LIRC",
+        "loop_id": "107",
+        "located_on": "BA-101",
+        "bbox": [
+          2275.2,
+          355.2,
+          2364.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIR-108",
+        "function": "LIR",
+        "loop_id": "108",
+        "located_on": "BA-102",
+        "bbox": [
+          2275.2,
+          515.2,
+          2364.8,
+          604.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIRC-109",
+        "function": "PIRC",
+        "loop_id": "109",
+        "located_on": "BA-102",
+        "bbox": [
+          2755.2,
+          355.2,
+          2844.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-110",
+        "function": "TIR",
+        "loop_id": "110",
+        "located_on": "WA-103",
+        "bbox": [
+          2915.2,
+          195.2,
+          3004.8,
+          284.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIRC-111",
+        "function": "LIRC",
+        "loop_id": "111",
+        "located_on": "BA-103",
+        "bbox": [
+          3395.2,
+          355.2,
+          3484.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-112",
+        "function": "PIR",
+        "loop_id": "112",
+        "located_on": "BA-103",
+        "bbox": [
+          3875.2,
+          355.2,
+          3964.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIRC-113",
+        "function": "TIRC",
+        "loop_id": "113",
+        "located_on": "WA-104",
+        "bbox": [
+          4195.2,
+          195.2,
+          4284.8,
+          284.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIR-114",
+        "function": "FIR",
+        "loop_id": "114",
+        "located_on": "WA-104",
+        "bbox": [
+          4195.2,
+          835.2,
+          4284.8,
+          924.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIR-115",
+        "function": "LIR",
+        "loop_id": "115",
+        "located_on": "BA-104",
+        "bbox": [
+          4675.2,
+          355.2,
+          4764.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-116",
+        "function": "PIR",
+        "loop_id": "116",
+        "located_on": "BA-104",
+        "bbox": [
+          5155.2,
+          355.2,
+          5244.8,
+          444.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIRC-117",
+        "function": "FIRC",
+        "loop_id": "117",
+        "located_on": "KA-103",
+        "bbox": [
+          5475.2,
+          195.2,
+          5564.8,
+          284.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-118",
+        "function": "PIR",
+        "loop_id": "118",
+        "located_on": "KA-103",
+        "bbox": [
+          5475.2,
+          515.2,
+          5564.8,
+          604.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-201",
+        "function": "TIR",
+        "loop_id": "201",
+        "located_on": "KO-201",
+        "bbox": [
+          515.2,
+          1155.2,
+          604.8,
+          1244.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIRC-202",
+        "function": "LIRC",
+        "loop_id": "202",
+        "located_on": "BA-201",
+        "bbox": [
+          995.2,
+          2115.2,
+          1084.8,
+          2204.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIRC-203",
+        "function": "FIRC",
+        "loop_id": "203",
+        "located_on": "PA-201",
+        "bbox": [
+          1635.2,
+          1955.2,
+          1724.8,
+          2044.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-204",
+        "function": "PIR",
+        "loop_id": "204",
+        "located_on": "PA-201",
+        "bbox": [
+          1635.2,
+          2275.2,
+          1724.8,
+          2364.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-205",
+        "function": "PIR",
+        "loop_id": "205",
+        "located_on": "PA-202",
+        "bbox": [
+          1635.2,
+          2115.2,
+          1724.8,
+          2204.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIRC-206",
+        "function": "TIRC",
+        "loop_id": "206",
+        "located_on": "WA-201",
+        "bbox": [
+          2115.2,
+          1795.2,
+          2204.8,
+          1884.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-207",
+        "function": "TIR",
+        "loop_id": "207",
+        "located_on": "WA-201",
+        "bbox": [
+          2115.2,
+          2435.2,
+          2204.8,
+          2524.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIRC-208",
+        "function": "LIRC",
+        "loop_id": "208",
+        "located_on": "BA-202",
+        "bbox": [
+          2595.2,
+          1955.2,
+          2684.8,
+          2044.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-209",
+        "function": "PIR",
+        "loop_id": "209",
+        "located_on": "BA-202",
+        "bbox": [
+          3075.2,
+          1955.2,
+          3164.8,
+          2044.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIRC-210",
+        "function": "FIRC",
+        "loop_id": "210",
+        "located_on": "PA-203",
+        "bbox": [
+          3395.2,
+          1955.2,
+          3484.8,
+          2044.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-211",
+        "function": "PIR",
+        "loop_id": "211",
+        "located_on": "PA-204",
+        "bbox": [
+          3395.2,
+          2115.2,
+          3484.8,
+          2204.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIR-212",
+        "function": "LIR",
+        "loop_id": "212",
+        "located_on": "BA-203",
+        "bbox": [
+          3715.2,
+          1955.2,
+          3804.8,
+          2044.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIRC-213",
+        "function": "TIRC",
+        "loop_id": "213",
+        "located_on": "WA-202",
+        "bbox": [
+          4515.2,
+          1795.2,
+          4604.8,
+          1884.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIRC-214",
+        "function": "TIRC",
+        "loop_id": "214",
+        "located_on": "WA-203",
+        "bbox": [
+          4515.2,
+          2115.2,
+          4604.8,
+          2204.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIR-215",
+        "function": "FIR",
+        "loop_id": "215",
+        "located_on": "WA-202",
+        "bbox": [
+          4515.2,
+          2275.2,
+          4604.8,
+          2364.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIR-216",
+        "function": "FIR",
+        "loop_id": "216",
+        "located_on": "WA-203",
+        "bbox": [
+          4515.2,
+          2595.2,
+          4604.8,
+          2684.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIR-217",
+        "function": "LIR",
+        "loop_id": "217",
+        "located_on": "BA-204",
+        "bbox": [
+          4995.2,
+          1955.2,
+          5084.8,
+          2044.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIRC-301",
+        "function": "PIRC",
+        "loop_id": "301",
+        "located_on": "BA-301",
+        "bbox": [
+          515.2,
+          2755.2,
+          604.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIR-302",
+        "function": "LIR",
+        "loop_id": "302",
+        "located_on": "BA-301",
+        "bbox": [
+          995.2,
+          2755.2,
+          1084.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIRC-303",
+        "function": "PIRC",
+        "loop_id": "303",
+        "located_on": "KA-301",
+        "bbox": [
+          1315.2,
+          2755.2,
+          1404.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-304",
+        "function": "TIR",
+        "loop_id": "304",
+        "located_on": "KA-301",
+        "bbox": [
+          1315.2,
+          3075.2,
+          1404.8,
+          3164.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-305",
+        "function": "PIR",
+        "loop_id": "305",
+        "located_on": "KA-302",
+        "bbox": [
+          1315.2,
+          2915.2,
+          1404.8,
+          3004.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-306",
+        "function": "TIR",
+        "loop_id": "306",
+        "located_on": "WA-301",
+        "bbox": [
+          1795.2,
+          2595.2,
+          1884.8,
+          2684.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIRC-307",
+        "function": "LIRC",
+        "loop_id": "307",
+        "located_on": "BA-302",
+        "bbox": [
+          2275.2,
+          2755.2,
+          2364.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-308",
+        "function": "PIR",
+        "loop_id": "308",
+        "located_on": "BA-302",
+        "bbox": [
+          2755.2,
+          2755.2,
+          2844.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIRC-309",
+        "function": "FIRC",
+        "loop_id": "309",
+        "located_on": "PA-301",
+        "bbox": [
+          3075.2,
+          2755.2,
+          3164.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIRC-310",
+        "function": "LIRC",
+        "loop_id": "310",
+        "located_on": "BA-303",
+        "bbox": [
+          3555.2,
+          2595.2,
+          3644.8,
+          2684.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIRC-311",
+        "function": "TIRC",
+        "loop_id": "311",
+        "located_on": "WA-302",
+        "bbox": [
+          4355.2,
+          2435.2,
+          4444.8,
+          2524.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-312",
+        "function": "PIR",
+        "loop_id": "312",
+        "located_on": "BA-304",
+        "bbox": [
+          4995.2,
+          2755.2,
+          5084.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "LIR-313",
+        "function": "LIR",
+        "loop_id": "313",
+        "located_on": "BA-304",
+        "bbox": [
+          5475.2,
+          2755.2,
+          5564.8,
+          2844.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-314",
+        "function": "TIR",
+        "loop_id": "314",
+        "located_on": "WA-301",
+        "bbox": [
+          1795.2,
+          3075.2,
+          1884.8,
+          3164.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "FIR-315",
+        "function": "FIR",
+        "loop_id": "315",
+        "located_on": "BA-303",
+        "bbox": [
+          3555.2,
+          3075.2,
+          3644.8,
+          3164.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "PIR-316",
+        "function": "PIR",
+        "loop_id": "316",
+        "located_on": "BA-301",
+        "bbox": [
+          835.2,
+          2595.2,
+          924.8,
+          2684.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-317",
+        "function": "TIR",
+        "loop_id": "317",
+        "located_on": "WA-302",
+        "bbox": [
+          4355.2,
+          2915.2,
+          4444.8,
+          3004.8
+        ],
+        "page": 1
+      },
+      {
+        "tag": "TIR-518",
+        "function": "TIR",
+        "loop_id": "518",
+        "located_on": "BA-204",
+        "bbox": [
+          5475.2,
+          1955.2,
+          5564.8,
+          2044.8
+        ],
+        "page": 1
+      }
+    ],
+    "lines": [
+      {
+        "line_no": "LR110.19-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-Sauggas",
+        "spec": "C22.8",
+        "from_tag": "KA-103",
+        "to_tag": "KA-101",
+        "geometry": [
+          [
+            5583.84,
+            400.0
+          ],
+          [
+            5520.0,
+            400.0
+          ],
+          [
+            5520.0,
+            880.0
+          ],
+          [
+            560.0,
+            880.0
+          ],
+          [
+            560.0,
+            400.0
+          ],
+          [
+            339.2,
+            400.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR206.35-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser-Rücklauf",
+        "spec": "P235",
+        "from_tag": "WA-201",
+        "to_tag": "KO-201",
+        "geometry": [
+          [
+            2380.7999999999997,
+            2071.68
+          ],
+          [
+            2320.0,
+            2000.0
+          ],
+          [
+            2320.0,
+            1360.0
+          ],
+          [
+            720.0,
+            1360.0
+          ],
+          [
+            640.0,
+            1299.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR214.47-DN150-SOL",
+        "size": "DN150",
+        "service": "Sole-Kälte",
+        "spec": "P265",
+        "from_tag": "WA-104",
+        "to_tag": "BA-203",
+        "geometry": [
+          [
+            4460.8,
+            648.32
+          ],
+          [
+            4400.0,
+            720.0
+          ],
+          [
+            4400.0,
+            2320.0
+          ],
+          [
+            4080.0,
+            2320.0
+          ],
+          [
+            4000.0,
+            2380.8
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR308.57-DN150-VAK",
+        "size": "DN150",
+        "service": "Abgas",
+        "spec": "1.4571",
+        "from_tag": "BA-302",
+        "to_tag": "WA-302",
+        "geometry": [
+          [
+            2560.0,
+            2739.2
+          ],
+          [
+            2640.0,
+            2800.0
+          ],
+          [
+            2640.0,
+            2640.0
+          ],
+          [
+            4240.0,
+            2640.0
+          ],
+          [
+            4240.0,
+            2800.0
+          ],
+          [
+            4400.0,
+            2800.0
+          ],
+          [
+            4339.2,
+            2720.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR201.30-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "KO-201",
+        "to_tag": "BA-201",
+        "geometry": [
+          [
+            640.0,
+            2700.8
+          ],
+          [
+            720.0,
+            2640.0
+          ],
+          [
+            880.0,
+            2640.0
+          ],
+          [
+            880.0,
+            2160.0
+          ],
+          [
+            1200.0,
+            2160.0
+          ],
+          [
+            1200.0,
+            2259.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR104.13-DN100-NH3",
+        "size": "DN100",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "BA-101",
+        "to_tag": "BA-102",
+        "geometry": [
+          [
+            2080.0,
+            780.8
+          ],
+          [
+            2160.0,
+            720.0
+          ],
+          [
+            2320.0,
+            720.0
+          ],
+          [
+            2320.0,
+            240.0
+          ],
+          [
+            2640.0,
+            240.0
+          ],
+          [
+            2640.0,
+            400.0
+          ],
+          [
+            2560.0,
+            339.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR302.51-DN200-VAK",
+        "size": "DN200",
+        "service": "Vakuum-Sauggas",
+        "spec": "1.4571",
+        "from_tag": "BA-301",
+        "to_tag": "KA-302",
+        "geometry": [
+          [
+            800.0,
+            2739.2
+          ],
+          [
+            880.0,
+            2800.0
+          ],
+          [
+            1200.0,
+            2800.0
+          ],
+          [
+            1200.0,
+            3120.0
+          ],
+          [
+            1299.2,
+            3120.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR211.44-DN150-SOL",
+        "size": "DN150",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "PA-204",
+        "to_tag": "BA-203",
+        "geometry": [
+          [
+            3503.84,
+            2320.0
+          ],
+          [
+            3760.0,
+            2320.0
+          ],
+          [
+            3760.0,
+            1840.0
+          ],
+          [
+            4080.0,
+            1840.0
+          ],
+          [
+            4080.0,
+            2000.0
+          ],
+          [
+            4000.0,
+            1939.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR212.45-DN100-SOL",
+        "size": "DN100",
+        "service": "Sole-Vorlauf",
+        "spec": "P265",
+        "from_tag": "BA-203",
+        "to_tag": "WA-202",
+        "geometry": [
+          [
+            4000.0,
+            2380.8
+          ],
+          [
+            4080.0,
+            2320.0
+          ],
+          [
+            4240.0,
+            2320.0
+          ],
+          [
+            4240.0,
+            2000.0
+          ],
+          [
+            4560.0,
+            2000.0
+          ],
+          [
+            4499.2,
+            2023.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR107.16-DN150-NH3",
+        "size": "DN150",
+        "service": "NH3-Nassdampf",
+        "spec": "C22.8",
+        "from_tag": "BA-103",
+        "to_tag": "WA-104",
+        "geometry": [
+          [
+            3680.0,
+            780.8
+          ],
+          [
+            3760.0,
+            720.0
+          ],
+          [
+            4080.0,
+            720.0
+          ],
+          [
+            4080.0,
+            400.0
+          ],
+          [
+            4240.0,
+            400.0
+          ],
+          [
+            4179.2,
+            471.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR108.17-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-Sauggas",
+        "spec": "C22.8",
+        "from_tag": "WA-104",
+        "to_tag": "BA-104",
+        "geometry": [
+          [
+            4460.8,
+            471.68
+          ],
+          [
+            4400.0,
+            400.0
+          ],
+          [
+            4400.0,
+            240.0
+          ],
+          [
+            5200.0,
+            240.0
+          ],
+          [
+            5200.0,
+            720.0
+          ],
+          [
+            5040.0,
+            720.0
+          ],
+          [
+            4960.0,
+            780.8
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR207.40-DN200-SOL",
+        "size": "DN200",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "WA-201",
+        "to_tag": "BA-202",
+        "geometry": [
+          [
+            2380.7999999999997,
+            2248.32
+          ],
+          [
+            2320.0,
+            2320.0
+          ],
+          [
+            2640.0,
+            2320.0
+          ],
+          [
+            2640.0,
+            1840.0
+          ],
+          [
+            2960.0,
+            1840.0
+          ],
+          [
+            2960.0,
+            2000.0
+          ],
+          [
+            2880.0,
+            1939.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR202.31-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "BA-201",
+        "to_tag": "PA-201",
+        "geometry": [
+          [
+            1200.0,
+            2540.7999999999997
+          ],
+          [
+            1200.0,
+            2640.0
+          ],
+          [
+            1520.0,
+            2640.0
+          ],
+          [
+            1520.0,
+            2160.0
+          ],
+          [
+            1619.2,
+            2160.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR307.56-DN80-KON",
+        "size": "DN80",
+        "service": "Kondensat",
+        "spec": "P235",
+        "from_tag": "PA-301",
+        "to_tag": "BA-303",
+        "geometry": [
+          [
+            3183.84,
+            2960.0
+          ],
+          [
+            3120.0,
+            2960.0
+          ],
+          [
+            3120.0,
+            2480.0
+          ],
+          [
+            3760.0,
+            2480.0
+          ],
+          [
+            3760.0,
+            2739.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR208.41-DN200-SOL",
+        "size": "DN200",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "BA-202",
+        "to_tag": "PA-203",
+        "geometry": [
+          [
+            2880.0,
+            2380.8
+          ],
+          [
+            2960.0,
+            2320.0
+          ],
+          [
+            3280.0,
+            2320.0
+          ],
+          [
+            3280.0,
+            2160.0
+          ],
+          [
+            3379.2,
+            2160.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR301.50-DN200-VAK",
+        "size": "DN200",
+        "service": "Vakuum-Sauggas",
+        "spec": "1.4571",
+        "from_tag": "BA-301",
+        "to_tag": "KA-301",
+        "geometry": [
+          [
+            800.0,
+            2739.2
+          ],
+          [
+            880.0,
+            2800.0
+          ],
+          [
+            1360.0,
+            2800.0
+          ],
+          [
+            1360.0,
+            2960.0
+          ],
+          [
+            1299.2,
+            2960.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR306.55-DN80-KON",
+        "size": "DN80",
+        "service": "Kondensat",
+        "spec": "P235",
+        "from_tag": "BA-302",
+        "to_tag": "PA-301",
+        "geometry": [
+          [
+            2560.0,
+            3180.7999999999997
+          ],
+          [
+            2640.0,
+            3120.0
+          ],
+          [
+            3120.0,
+            3120.0
+          ],
+          [
+            3120.0,
+            2960.0
+          ],
+          [
+            3059.2,
+            2960.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR210.43-DN150-SOL",
+        "size": "DN150",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "PA-203",
+        "to_tag": "BA-203",
+        "geometry": [
+          [
+            3503.84,
+            2160.0
+          ],
+          [
+            3440.0,
+            2160.0
+          ],
+          [
+            3440.0,
+            1680.0
+          ],
+          [
+            4080.0,
+            1680.0
+          ],
+          [
+            4080.0,
+            2000.0
+          ],
+          [
+            4000.0,
+            1939.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR105.14-DN80-NH3",
+        "size": "DN80",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "BA-102",
+        "to_tag": "WA-103",
+        "geometry": [
+          [
+            2560.0,
+            780.8
+          ],
+          [
+            2640.0,
+            720.0
+          ],
+          [
+            2800.0,
+            720.0
+          ],
+          [
+            2800.0,
+            400.0
+          ],
+          [
+            2960.0,
+            400.0
+          ],
+          [
+            2899.2,
+            423.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR304.53-DN150-VAK",
+        "size": "DN150",
+        "service": "Vakuum-Abgas",
+        "spec": "1.4571",
+        "from_tag": "KA-302",
+        "to_tag": "WA-301",
+        "geometry": [
+          [
+            1423.84,
+            3120.0
+          ],
+          [
+            1680.0,
+            3120.0
+          ],
+          [
+            1680.0,
+            2800.0
+          ],
+          [
+            1840.0,
+            2800.0
+          ],
+          [
+            1779.2,
+            2823.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR203.32-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "BA-201",
+        "to_tag": "PA-202",
+        "geometry": [
+          [
+            1200.0,
+            2540.7999999999997
+          ],
+          [
+            1200.0,
+            2640.0
+          ],
+          [
+            1680.0,
+            2640.0
+          ],
+          [
+            1680.0,
+            2320.0
+          ],
+          [
+            1619.2,
+            2320.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR205.34-DN250-KW",
+        "size": "DN250",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "PA-202",
+        "to_tag": "WA-201",
+        "geometry": [
+          [
+            1743.84,
+            2320.0
+          ],
+          [
+            2000.0,
+            2320.0
+          ],
+          [
+            2000.0,
+            2000.0
+          ],
+          [
+            2160.0,
+            2000.0
+          ],
+          [
+            2099.2,
+            2071.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR106.15-DN80-NH3",
+        "size": "DN80",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "WA-103",
+        "to_tag": "BA-103",
+        "geometry": [
+          [
+            3180.7999999999997,
+            423.68
+          ],
+          [
+            3120.0,
+            400.0
+          ],
+          [
+            3120.0,
+            240.0
+          ],
+          [
+            3760.0,
+            240.0
+          ],
+          [
+            3760.0,
+            400.0
+          ],
+          [
+            3680.0,
+            339.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR305.54-DN150-VAK",
+        "size": "DN150",
+        "service": "Vakuum-Abgas",
+        "spec": "1.4571",
+        "from_tag": "WA-301",
+        "to_tag": "BA-302",
+        "geometry": [
+          [
+            2060.8,
+            2823.68
+          ],
+          [
+            2000.0,
+            2800.0
+          ],
+          [
+            2000.0,
+            2640.0
+          ],
+          [
+            2640.0,
+            2640.0
+          ],
+          [
+            2640.0,
+            2800.0
+          ],
+          [
+            2560.0,
+            2739.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR209.42-DN200-SOL",
+        "size": "DN200",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "BA-202",
+        "to_tag": "PA-204",
+        "geometry": [
+          [
+            2880.0,
+            2380.8
+          ],
+          [
+            2960.0,
+            2320.0
+          ],
+          [
+            3379.2,
+            2320.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR109.18-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-Sauggas",
+        "spec": "C22.8",
+        "from_tag": "BA-104",
+        "to_tag": "KA-103",
+        "geometry": [
+          [
+            4960.0,
+            339.2
+          ],
+          [
+            5040.0,
+            400.0
+          ],
+          [
+            5459.2,
+            400.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR213.46-DN100-SOL",
+        "size": "DN100",
+        "service": "Sole-Vorlauf",
+        "spec": "P265",
+        "from_tag": "BA-203",
+        "to_tag": "WA-203",
+        "geometry": [
+          [
+            4000.0,
+            2380.8
+          ],
+          [
+            4080.0,
+            2320.0
+          ],
+          [
+            4080.0,
+            2480.0
+          ],
+          [
+            4400.0,
+            2480.0
+          ],
+          [
+            4400.0,
+            2320.0
+          ],
+          [
+            4560.0,
+            2320.0
+          ],
+          [
+            4499.2,
+            2343.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR309.58-DN150-VAK",
+        "size": "DN150",
+        "service": "Abgas",
+        "spec": "1.4571",
+        "from_tag": "WA-302",
+        "to_tag": "BA-304",
+        "geometry": [
+          [
+            4780.8,
+            2720.0
+          ],
+          [
+            4720.0,
+            2800.0
+          ],
+          [
+            5040.0,
+            2800.0
+          ],
+          [
+            5040.0,
+            2640.0
+          ],
+          [
+            5360.0,
+            2640.0
+          ],
+          [
+            5360.0,
+            2800.0
+          ],
+          [
+            5280.0,
+            2739.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR303.52-DN150-VAK",
+        "size": "DN150",
+        "service": "Vakuum-Abgas",
+        "spec": "1.4571",
+        "from_tag": "KA-301",
+        "to_tag": "WA-301",
+        "geometry": [
+          [
+            1423.84,
+            2960.0
+          ],
+          [
+            1520.0,
+            2960.0
+          ],
+          [
+            1520.0,
+            2800.0
+          ],
+          [
+            1840.0,
+            2800.0
+          ],
+          [
+            1779.2,
+            2823.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR204.33-DN250-KW",
+        "size": "DN250",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "PA-201",
+        "to_tag": "WA-201",
+        "geometry": [
+          [
+            1743.84,
+            2160.0
+          ],
+          [
+            1680.0,
+            2160.0
+          ],
+          [
+            1680.0,
+            1840.0
+          ],
+          [
+            2160.0,
+            1840.0
+          ],
+          [
+            2160.0,
+            2000.0
+          ],
+          [
+            2099.2,
+            2071.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR101.10-DN150-NH3",
+        "size": "DN150",
+        "service": "NH3-Heißgas",
+        "spec": "C22.8",
+        "from_tag": "KA-101",
+        "to_tag": "WA-101",
+        "geometry": [
+          [
+            463.84,
+            400.0
+          ],
+          [
+            400.0,
+            400.0
+          ],
+          [
+            400.0,
+            240.0
+          ],
+          [
+            880.0,
+            240.0
+          ],
+          [
+            880.0,
+            400.0
+          ],
+          [
+            819.2,
+            423.68
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR103.12-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "WA-102",
+        "to_tag": "BA-101",
+        "geometry": [
+          [
+            1740.8000000000002,
+            320.0
+          ],
+          [
+            1680.0,
+            400.0
+          ],
+          [
+            1840.0,
+            400.0
+          ],
+          [
+            1840.0,
+            240.0
+          ],
+          [
+            2160.0,
+            240.0
+          ],
+          [
+            2160.0,
+            400.0
+          ],
+          [
+            2080.0,
+            339.2
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR111.20-DN50-NH3",
+        "size": "DN50",
+        "service": "NH3-Abblasung",
+        "spec": "C22.8",
+        "from_tag": "BA-101",
+        "to_tag": "SA-101",
+        "geometry": [
+          [
+            2080.0,
+            339.2
+          ],
+          [
+            2160.0,
+            400.0
+          ],
+          [
+            2160.0,
+            80.0
+          ],
+          [
+            2000.0,
+            80.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR112.21-DN50-NH3",
+        "size": "DN50",
+        "service": "NH3-Abblasung",
+        "spec": "C22.8",
+        "from_tag": "BA-102",
+        "to_tag": "SA-102",
+        "geometry": [
+          [
+            2560.0,
+            339.2
+          ],
+          [
+            2640.0,
+            400.0
+          ],
+          [
+            2640.0,
+            80.0
+          ],
+          [
+            2480.0,
+            80.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR113.22-DN50-NH3",
+        "size": "DN50",
+        "service": "NH3-Abblasung",
+        "spec": "C22.8",
+        "from_tag": "BA-103",
+        "to_tag": "SA-103",
+        "geometry": [
+          [
+            3680.0,
+            339.2
+          ],
+          [
+            3760.0,
+            400.0
+          ],
+          [
+            3920.0,
+            400.0
+          ],
+          [
+            3920.0,
+            80.0
+          ],
+          [
+            3600.0,
+            80.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR215.48-DN50-SOL",
+        "size": "DN50",
+        "service": "Sole-Abblasung",
+        "spec": "P265",
+        "from_tag": "BA-202",
+        "to_tag": "SA-201",
+        "geometry": [
+          [
+            2880.0,
+            1939.2
+          ],
+          [
+            2960.0,
+            2000.0
+          ],
+          [
+            3120.0,
+            2000.0
+          ],
+          [
+            3120.0,
+            1680.0
+          ],
+          [
+            2800.0,
+            1680.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR310.59-DN50-VAK",
+        "size": "DN50",
+        "service": "Abgas-Abblasung",
+        "spec": "1.4571",
+        "from_tag": "BA-304",
+        "to_tag": "SA-302",
+        "geometry": [
+          [
+            5280.0,
+            2739.2
+          ],
+          [
+            5360.0,
+            2800.0
+          ],
+          [
+            5520.0,
+            2800.0
+          ],
+          [
+            5520.0,
+            2480.0
+          ],
+          [
+            5200.0,
+            2480.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR311.60-DN50-VAK",
+        "size": "DN50",
+        "service": "Abblasung",
+        "spec": "1.4571",
+        "from_tag": "BA-302",
+        "to_tag": "SA-301",
+        "geometry": [
+          [
+            2560.0,
+            2739.2
+          ],
+          [
+            2640.0,
+            2800.0
+          ],
+          [
+            2800.0,
+            2800.0
+          ],
+          [
+            2800.0,
+            2480.0
+          ],
+          [
+            2480.0,
+            2480.0
+          ]
+        ],
+        "page": 1
+      },
+      {
+        "line_no": "LR102.11-DN150-NH3",
+        "size": "DN150",
+        "service": "NH3-Heißgas",
+        "spec": "C22.8",
+        "from_tag": "WA-101",
+        "to_tag": "WA-102",
+        "geometry": [
+          [
+            1100.8000000000002,
+            423.68
+          ],
+          [
+            1040.0,
+            400.0
+          ],
+          [
+            1360.0,
+            400.0
+          ],
+          [
+            1299.2,
+            320.0
+          ]
+        ],
+        "page": 1
+      }
+    ],
+    "connections": [
+      {
+        "from_tag": "KA-101",
+        "to_tag": "WA-101",
+        "type": "pipe",
+        "via_line": "LR101.10-DN150-NH3"
+      },
+      {
+        "from_tag": "WA-101",
+        "to_tag": "WA-102",
+        "type": "pipe",
+        "via_line": "LR102.11-DN150-NH3"
+      },
+      {
+        "from_tag": "WA-102",
+        "to_tag": "BA-101",
+        "type": "pipe",
+        "via_line": "LR103.12-DN200-NH3"
+      },
+      {
+        "from_tag": "BA-101",
+        "to_tag": "BA-102",
+        "type": "pipe",
+        "via_line": "LR104.13-DN100-NH3"
+      },
+      {
+        "from_tag": "BA-102",
+        "to_tag": "WA-103",
+        "type": "pipe",
+        "via_line": "LR105.14-DN80-NH3"
+      },
+      {
+        "from_tag": "WA-103",
+        "to_tag": "BA-103",
+        "type": "pipe",
+        "via_line": "LR106.15-DN80-NH3"
+      },
+      {
+        "from_tag": "BA-103",
+        "to_tag": "WA-104",
+        "type": "pipe",
+        "via_line": "LR107.16-DN150-NH3"
+      },
+      {
+        "from_tag": "WA-104",
+        "to_tag": "BA-104",
+        "type": "pipe",
+        "via_line": "LR108.17-DN200-NH3"
+      },
+      {
+        "from_tag": "BA-104",
+        "to_tag": "KA-103",
+        "type": "pipe",
+        "via_line": "LR109.18-DN200-NH3"
+      },
+      {
+        "from_tag": "KA-103",
+        "to_tag": "KA-101",
+        "type": "pipe",
+        "via_line": "LR110.19-DN200-NH3"
+      },
+      {
+        "from_tag": "BA-101",
+        "to_tag": "SA-101",
+        "type": "pipe",
+        "via_line": "LR111.20-DN50-NH3"
+      },
+      {
+        "from_tag": "BA-102",
+        "to_tag": "SA-102",
+        "type": "pipe",
+        "via_line": "LR112.21-DN50-NH3"
+      },
+      {
+        "from_tag": "BA-103",
+        "to_tag": "SA-103",
+        "type": "pipe",
+        "via_line": "LR113.22-DN50-NH3"
+      },
+      {
+        "from_tag": "KO-201",
+        "to_tag": "BA-201",
+        "type": "pipe",
+        "via_line": "LR201.30-DN300-KW"
+      },
+      {
+        "from_tag": "BA-201",
+        "to_tag": "PA-201",
+        "type": "pipe",
+        "via_line": "LR202.31-DN300-KW"
+      },
+      {
+        "from_tag": "BA-201",
+        "to_tag": "PA-202",
+        "type": "pipe",
+        "via_line": "LR203.32-DN300-KW"
+      },
+      {
+        "from_tag": "PA-201",
+        "to_tag": "WA-201",
+        "type": "pipe",
+        "via_line": "LR204.33-DN250-KW"
+      },
+      {
+        "from_tag": "PA-202",
+        "to_tag": "WA-201",
+        "type": "pipe",
+        "via_line": "LR205.34-DN250-KW"
+      },
+      {
+        "from_tag": "WA-201",
+        "to_tag": "KO-201",
+        "type": "pipe",
+        "via_line": "LR206.35-DN300-KW"
+      },
+      {
+        "from_tag": "WA-201",
+        "to_tag": "BA-202",
+        "type": "pipe",
+        "via_line": "LR207.40-DN200-SOL"
+      },
+      {
+        "from_tag": "BA-202",
+        "to_tag": "PA-203",
+        "type": "pipe",
+        "via_line": "LR208.41-DN200-SOL"
+      },
+      {
+        "from_tag": "BA-202",
+        "to_tag": "PA-204",
+        "type": "pipe",
+        "via_line": "LR209.42-DN200-SOL"
+      },
+      {
+        "from_tag": "PA-203",
+        "to_tag": "BA-203",
+        "type": "pipe",
+        "via_line": "LR210.43-DN150-SOL"
+      },
+      {
+        "from_tag": "PA-204",
+        "to_tag": "BA-203",
+        "type": "pipe",
+        "via_line": "LR211.44-DN150-SOL"
+      },
+      {
+        "from_tag": "BA-203",
+        "to_tag": "WA-202",
+        "type": "pipe",
+        "via_line": "LR212.45-DN100-SOL"
+      },
+      {
+        "from_tag": "BA-203",
+        "to_tag": "WA-203",
+        "type": "pipe",
+        "via_line": "LR213.46-DN100-SOL"
+      },
+      {
+        "from_tag": "WA-104",
+        "to_tag": "BA-203",
+        "type": "pipe",
+        "via_line": "LR214.47-DN150-SOL"
+      },
+      {
+        "from_tag": "BA-202",
+        "to_tag": "SA-201",
+        "type": "pipe",
+        "via_line": "LR215.48-DN50-SOL"
+      },
+      {
+        "from_tag": "BA-301",
+        "to_tag": "KA-301",
+        "type": "pipe",
+        "via_line": "LR301.50-DN200-VAK"
+      },
+      {
+        "from_tag": "BA-301",
+        "to_tag": "KA-302",
+        "type": "pipe",
+        "via_line": "LR302.51-DN200-VAK"
+      },
+      {
+        "from_tag": "KA-301",
+        "to_tag": "WA-301",
+        "type": "pipe",
+        "via_line": "LR303.52-DN150-VAK"
+      },
+      {
+        "from_tag": "KA-302",
+        "to_tag": "WA-301",
+        "type": "pipe",
+        "via_line": "LR304.53-DN150-VAK"
+      },
+      {
+        "from_tag": "WA-301",
+        "to_tag": "BA-302",
+        "type": "pipe",
+        "via_line": "LR305.54-DN150-VAK"
+      },
+      {
+        "from_tag": "BA-302",
+        "to_tag": "PA-301",
+        "type": "pipe",
+        "via_line": "LR306.55-DN80-KON"
+      },
+      {
+        "from_tag": "PA-301",
+        "to_tag": "BA-303",
+        "type": "pipe",
+        "via_line": "LR307.56-DN80-KON"
+      },
+      {
+        "from_tag": "BA-302",
+        "to_tag": "WA-302",
+        "type": "pipe",
+        "via_line": "LR308.57-DN150-VAK"
+      },
+      {
+        "from_tag": "WA-302",
+        "to_tag": "BA-304",
+        "type": "pipe",
+        "via_line": "LR309.58-DN150-VAK"
+      },
+      {
+        "from_tag": "BA-304",
+        "to_tag": "SA-302",
+        "type": "pipe",
+        "via_line": "LR310.59-DN50-VAK"
+      },
+      {
+        "from_tag": "BA-302",
+        "to_tag": "SA-301",
+        "type": "pipe",
+        "via_line": "LR311.60-DN50-VAK"
+      },
+      {
+        "from_tag": "PIRC-101",
+        "to_tag": "KA-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-102",
+        "to_tag": "KA-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-103",
+        "to_tag": "KA-102",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-104",
+        "to_tag": "WA-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIRC-105",
+        "to_tag": "WA-102",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-106",
+        "to_tag": "BA-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIRC-107",
+        "to_tag": "BA-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIR-108",
+        "to_tag": "BA-102",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIRC-109",
+        "to_tag": "BA-102",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-110",
+        "to_tag": "WA-103",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIRC-111",
+        "to_tag": "BA-103",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-112",
+        "to_tag": "BA-103",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIRC-113",
+        "to_tag": "WA-104",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIR-114",
+        "to_tag": "WA-104",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIR-115",
+        "to_tag": "BA-104",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-116",
+        "to_tag": "BA-104",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIRC-117",
+        "to_tag": "KA-103",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-118",
+        "to_tag": "KA-103",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-201",
+        "to_tag": "KO-201",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIRC-202",
+        "to_tag": "BA-201",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIRC-203",
+        "to_tag": "PA-201",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-204",
+        "to_tag": "PA-201",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-205",
+        "to_tag": "PA-202",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIRC-206",
+        "to_tag": "WA-201",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-207",
+        "to_tag": "WA-201",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIRC-208",
+        "to_tag": "BA-202",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-209",
+        "to_tag": "BA-202",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIRC-210",
+        "to_tag": "PA-203",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-211",
+        "to_tag": "PA-204",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIR-212",
+        "to_tag": "BA-203",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIRC-213",
+        "to_tag": "WA-202",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIRC-214",
+        "to_tag": "WA-203",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIR-215",
+        "to_tag": "WA-202",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIR-216",
+        "to_tag": "WA-203",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIR-217",
+        "to_tag": "BA-204",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIRC-301",
+        "to_tag": "BA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIR-302",
+        "to_tag": "BA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIRC-303",
+        "to_tag": "KA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-304",
+        "to_tag": "KA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-305",
+        "to_tag": "KA-302",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-306",
+        "to_tag": "WA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIRC-307",
+        "to_tag": "BA-302",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-308",
+        "to_tag": "BA-302",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIRC-309",
+        "to_tag": "PA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIRC-310",
+        "to_tag": "BA-303",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIRC-311",
+        "to_tag": "WA-302",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-312",
+        "to_tag": "BA-304",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIR-313",
+        "to_tag": "BA-304",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-314",
+        "to_tag": "WA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FIR-315",
+        "to_tag": "BA-303",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIR-316",
+        "to_tag": "BA-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-317",
+        "to_tag": "WA-302",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIR-518",
+        "to_tag": "BA-204",
+        "type": "signal",
+        "via_line": null
+      }
+    ]
+  },
+  "anomalies": [
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "BA-204",
+      "description": "NH3-Notsammler BA-204 ohne zugeordnetes Sicherheitsventil (SA).",
+      "suggestion": "Sicherheitsventil an BA-204 ergänzen (DIN EN 378)."
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TIR-518",
+      "description": "Temperaturmessstelle TIR-518 ohne zugehörigen Regelkreis.",
+      "suggestion": "Regelkreis zuordnen oder Messstelle entfernen."
+    },
+    {
+      "rule": "pipe_spec_inconsistency",
+      "severity": "medium",
+      "violated_by": "LR308.57-DN150-VAK",
+      "description": "DN200 → DN150 Reduktion ohne Spec-Hinweis am Übergang.",
+      "suggestion": "Reduzierstück + Spec-Wechsel kennzeichnen."
+    }
+  ],
+  "verdict": "needs_correction",
+  "geometry": {
+    "equipment": [
+      {
+        "tag": "KA-101",
+        "type": "pump",
+        "service": "NH3-Verdichter 1. Stufe",
+        "bbox": [
+          339.2,
+          339.2,
+          463.84,
+          460.8
+        ]
+      },
+      {
+        "tag": "KA-102",
+        "type": "pump",
+        "service": "NH3-Verdichter 2. Stufe",
+        "bbox": [
+          339.2,
+          499.2,
+          463.84,
+          620.8
+        ]
+      },
+      {
+        "tag": "WA-101",
+        "type": "heat_exchanger",
+        "service": "Ölkühler Verdichter",
+        "bbox": [
+          819.2,
+          339.2,
+          1100.8000000000002,
+          620.8
+        ]
+      },
+      {
+        "tag": "WA-102",
+        "type": "air_cooler",
+        "service": "NH3-Verflüssiger (Kondensator)",
+        "bbox": [
+          1299.2,
+          179.2,
+          1740.8000000000002,
+          480.8
+        ]
+      },
+      {
+        "tag": "BA-101",
+        "type": "vessel",
+        "service": "Hochdruck-Sammler",
+        "bbox": [
+          1939.2,
+          339.2,
+          2220.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "SA-101",
+        "type": "psv",
+        "service": "BA-101 Sicherheitsventil",
+        "bbox": [
+          1973.76,
+          10.026666666666657,
+          2086.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "BA-102",
+        "type": "vessel",
+        "service": "NH3-Vorratsbehälter",
+        "bbox": [
+          2419.2,
+          339.2,
+          2700.7999999999997,
+          780.8
+        ]
+      },
+      {
+        "tag": "SA-102",
+        "type": "psv",
+        "service": "BA-102 Sicherheitsventil",
+        "bbox": [
+          2453.76,
+          10.026666666666657,
+          2566.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "WA-103",
+        "type": "heat_exchanger",
+        "service": "Unterkühler",
+        "bbox": [
+          2899.2,
+          339.2,
+          3180.7999999999997,
+          620.8
+        ]
+      },
+      {
+        "tag": "BA-103",
+        "type": "vessel",
+        "service": "Niederdruck-Abscheider",
+        "bbox": [
+          3539.2,
+          339.2,
+          3820.7999999999997,
+          780.8
+        ]
+      },
+      {
+        "tag": "SA-103",
+        "type": "psv",
+        "service": "BA-103 Sicherheitsventil",
+        "bbox": [
+          3573.76,
+          10.026666666666657,
+          3686.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "WA-104",
+        "type": "heat_exchanger",
+        "service": "NH3-Verdampfer / Sole",
+        "bbox": [
+          4179.2,
+          339.2,
+          4460.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "BA-104",
+        "type": "vessel",
+        "service": "Saugabscheider",
+        "bbox": [
+          4819.2,
+          339.2,
+          5100.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "KA-103",
+        "type": "pump",
+        "service": "NH3-Umwälzpumpe",
+        "bbox": [
+          5459.2,
+          339.2,
+          5583.84,
+          460.8
+        ]
+      },
+      {
+        "tag": "KO-201",
+        "type": "column",
+        "service": "Kühlturm (Rückkühlwerk)",
+        "bbox": [
+          499.2,
+          1299.2,
+          780.8,
+          2700.8
+        ]
+      },
+      {
+        "tag": "BA-201",
+        "type": "tank",
+        "service": "Kühlwasser-Vorlagebehälter",
+        "bbox": [
+          979.2,
+          2259.2,
+          1420.8000000000002,
+          2540.7999999999997
+        ]
+      },
+      {
+        "tag": "PA-201",
+        "type": "pump",
+        "service": "Kühlwasserpumpe 1",
+        "bbox": [
+          1619.2,
+          2099.2,
+          1743.84,
+          2220.8
+        ]
+      },
+      {
+        "tag": "PA-202",
+        "type": "pump",
+        "service": "Kühlwasserpumpe 2 (Reserve)",
+        "bbox": [
+          1619.2,
+          2259.2,
+          1743.84,
+          2380.8
+        ]
+      },
+      {
+        "tag": "WA-201",
+        "type": "heat_exchanger",
+        "service": "Plattenwärmetauscher KW/Sole",
+        "bbox": [
+          2099.2,
+          1939.2,
+          2380.7999999999997,
+          2380.8
+        ]
+      },
+      {
+        "tag": "BA-202",
+        "type": "vessel",
+        "service": "Sole-Ausdehnungsgefäß",
+        "bbox": [
+          2739.2,
+          1939.2,
+          3020.7999999999997,
+          2380.8
+        ]
+      },
+      {
+        "tag": "SA-201",
+        "type": "psv",
+        "service": "BA-202 Sicherheitsventil",
+        "bbox": [
+          2773.76,
+          1610.0266666666666,
+          2886.24,
+          1680.0
+        ]
+      },
+      {
+        "tag": "PA-203",
+        "type": "pump",
+        "service": "Solepumpe 1",
+        "bbox": [
+          3379.2,
+          2099.2,
+          3503.84,
+          2220.8
+        ]
+      },
+      {
+        "tag": "PA-204",
+        "type": "pump",
+        "service": "Solepumpe 2 (Reserve)",
+        "bbox": [
+          3379.2,
+          2259.2,
+          3503.84,
+          2380.8
+        ]
+      },
+      {
+        "tag": "BA-203",
+        "type": "vessel",
+        "service": "Sole-Verteiler",
+        "bbox": [
+          3859.2,
+          1939.2,
+          4140.8,
+          2380.8
+        ]
+      },
+      {
+        "tag": "WA-202",
+        "type": "heat_exchanger",
+        "service": "Sole-Kühler Verbraucher A",
+        "bbox": [
+          4499.2,
+          1939.2,
+          4780.8,
+          2220.8
+        ]
+      },
+      {
+        "tag": "WA-203",
+        "type": "heat_exchanger",
+        "service": "Sole-Kühler Verbraucher B",
+        "bbox": [
+          4499.2,
+          2259.2,
+          4780.8,
+          2540.7999999999997
+        ]
+      },
+      {
+        "tag": "BA-204",
+        "type": "vessel",
+        "service": "NH3-Notsammler",
+        "bbox": [
+          5139.2,
+          1939.2,
+          5420.8,
+          2380.8
+        ]
+      },
+      {
+        "tag": "BA-301",
+        "type": "vessel",
+        "service": "Vakuum-Vorabscheider",
+        "bbox": [
+          659.2,
+          2739.2,
+          940.8000000000001,
+          3180.7999999999997
+        ]
+      },
+      {
+        "tag": "KA-301",
+        "type": "pump",
+        "service": "Vakuumpumpe 1",
+        "bbox": [
+          1299.2,
+          2899.2,
+          1423.84,
+          3020.8
+        ]
+      },
+      {
+        "tag": "KA-302",
+        "type": "pump",
+        "service": "Vakuumpumpe 2",
+        "bbox": [
+          1299.2,
+          3059.2,
+          1423.84,
+          3180.8
+        ]
+      },
+      {
+        "tag": "WA-301",
+        "type": "heat_exchanger",
+        "service": "Zwischenkühler Vakuum",
+        "bbox": [
+          1779.2,
+          2739.2,
+          2060.8,
+          3020.7999999999997
+        ]
+      },
+      {
+        "tag": "BA-302",
+        "type": "vessel",
+        "service": "Kondensatabscheider",
+        "bbox": [
+          2419.2,
+          2739.2,
+          2700.7999999999997,
+          3180.7999999999997
+        ]
+      },
+      {
+        "tag": "SA-301",
+        "type": "psv",
+        "service": "BA-302 Sicherheitsventil",
+        "bbox": [
+          2453.76,
+          2410.0266666666666,
+          2566.24,
+          2480.0
+        ]
+      },
+      {
+        "tag": "PA-301",
+        "type": "pump",
+        "service": "Kondensatpumpe",
+        "bbox": [
+          3059.2,
+          2899.2,
+          3183.84,
+          3020.8
+        ]
+      },
+      {
+        "tag": "BA-303",
+        "type": "tank",
+        "service": "Kondensat-Sammeltank",
+        "bbox": [
+          3539.2,
+          2739.2,
+          3980.7999999999997,
+          3020.7999999999997
+        ]
+      },
+      {
+        "tag": "WA-302",
+        "type": "air_cooler",
+        "service": "Nachkühler Vakuumabgas",
+        "bbox": [
+          4339.2,
+          2579.2,
+          4780.8,
+          2880.7999999999997
+        ]
+      },
+      {
+        "tag": "BA-304",
+        "type": "vessel",
+        "service": "Abgas-Abscheider",
+        "bbox": [
+          5139.2,
+          2739.2,
+          5420.8,
+          3180.7999999999997
+        ]
+      },
+      {
+        "tag": "SA-302",
+        "type": "psv",
+        "service": "BA-304 Sicherheitsventil",
+        "bbox": [
+          5173.76,
+          2410.0266666666666,
+          5286.24,
+          2480.0
+        ]
+      }
+    ],
+    "instruments": [
+      {
+        "tag": "PIRC-101",
+        "function": "PIRC",
+        "located_on": "KA-101",
+        "bbox": [
+          355.2,
+          195.2,
+          444.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "TIR-102",
+        "function": "TIR",
+        "located_on": "KA-101",
+        "bbox": [
+          355.2,
+          515.2,
+          444.8,
+          604.8
+        ]
+      },
+      {
+        "tag": "PIR-103",
+        "function": "PIR",
+        "located_on": "KA-102",
+        "bbox": [
+          355.2,
+          355.2,
+          444.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "TIR-104",
+        "function": "TIR",
+        "located_on": "WA-101",
+        "bbox": [
+          835.2,
+          195.2,
+          924.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "TIRC-105",
+        "function": "TIRC",
+        "located_on": "WA-102",
+        "bbox": [
+          1315.2,
+          35.199999999999996,
+          1404.8,
+          124.80000000000001
+        ]
+      },
+      {
+        "tag": "PIR-106",
+        "function": "PIR",
+        "located_on": "BA-101",
+        "bbox": [
+          1795.2,
+          355.2,
+          1884.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "LIRC-107",
+        "function": "LIRC",
+        "located_on": "BA-101",
+        "bbox": [
+          2275.2,
+          355.2,
+          2364.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "LIR-108",
+        "function": "LIR",
+        "located_on": "BA-102",
+        "bbox": [
+          2275.2,
+          515.2,
+          2364.8,
+          604.8
+        ]
+      },
+      {
+        "tag": "PIRC-109",
+        "function": "PIRC",
+        "located_on": "BA-102",
+        "bbox": [
+          2755.2,
+          355.2,
+          2844.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "TIR-110",
+        "function": "TIR",
+        "located_on": "WA-103",
+        "bbox": [
+          2915.2,
+          195.2,
+          3004.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "LIRC-111",
+        "function": "LIRC",
+        "located_on": "BA-103",
+        "bbox": [
+          3395.2,
+          355.2,
+          3484.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "PIR-112",
+        "function": "PIR",
+        "located_on": "BA-103",
+        "bbox": [
+          3875.2,
+          355.2,
+          3964.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "TIRC-113",
+        "function": "TIRC",
+        "located_on": "WA-104",
+        "bbox": [
+          4195.2,
+          195.2,
+          4284.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "FIR-114",
+        "function": "FIR",
+        "located_on": "WA-104",
+        "bbox": [
+          4195.2,
+          835.2,
+          4284.8,
+          924.8
+        ]
+      },
+      {
+        "tag": "LIR-115",
+        "function": "LIR",
+        "located_on": "BA-104",
+        "bbox": [
+          4675.2,
+          355.2,
+          4764.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "PIR-116",
+        "function": "PIR",
+        "located_on": "BA-104",
+        "bbox": [
+          5155.2,
+          355.2,
+          5244.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "FIRC-117",
+        "function": "FIRC",
+        "located_on": "KA-103",
+        "bbox": [
+          5475.2,
+          195.2,
+          5564.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "PIR-118",
+        "function": "PIR",
+        "located_on": "KA-103",
+        "bbox": [
+          5475.2,
+          515.2,
+          5564.8,
+          604.8
+        ]
+      },
+      {
+        "tag": "TIR-201",
+        "function": "TIR",
+        "located_on": "KO-201",
+        "bbox": [
+          515.2,
+          1155.2,
+          604.8,
+          1244.8
+        ]
+      },
+      {
+        "tag": "LIRC-202",
+        "function": "LIRC",
+        "located_on": "BA-201",
+        "bbox": [
+          995.2,
+          2115.2,
+          1084.8,
+          2204.8
+        ]
+      },
+      {
+        "tag": "FIRC-203",
+        "function": "FIRC",
+        "located_on": "PA-201",
+        "bbox": [
+          1635.2,
+          1955.2,
+          1724.8,
+          2044.8
+        ]
+      },
+      {
+        "tag": "PIR-204",
+        "function": "PIR",
+        "located_on": "PA-201",
+        "bbox": [
+          1635.2,
+          2275.2,
+          1724.8,
+          2364.8
+        ]
+      },
+      {
+        "tag": "PIR-205",
+        "function": "PIR",
+        "located_on": "PA-202",
+        "bbox": [
+          1635.2,
+          2115.2,
+          1724.8,
+          2204.8
+        ]
+      },
+      {
+        "tag": "TIRC-206",
+        "function": "TIRC",
+        "located_on": "WA-201",
+        "bbox": [
+          2115.2,
+          1795.2,
+          2204.8,
+          1884.8
+        ]
+      },
+      {
+        "tag": "TIR-207",
+        "function": "TIR",
+        "located_on": "WA-201",
+        "bbox": [
+          2115.2,
+          2435.2,
+          2204.8,
+          2524.8
+        ]
+      },
+      {
+        "tag": "LIRC-208",
+        "function": "LIRC",
+        "located_on": "BA-202",
+        "bbox": [
+          2595.2,
+          1955.2,
+          2684.8,
+          2044.8
+        ]
+      },
+      {
+        "tag": "PIR-209",
+        "function": "PIR",
+        "located_on": "BA-202",
+        "bbox": [
+          3075.2,
+          1955.2,
+          3164.8,
+          2044.8
+        ]
+      },
+      {
+        "tag": "FIRC-210",
+        "function": "FIRC",
+        "located_on": "PA-203",
+        "bbox": [
+          3395.2,
+          1955.2,
+          3484.8,
+          2044.8
+        ]
+      },
+      {
+        "tag": "PIR-211",
+        "function": "PIR",
+        "located_on": "PA-204",
+        "bbox": [
+          3395.2,
+          2115.2,
+          3484.8,
+          2204.8
+        ]
+      },
+      {
+        "tag": "LIR-212",
+        "function": "LIR",
+        "located_on": "BA-203",
+        "bbox": [
+          3715.2,
+          1955.2,
+          3804.8,
+          2044.8
+        ]
+      },
+      {
+        "tag": "TIRC-213",
+        "function": "TIRC",
+        "located_on": "WA-202",
+        "bbox": [
+          4515.2,
+          1795.2,
+          4604.8,
+          1884.8
+        ]
+      },
+      {
+        "tag": "TIRC-214",
+        "function": "TIRC",
+        "located_on": "WA-203",
+        "bbox": [
+          4515.2,
+          2115.2,
+          4604.8,
+          2204.8
+        ]
+      },
+      {
+        "tag": "FIR-215",
+        "function": "FIR",
+        "located_on": "WA-202",
+        "bbox": [
+          4515.2,
+          2275.2,
+          4604.8,
+          2364.8
+        ]
+      },
+      {
+        "tag": "FIR-216",
+        "function": "FIR",
+        "located_on": "WA-203",
+        "bbox": [
+          4515.2,
+          2595.2,
+          4604.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "LIR-217",
+        "function": "LIR",
+        "located_on": "BA-204",
+        "bbox": [
+          4995.2,
+          1955.2,
+          5084.8,
+          2044.8
+        ]
+      },
+      {
+        "tag": "PIRC-301",
+        "function": "PIRC",
+        "located_on": "BA-301",
+        "bbox": [
+          515.2,
+          2755.2,
+          604.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "LIR-302",
+        "function": "LIR",
+        "located_on": "BA-301",
+        "bbox": [
+          995.2,
+          2755.2,
+          1084.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "PIRC-303",
+        "function": "PIRC",
+        "located_on": "KA-301",
+        "bbox": [
+          1315.2,
+          2755.2,
+          1404.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "TIR-304",
+        "function": "TIR",
+        "located_on": "KA-301",
+        "bbox": [
+          1315.2,
+          3075.2,
+          1404.8,
+          3164.8
+        ]
+      },
+      {
+        "tag": "PIR-305",
+        "function": "PIR",
+        "located_on": "KA-302",
+        "bbox": [
+          1315.2,
+          2915.2,
+          1404.8,
+          3004.8
+        ]
+      },
+      {
+        "tag": "TIR-306",
+        "function": "TIR",
+        "located_on": "WA-301",
+        "bbox": [
+          1795.2,
+          2595.2,
+          1884.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "LIRC-307",
+        "function": "LIRC",
+        "located_on": "BA-302",
+        "bbox": [
+          2275.2,
+          2755.2,
+          2364.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "PIR-308",
+        "function": "PIR",
+        "located_on": "BA-302",
+        "bbox": [
+          2755.2,
+          2755.2,
+          2844.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "FIRC-309",
+        "function": "FIRC",
+        "located_on": "PA-301",
+        "bbox": [
+          3075.2,
+          2755.2,
+          3164.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "LIRC-310",
+        "function": "LIRC",
+        "located_on": "BA-303",
+        "bbox": [
+          3555.2,
+          2595.2,
+          3644.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "TIRC-311",
+        "function": "TIRC",
+        "located_on": "WA-302",
+        "bbox": [
+          4355.2,
+          2435.2,
+          4444.8,
+          2524.8
+        ]
+      },
+      {
+        "tag": "PIR-312",
+        "function": "PIR",
+        "located_on": "BA-304",
+        "bbox": [
+          4995.2,
+          2755.2,
+          5084.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "LIR-313",
+        "function": "LIR",
+        "located_on": "BA-304",
+        "bbox": [
+          5475.2,
+          2755.2,
+          5564.8,
+          2844.8
+        ]
+      },
+      {
+        "tag": "TIR-314",
+        "function": "TIR",
+        "located_on": "WA-301",
+        "bbox": [
+          1795.2,
+          3075.2,
+          1884.8,
+          3164.8
+        ]
+      },
+      {
+        "tag": "FIR-315",
+        "function": "FIR",
+        "located_on": "BA-303",
+        "bbox": [
+          3555.2,
+          3075.2,
+          3644.8,
+          3164.8
+        ]
+      },
+      {
+        "tag": "PIR-316",
+        "function": "PIR",
+        "located_on": "BA-301",
+        "bbox": [
+          835.2,
+          2595.2,
+          924.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "TIR-317",
+        "function": "TIR",
+        "located_on": "WA-302",
+        "bbox": [
+          4355.2,
+          2915.2,
+          4444.8,
+          3004.8
+        ]
+      },
+      {
+        "tag": "TIR-518",
+        "function": "TIR",
+        "located_on": "BA-204",
+        "bbox": [
+          5475.2,
+          1955.2,
+          5564.8,
+          2044.8
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "line_no": "LR110.19-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-Sauggas",
+        "spec": "C22.8",
+        "from_tag": "KA-103",
+        "to_tag": "KA-101",
+        "geometry": [
+          [
+            5583.84,
+            400.0
+          ],
+          [
+            5520.0,
+            400.0
+          ],
+          [
+            5520.0,
+            880.0
+          ],
+          [
+            560.0,
+            880.0
+          ],
+          [
+            560.0,
+            400.0
+          ],
+          [
+            339.2,
+            400.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR206.35-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser-Rücklauf",
+        "spec": "P235",
+        "from_tag": "WA-201",
+        "to_tag": "KO-201",
+        "geometry": [
+          [
+            2380.7999999999997,
+            2071.68
+          ],
+          [
+            2320.0,
+            2000.0
+          ],
+          [
+            2320.0,
+            1360.0
+          ],
+          [
+            720.0,
+            1360.0
+          ],
+          [
+            640.0,
+            1299.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR214.47-DN150-SOL",
+        "size": "DN150",
+        "service": "Sole-Kälte",
+        "spec": "P265",
+        "from_tag": "WA-104",
+        "to_tag": "BA-203",
+        "geometry": [
+          [
+            4460.8,
+            648.32
+          ],
+          [
+            4400.0,
+            720.0
+          ],
+          [
+            4400.0,
+            2320.0
+          ],
+          [
+            4080.0,
+            2320.0
+          ],
+          [
+            4000.0,
+            2380.8
+          ]
+        ]
+      },
+      {
+        "line_no": "LR308.57-DN150-VAK",
+        "size": "DN150",
+        "service": "Abgas",
+        "spec": "1.4571",
+        "from_tag": "BA-302",
+        "to_tag": "WA-302",
+        "geometry": [
+          [
+            2560.0,
+            2739.2
+          ],
+          [
+            2640.0,
+            2800.0
+          ],
+          [
+            2640.0,
+            2640.0
+          ],
+          [
+            4240.0,
+            2640.0
+          ],
+          [
+            4240.0,
+            2800.0
+          ],
+          [
+            4400.0,
+            2800.0
+          ],
+          [
+            4339.2,
+            2720.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR201.30-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "KO-201",
+        "to_tag": "BA-201",
+        "geometry": [
+          [
+            640.0,
+            2700.8
+          ],
+          [
+            720.0,
+            2640.0
+          ],
+          [
+            880.0,
+            2640.0
+          ],
+          [
+            880.0,
+            2160.0
+          ],
+          [
+            1200.0,
+            2160.0
+          ],
+          [
+            1200.0,
+            2259.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR104.13-DN100-NH3",
+        "size": "DN100",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "BA-101",
+        "to_tag": "BA-102",
+        "geometry": [
+          [
+            2080.0,
+            780.8
+          ],
+          [
+            2160.0,
+            720.0
+          ],
+          [
+            2320.0,
+            720.0
+          ],
+          [
+            2320.0,
+            240.0
+          ],
+          [
+            2640.0,
+            240.0
+          ],
+          [
+            2640.0,
+            400.0
+          ],
+          [
+            2560.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR302.51-DN200-VAK",
+        "size": "DN200",
+        "service": "Vakuum-Sauggas",
+        "spec": "1.4571",
+        "from_tag": "BA-301",
+        "to_tag": "KA-302",
+        "geometry": [
+          [
+            800.0,
+            2739.2
+          ],
+          [
+            880.0,
+            2800.0
+          ],
+          [
+            1200.0,
+            2800.0
+          ],
+          [
+            1200.0,
+            3120.0
+          ],
+          [
+            1299.2,
+            3120.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR211.44-DN150-SOL",
+        "size": "DN150",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "PA-204",
+        "to_tag": "BA-203",
+        "geometry": [
+          [
+            3503.84,
+            2320.0
+          ],
+          [
+            3760.0,
+            2320.0
+          ],
+          [
+            3760.0,
+            1840.0
+          ],
+          [
+            4080.0,
+            1840.0
+          ],
+          [
+            4080.0,
+            2000.0
+          ],
+          [
+            4000.0,
+            1939.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR212.45-DN100-SOL",
+        "size": "DN100",
+        "service": "Sole-Vorlauf",
+        "spec": "P265",
+        "from_tag": "BA-203",
+        "to_tag": "WA-202",
+        "geometry": [
+          [
+            4000.0,
+            2380.8
+          ],
+          [
+            4080.0,
+            2320.0
+          ],
+          [
+            4240.0,
+            2320.0
+          ],
+          [
+            4240.0,
+            2000.0
+          ],
+          [
+            4560.0,
+            2000.0
+          ],
+          [
+            4499.2,
+            2023.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR107.16-DN150-NH3",
+        "size": "DN150",
+        "service": "NH3-Nassdampf",
+        "spec": "C22.8",
+        "from_tag": "BA-103",
+        "to_tag": "WA-104",
+        "geometry": [
+          [
+            3680.0,
+            780.8
+          ],
+          [
+            3760.0,
+            720.0
+          ],
+          [
+            4080.0,
+            720.0
+          ],
+          [
+            4080.0,
+            400.0
+          ],
+          [
+            4240.0,
+            400.0
+          ],
+          [
+            4179.2,
+            471.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR108.17-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-Sauggas",
+        "spec": "C22.8",
+        "from_tag": "WA-104",
+        "to_tag": "BA-104",
+        "geometry": [
+          [
+            4460.8,
+            471.68
+          ],
+          [
+            4400.0,
+            400.0
+          ],
+          [
+            4400.0,
+            240.0
+          ],
+          [
+            5200.0,
+            240.0
+          ],
+          [
+            5200.0,
+            720.0
+          ],
+          [
+            5040.0,
+            720.0
+          ],
+          [
+            4960.0,
+            780.8
+          ]
+        ]
+      },
+      {
+        "line_no": "LR207.40-DN200-SOL",
+        "size": "DN200",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "WA-201",
+        "to_tag": "BA-202",
+        "geometry": [
+          [
+            2380.7999999999997,
+            2248.32
+          ],
+          [
+            2320.0,
+            2320.0
+          ],
+          [
+            2640.0,
+            2320.0
+          ],
+          [
+            2640.0,
+            1840.0
+          ],
+          [
+            2960.0,
+            1840.0
+          ],
+          [
+            2960.0,
+            2000.0
+          ],
+          [
+            2880.0,
+            1939.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR202.31-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "BA-201",
+        "to_tag": "PA-201",
+        "geometry": [
+          [
+            1200.0,
+            2540.7999999999997
+          ],
+          [
+            1200.0,
+            2640.0
+          ],
+          [
+            1520.0,
+            2640.0
+          ],
+          [
+            1520.0,
+            2160.0
+          ],
+          [
+            1619.2,
+            2160.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR307.56-DN80-KON",
+        "size": "DN80",
+        "service": "Kondensat",
+        "spec": "P235",
+        "from_tag": "PA-301",
+        "to_tag": "BA-303",
+        "geometry": [
+          [
+            3183.84,
+            2960.0
+          ],
+          [
+            3120.0,
+            2960.0
+          ],
+          [
+            3120.0,
+            2480.0
+          ],
+          [
+            3760.0,
+            2480.0
+          ],
+          [
+            3760.0,
+            2739.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR208.41-DN200-SOL",
+        "size": "DN200",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "BA-202",
+        "to_tag": "PA-203",
+        "geometry": [
+          [
+            2880.0,
+            2380.8
+          ],
+          [
+            2960.0,
+            2320.0
+          ],
+          [
+            3280.0,
+            2320.0
+          ],
+          [
+            3280.0,
+            2160.0
+          ],
+          [
+            3379.2,
+            2160.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR301.50-DN200-VAK",
+        "size": "DN200",
+        "service": "Vakuum-Sauggas",
+        "spec": "1.4571",
+        "from_tag": "BA-301",
+        "to_tag": "KA-301",
+        "geometry": [
+          [
+            800.0,
+            2739.2
+          ],
+          [
+            880.0,
+            2800.0
+          ],
+          [
+            1360.0,
+            2800.0
+          ],
+          [
+            1360.0,
+            2960.0
+          ],
+          [
+            1299.2,
+            2960.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR306.55-DN80-KON",
+        "size": "DN80",
+        "service": "Kondensat",
+        "spec": "P235",
+        "from_tag": "BA-302",
+        "to_tag": "PA-301",
+        "geometry": [
+          [
+            2560.0,
+            3180.7999999999997
+          ],
+          [
+            2640.0,
+            3120.0
+          ],
+          [
+            3120.0,
+            3120.0
+          ],
+          [
+            3120.0,
+            2960.0
+          ],
+          [
+            3059.2,
+            2960.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR210.43-DN150-SOL",
+        "size": "DN150",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "PA-203",
+        "to_tag": "BA-203",
+        "geometry": [
+          [
+            3503.84,
+            2160.0
+          ],
+          [
+            3440.0,
+            2160.0
+          ],
+          [
+            3440.0,
+            1680.0
+          ],
+          [
+            4080.0,
+            1680.0
+          ],
+          [
+            4080.0,
+            2000.0
+          ],
+          [
+            4000.0,
+            1939.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR105.14-DN80-NH3",
+        "size": "DN80",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "BA-102",
+        "to_tag": "WA-103",
+        "geometry": [
+          [
+            2560.0,
+            780.8
+          ],
+          [
+            2640.0,
+            720.0
+          ],
+          [
+            2800.0,
+            720.0
+          ],
+          [
+            2800.0,
+            400.0
+          ],
+          [
+            2960.0,
+            400.0
+          ],
+          [
+            2899.2,
+            423.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR304.53-DN150-VAK",
+        "size": "DN150",
+        "service": "Vakuum-Abgas",
+        "spec": "1.4571",
+        "from_tag": "KA-302",
+        "to_tag": "WA-301",
+        "geometry": [
+          [
+            1423.84,
+            3120.0
+          ],
+          [
+            1680.0,
+            3120.0
+          ],
+          [
+            1680.0,
+            2800.0
+          ],
+          [
+            1840.0,
+            2800.0
+          ],
+          [
+            1779.2,
+            2823.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR203.32-DN300-KW",
+        "size": "DN300",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "BA-201",
+        "to_tag": "PA-202",
+        "geometry": [
+          [
+            1200.0,
+            2540.7999999999997
+          ],
+          [
+            1200.0,
+            2640.0
+          ],
+          [
+            1680.0,
+            2640.0
+          ],
+          [
+            1680.0,
+            2320.0
+          ],
+          [
+            1619.2,
+            2320.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR205.34-DN250-KW",
+        "size": "DN250",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "PA-202",
+        "to_tag": "WA-201",
+        "geometry": [
+          [
+            1743.84,
+            2320.0
+          ],
+          [
+            2000.0,
+            2320.0
+          ],
+          [
+            2000.0,
+            2000.0
+          ],
+          [
+            2160.0,
+            2000.0
+          ],
+          [
+            2099.2,
+            2071.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR106.15-DN80-NH3",
+        "size": "DN80",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "WA-103",
+        "to_tag": "BA-103",
+        "geometry": [
+          [
+            3180.7999999999997,
+            423.68
+          ],
+          [
+            3120.0,
+            400.0
+          ],
+          [
+            3120.0,
+            240.0
+          ],
+          [
+            3760.0,
+            240.0
+          ],
+          [
+            3760.0,
+            400.0
+          ],
+          [
+            3680.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR305.54-DN150-VAK",
+        "size": "DN150",
+        "service": "Vakuum-Abgas",
+        "spec": "1.4571",
+        "from_tag": "WA-301",
+        "to_tag": "BA-302",
+        "geometry": [
+          [
+            2060.8,
+            2823.68
+          ],
+          [
+            2000.0,
+            2800.0
+          ],
+          [
+            2000.0,
+            2640.0
+          ],
+          [
+            2640.0,
+            2640.0
+          ],
+          [
+            2640.0,
+            2800.0
+          ],
+          [
+            2560.0,
+            2739.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR209.42-DN200-SOL",
+        "size": "DN200",
+        "service": "Sole",
+        "spec": "P265",
+        "from_tag": "BA-202",
+        "to_tag": "PA-204",
+        "geometry": [
+          [
+            2880.0,
+            2380.8
+          ],
+          [
+            2960.0,
+            2320.0
+          ],
+          [
+            3379.2,
+            2320.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR109.18-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-Sauggas",
+        "spec": "C22.8",
+        "from_tag": "BA-104",
+        "to_tag": "KA-103",
+        "geometry": [
+          [
+            4960.0,
+            339.2
+          ],
+          [
+            5040.0,
+            400.0
+          ],
+          [
+            5459.2,
+            400.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR213.46-DN100-SOL",
+        "size": "DN100",
+        "service": "Sole-Vorlauf",
+        "spec": "P265",
+        "from_tag": "BA-203",
+        "to_tag": "WA-203",
+        "geometry": [
+          [
+            4000.0,
+            2380.8
+          ],
+          [
+            4080.0,
+            2320.0
+          ],
+          [
+            4080.0,
+            2480.0
+          ],
+          [
+            4400.0,
+            2480.0
+          ],
+          [
+            4400.0,
+            2320.0
+          ],
+          [
+            4560.0,
+            2320.0
+          ],
+          [
+            4499.2,
+            2343.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR309.58-DN150-VAK",
+        "size": "DN150",
+        "service": "Abgas",
+        "spec": "1.4571",
+        "from_tag": "WA-302",
+        "to_tag": "BA-304",
+        "geometry": [
+          [
+            4780.8,
+            2720.0
+          ],
+          [
+            4720.0,
+            2800.0
+          ],
+          [
+            5040.0,
+            2800.0
+          ],
+          [
+            5040.0,
+            2640.0
+          ],
+          [
+            5360.0,
+            2640.0
+          ],
+          [
+            5360.0,
+            2800.0
+          ],
+          [
+            5280.0,
+            2739.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR303.52-DN150-VAK",
+        "size": "DN150",
+        "service": "Vakuum-Abgas",
+        "spec": "1.4571",
+        "from_tag": "KA-301",
+        "to_tag": "WA-301",
+        "geometry": [
+          [
+            1423.84,
+            2960.0
+          ],
+          [
+            1520.0,
+            2960.0
+          ],
+          [
+            1520.0,
+            2800.0
+          ],
+          [
+            1840.0,
+            2800.0
+          ],
+          [
+            1779.2,
+            2823.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR204.33-DN250-KW",
+        "size": "DN250",
+        "service": "Kühlwasser",
+        "spec": "P235",
+        "from_tag": "PA-201",
+        "to_tag": "WA-201",
+        "geometry": [
+          [
+            1743.84,
+            2160.0
+          ],
+          [
+            1680.0,
+            2160.0
+          ],
+          [
+            1680.0,
+            1840.0
+          ],
+          [
+            2160.0,
+            1840.0
+          ],
+          [
+            2160.0,
+            2000.0
+          ],
+          [
+            2099.2,
+            2071.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR101.10-DN150-NH3",
+        "size": "DN150",
+        "service": "NH3-Heißgas",
+        "spec": "C22.8",
+        "from_tag": "KA-101",
+        "to_tag": "WA-101",
+        "geometry": [
+          [
+            463.84,
+            400.0
+          ],
+          [
+            400.0,
+            400.0
+          ],
+          [
+            400.0,
+            240.0
+          ],
+          [
+            880.0,
+            240.0
+          ],
+          [
+            880.0,
+            400.0
+          ],
+          [
+            819.2,
+            423.68
+          ]
+        ]
+      },
+      {
+        "line_no": "LR103.12-DN200-NH3",
+        "size": "DN200",
+        "service": "NH3-flüssig",
+        "spec": "C22.8",
+        "from_tag": "WA-102",
+        "to_tag": "BA-101",
+        "geometry": [
+          [
+            1740.8000000000002,
+            320.0
+          ],
+          [
+            1680.0,
+            400.0
+          ],
+          [
+            1840.0,
+            400.0
+          ],
+          [
+            1840.0,
+            240.0
+          ],
+          [
+            2160.0,
+            240.0
+          ],
+          [
+            2160.0,
+            400.0
+          ],
+          [
+            2080.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "LR111.20-DN50-NH3",
+        "size": "DN50",
+        "service": "NH3-Abblasung",
+        "spec": "C22.8",
+        "from_tag": "BA-101",
+        "to_tag": "SA-101",
+        "geometry": [
+          [
+            2080.0,
+            339.2
+          ],
+          [
+            2160.0,
+            400.0
+          ],
+          [
+            2160.0,
+            80.0
+          ],
+          [
+            2000.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR112.21-DN50-NH3",
+        "size": "DN50",
+        "service": "NH3-Abblasung",
+        "spec": "C22.8",
+        "from_tag": "BA-102",
+        "to_tag": "SA-102",
+        "geometry": [
+          [
+            2560.0,
+            339.2
+          ],
+          [
+            2640.0,
+            400.0
+          ],
+          [
+            2640.0,
+            80.0
+          ],
+          [
+            2480.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR113.22-DN50-NH3",
+        "size": "DN50",
+        "service": "NH3-Abblasung",
+        "spec": "C22.8",
+        "from_tag": "BA-103",
+        "to_tag": "SA-103",
+        "geometry": [
+          [
+            3680.0,
+            339.2
+          ],
+          [
+            3760.0,
+            400.0
+          ],
+          [
+            3920.0,
+            400.0
+          ],
+          [
+            3920.0,
+            80.0
+          ],
+          [
+            3600.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR215.48-DN50-SOL",
+        "size": "DN50",
+        "service": "Sole-Abblasung",
+        "spec": "P265",
+        "from_tag": "BA-202",
+        "to_tag": "SA-201",
+        "geometry": [
+          [
+            2880.0,
+            1939.2
+          ],
+          [
+            2960.0,
+            2000.0
+          ],
+          [
+            3120.0,
+            2000.0
+          ],
+          [
+            3120.0,
+            1680.0
+          ],
+          [
+            2800.0,
+            1680.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR310.59-DN50-VAK",
+        "size": "DN50",
+        "service": "Abgas-Abblasung",
+        "spec": "1.4571",
+        "from_tag": "BA-304",
+        "to_tag": "SA-302",
+        "geometry": [
+          [
+            5280.0,
+            2739.2
+          ],
+          [
+            5360.0,
+            2800.0
+          ],
+          [
+            5520.0,
+            2800.0
+          ],
+          [
+            5520.0,
+            2480.0
+          ],
+          [
+            5200.0,
+            2480.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR311.60-DN50-VAK",
+        "size": "DN50",
+        "service": "Abblasung",
+        "spec": "1.4571",
+        "from_tag": "BA-302",
+        "to_tag": "SA-301",
+        "geometry": [
+          [
+            2560.0,
+            2739.2
+          ],
+          [
+            2640.0,
+            2800.0
+          ],
+          [
+            2800.0,
+            2800.0
+          ],
+          [
+            2800.0,
+            2480.0
+          ],
+          [
+            2480.0,
+            2480.0
+          ]
+        ]
+      },
+      {
+        "line_no": "LR102.11-DN150-NH3",
+        "size": "DN150",
+        "service": "NH3-Heißgas",
+        "spec": "C22.8",
+        "from_tag": "WA-101",
+        "to_tag": "WA-102",
+        "geometry": [
+          [
+            1100.8000000000002,
+            423.68
+          ],
+          [
+            1040.0,
+            400.0
+          ],
+          [
+            1360.0,
+            400.0
+          ],
+          [
+            1299.2,
+            320.0
+          ]
+        ]
+      }
+    ]
+  },
+  "summary": "이 도면(02_din_kaelte)은 암모니아(NH3) 냉동 설비를 포함한 냉각 시스템 P&ID로, 냉매 배관·진공 라인·응축수 라인 등 다양한 서비스 계통을 다루고 있습니다. 추출 결과 장비 38개, 계장 53개, 배관 라인 39개, 연결 92개가 식별되었습니다. 자기수정 루프가 1회 실행되어 초기 추출 오류를 보정한 뒤 최종 결과가 확정되었으며, 최종 판정은 needs_correction입니다. ISA-5.1 룰 검증에서 총 3건의 이상이 발견되었고, 가장 중요한 것은 NH3 비상 수집 용기 BA-204에 안전 밸브(SA)가 할당되지 않은 고위험(high) 결함과, LR308.57-DN150-VAK 라인에서 DN200→DN150 구경 축소 시 스펙 전환 표기가 누락된 중위험(medium) 결함입니다. 추출된 모든 데이터는 BM25 및 Cohere Embed v4 기반 SearchIndex에 인덱싱되었고, AgentCore Memory에 크로스 세션으로 저장되어 현재 도면에 대한 자연어 질의가 즉시 가능합니다.",
+  "metrics": {
+    "equipment": 38,
+    "instruments": 53,
+    "lines": 39,
+    "connections": 92
+  },
+  "qa": [
+    {
+      "question": "이 도면에서 검출된 전체 장비·밸브·계장은 각각 몇 개인가요?",
+      "answer": "## 검출된 객체 수\n\n- 장비: **38개**\n- 계장(instrument): **53개**\n- 배관 라인: **39개**\n- 연결 관계: **92개**",
+      "sources": []
+    },
+    {
+      "question": "주요 계장(instrument)은 어떤 것들이 있나요?",
+      "answer": "## 주요 계장 목록 (drawing: 02_din_kaelte)\n\n검색된 문서에는 총 **53개의 계장(instrument)**이 확인되며, ISA 기능별로 분류하면 다음과 같습니다.\n\n---\n\n### 🔵 압력 계장 (P - Pressure)\n- **PIRC** (압력 지시·기록·제어): PIRC-101, PIRC-109, PIRC-301, PIRC-303\n- **PIR** (압력 지시·기록): PIR-103, PIR-106, PIR-112, PIR-116, PIR-118, PIR-204, PIR-205, PIR-209, PIR-211, PIR-305, PIR-308, PIR-312, PIR-316\n\n### 🔴 온도 계장 (T - Temperature)\n- **TIRC** (온도 지시·기록·제어): TIRC-105, TIRC-113, TIRC-206, TIRC-213, TIRC-214, TIRC-311\n- **TIR** (온도 지시·기록): TIR-102, TIR-104, TIR-110, TIR-201, TIR-207, TIR-304, TIR-306, TIR-314, TIR-317, TIR-518\n\n### 🟢 레벨 계장 (L - Level)\n- **LIRC** (레벨 지시·기록·제어): LIRC-107, LIRC-111, LIRC-202, LIRC-208, LIRC-307, LIRC-310\n- **LIR** (레벨 지시·기록): LIR-108, LIR-115, LIR-212, LIR-217, LIR-302, LIR-313\n\n### 🟡 유량 계장 (F - Flow)\n- **FIRC** (유량 지시·기록·제어): FIRC-117, FIRC-203, FIRC-210, FIRC-309\n- **FIR** (유량 지시·기록): FIR-114, FIR-215, FIR-216, FIR-315\n\n---\n\n> 모든 계장은 **drawing 02_din_kaelte** 기준이며, 제어 기능(C)이 포함된 계장(PIRC, TIRC, LIRC, FIRC)이 핵심 제어 루프를 구성합니다.",
+      "sources": [
+        {
+          "tag": "LIR-302",
+          "kind": "instrument",
+          "score": 0.559
+        },
+        {
+          "tag": "PIRC-301",
+          "kind": "instrument",
+          "score": 0.554
+        },
+        {
+          "tag": "TIR-304",
+          "kind": "instrument",
+          "score": 0.553
+        },
+        {
+          "tag": "TIR-306",
+          "kind": "instrument",
+          "score": 0.552
+        }
+      ]
+    },
+    {
+      "question": "이 도면의 안전밸브(SA)는 몇 개이고 어디에 있나요?",
+      "answer": "## 안전밸브 현황\n\n이 도면에는 안전밸브가 총 **6개** 있습니다.\n\n| 태그 | 보호 대상 / 서비스 |\n|------|------|\n| **SA-101** | BA-101 Sicherheitsventil |\n| **SA-102** | BA-102 Sicherheitsventil |\n| **SA-103** | BA-103 Sicherheitsventil |\n| **SA-201** | BA-202 Sicherheitsventil |\n| **SA-301** | BA-302 Sicherheitsventil |\n| **SA-302** | BA-304 Sicherheitsventil |",
+      "sources": [
+        {
+          "tag": "SA-101",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "SA-102",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "SA-103",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "SA-201",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "SA-301",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "SA-302",
+          "kind": "equipment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "question": "주요 배관 라인과 그 연결 관계를 알려주세요.",
+      "answer": "## 주요 배관 라인 및 연결 관계 (drawing 02_din_kaelte)\n\n아래와 같이 유체 서비스별로 주요 배관 라인과 연결 관계를 정리합니다.\n\n---\n\n### 🔵 NH3 계통 (암모니아)\n- **LR101.10** (DN150, NH3-Heißgas): KA-101 → WA-101\n- **LR102.11** (DN150, NH3-Heißgas): WA-101 → WA-102\n- **LR103.12** (DN200, NH3-flüssig): WA-102 → BA-101\n- **LR104.13** (DN100, NH3-flüssig): BA-101 → BA-102\n- **LR105.14** (DN80, NH3-flüssig): BA-102 → WA-103\n- **LR106.15** (DN80, NH3-flüssig): WA-103 → BA-103\n- **LR107.16** (DN150, NH3-Nassdampf): BA-103 → WA-104\n- **LR108.17** (DN200, NH3-Sauggas): WA-104 → BA-104\n- **LR109.18** (DN200, NH3-Sauggas): BA-104 → KA-103\n- **LR110.19** (DN200, NH3-Sauggas): KA-103 → KA-101\n\n> NH3 Abblasung(안전 배출): BA-101→SA-101, BA-102→SA-102, BA-103→SA-103\n\n---\n\n### 🟡 냉각수 계통 (Kühlwasser)\n- **LR201.30** (DN300): KO-201 → BA-201\n- **LR202.31** (DN300): BA-201 → PA-201\n- **LR203.32** (DN300): BA-201 → PA-202\n- **LR204.33** (DN250): PA-201 → WA-201\n- **LR205.34** (DN250): PA-202 → WA-201\n- **LR206.35** (DN300, 냉각수 리턴): WA-201 → KO-201\n\n---\n\n### 🟢 Sole 계통 (염수/냉매)\n- **LR207.40** (DN200): WA-201 → BA-202\n- **LR208.41** (DN200): BA-202 → PA-203\n- **LR209.42** (DN200): BA-202 → PA-204\n- **LR210.43** (DN150): PA-203 → BA-203\n- **LR211.44** (DN150): PA-204 → BA-203\n- **LR212.45** (DN100, Sole-Vorlauf): BA-203 → WA-202\n- **LR213.46** (DN100, Sole-Vorlauf): BA-203 → WA-203\n- **LR214.47** (DN150, Sole-Kälte): WA-104 → BA-203\n\n---\n\n### 🔴 진공(Vakuum) 계통\n- **LR301.50** (DN200): BA-301 → KA-301\n- **LR302.51** (DN200): BA-301 → KA-302\n- **LR303.52** (DN150, Vakuum-Abgas): KA-301 → WA-301\n- **LR304.53** (DN150, Vakuum-Abgas): KA-302 → WA-301\n- **LR305.54** (DN150): WA-301 → BA-302\n- **LR308.57** (DN150, Abgas): BA-302 → WA-302\n- **LR309.58** (DN150, Abgas): WA-302 → BA-304\n- **LR310.59**",
+      "sources": [
+        {
+          "tag": "LR309.58-DN150-VAK",
+          "kind": "line",
+          "score": 0.221
+        },
+        {
+          "tag": "LR306.55-DN80-KON",
+          "kind": "line",
+          "score": 0.22
+        },
+        {
+          "tag": "LR307.56-DN80-KON",
+          "kind": "line",
+          "score": 0.22
+        },
+        {
+          "tag": "LR310.59-DN50-VAK",
+          "kind": "line",
+          "score": 0.217
+        }
+      ]
+    },
+    {
+      "question": "이 냉각·진공 설비의 핵심 장비는 무엇인가요?",
+      "answer": "## 냉각·진공 설비(drawing 02_din_kaelte)의 핵심 장비\n\n이 도면은 **암모니아 냉동 사이클**, **냉각수 순환**, **진공 시스템**, **브라인(염수) 냉각** 네 개의 주요 서브시스템으로 구성되며, 핵심 장비는 다음과 같습니다:\n\n### 🔵 암모니아 냉동 사이클\n- **KA-101** – NH3 압축기 1단 (NH3-Verdichter 1. Stufe)\n- **KA-102** – NH3 압축기 2단 (NH3-Verdichter 2. Stufe)\n- **WA-102** – NH3 응축기/공냉식 콘덴서 (NH3-Verflüssiger)\n- **WA-104** – NH3 증발기/브라인 냉각기 (NH3-Verdampfer / Sole)\n- **BA-101** – 고압 집합기 (Hochdruck-Sammler)\n\n### 🟢 냉각수 순환\n- **KO-201** – 냉각탑 (Kühlturm/Rückkühlwerk)\n- **WA-201** – 냉각수/브라인 판형 열교환기 (Plattenwärmetauscher KW/Sole)\n- **PA-201 / PA-202** – 냉각수 펌프 1·2호기\n\n### 🟡 진공 시스템\n- **KA-301 / KA-302** – 진공 펌프 1·2호기 (Vakuumpumpe)\n- **BA-301** – 진공 예비 분리기 (Vakuum-Vorabscheider)\n- **WA-301** – 진공 가스 중간 냉각기 (Zwischenkühler Vakuum)\n\n### 🟠 브라인(Sole) 냉각\n- **WA-202 / WA-203** – 브라인 냉각기 소비처 A·B (Sole-Kühler Verbraucher A/B)\n- **BA-203** – 브라인 분배기 (Sole-Verteiler)",
+      "sources": [
+        {
+          "tag": "LR202.31-DN300-KW",
+          "kind": "line",
+          "score": 0.226
+        },
+        {
+          "tag": "LR206.35-DN300-KW",
+          "kind": "line",
+          "score": 0.225
+        },
+        {
+          "tag": "LR201.30-DN300-KW",
+          "kind": "line",
+          "score": 0.225
+        },
+        {
+          "tag": "WA-102",
+          "kind": "equipment",
+          "score": 0.221
+        }
+      ]
+    }
+  ],
+  "frozen_at": "2026-06-02T21:53:11"
+}

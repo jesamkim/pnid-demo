@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10000 3800" width="10000" height="3800">
+<rect width="10000" height="3800" fill="white" />
+<path d="M 5583.84 400.0 L 5520.0 400.0 L 5520.0 880.0 L 560.0 880.0 L 560.0 400.0 L 339.2 400.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2961.52" y="392.0" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR110.19-DN200-NH3</text>
+<path d="M 2380.7999999999997 2071.68 L 2320.0 2000.0 L 2320.0 1360.0 L 720.0 1360.0 L 640.0 1299.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1510.3999999999999" y="1677.44" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR206.35-DN300-KW</text>
+<path d="M 4460.8 648.32 L 4400.0 720.0 L 4400.0 2320.0 L 4080.0 2320.0 L 4000.0 2380.8" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="4230.4" y="1506.5600000000002" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR214.47-DN150-SOL</text>
+<path d="M 2560.0 2739.2 L 2640.0 2800.0 L 2640.0 2640.0 L 4240.0 2640.0 L 4240.0 2800.0 L 4400.0 2800.0 L 4339.2 2720.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3449.6" y="2721.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR308.57-DN150-VAK</text>
+<path d="M 640.0 2700.8 L 720.0 2640.0 L 880.0 2640.0 L 880.0 2160.0 L 1200.0 2160.0 L 1200.0 2259.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="920.0" y="2472.0" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR201.30-DN300-KW</text>
+<path d="M 2080.0 780.8 L 2160.0 720.0 L 2320.0 720.0 L 2320.0 240.0 L 2640.0 240.0 L 2640.0 400.0 L 2560.0 339.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2320.0" y="552.0" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR104.13-DN100-NH3</text>
+<path d="M 800.0 2739.2 L 880.0 2800.0 L 1200.0 2800.0 L 1200.0 3120.0 L 1299.2 3120.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1049.6" y="2921.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR302.51-DN200-VAK</text>
+<path d="M 3503.84 2320.0 L 3760.0 2320.0 L 3760.0 1840.0 L 4080.0 1840.0 L 4080.0 2000.0 L 4000.0 1939.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3751.92" y="2121.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR211.44-DN150-SOL</text>
+<path d="M 4000.0 2380.8 L 4080.0 2320.0 L 4240.0 2320.0 L 4240.0 2000.0 L 4560.0 2000.0 L 4499.2 2023.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="4249.6" y="2194.2400000000002" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR212.45-DN100-SOL</text>
+<path d="M 3680.0 780.8 L 3760.0 720.0 L 4080.0 720.0 L 4080.0 400.0 L 4240.0 400.0 L 4179.2 471.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3929.6" y="618.24" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR107.16-DN150-NH3</text>
+<path d="M 4460.8 471.68 L 4400.0 400.0 L 4400.0 240.0 L 5200.0 240.0 L 5200.0 720.0 L 5040.0 720.0 L 4960.0 780.8" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="4710.4" y="618.24" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR108.17-DN200-NH3</text>
+<path d="M 2380.7999999999997 2248.32 L 2320.0 2320.0 L 2640.0 2320.0 L 2640.0 1840.0 L 2960.0 1840.0 L 2960.0 2000.0 L 2880.0 1939.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2630.3999999999996" y="2085.76" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR207.40-DN200-SOL</text>
+<path d="M 1200.0 2540.7999999999997 L 1200.0 2640.0 L 1520.0 2640.0 L 1520.0 2160.0 L 1619.2 2160.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1409.6" y="2342.3999999999996" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR202.31-DN300-KW</text>
+<path d="M 3183.84 2960.0 L 3120.0 2960.0 L 3120.0 2480.0 L 3760.0 2480.0 L 3760.0 2739.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3471.92" y="2841.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR307.56-DN80-KON</text>
+<path d="M 2880.0 2380.8 L 2960.0 2320.0 L 3280.0 2320.0 L 3280.0 2160.0 L 3379.2 2160.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3129.6" y="2262.4" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR208.41-DN200-SOL</text>
+<path d="M 800.0 2739.2 L 880.0 2800.0 L 1360.0 2800.0 L 1360.0 2960.0 L 1299.2 2960.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1049.6" y="2841.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR301.50-DN200-VAK</text>
+<path d="M 2560.0 3180.7999999999997 L 2640.0 3120.0 L 3120.0 3120.0 L 3120.0 2960.0 L 3059.2 2960.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2809.6" y="3062.3999999999996" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR306.55-DN80-KON</text>
+<path d="M 3503.84 2160.0 L 3440.0 2160.0 L 3440.0 1680.0 L 4080.0 1680.0 L 4080.0 2000.0 L 4000.0 1939.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3751.92" y="2041.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR210.43-DN150-SOL</text>
+<path d="M 2560.0 780.8 L 2640.0 720.0 L 2800.0 720.0 L 2800.0 400.0 L 2960.0 400.0 L 2899.2 423.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2729.6" y="594.24" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR105.14-DN80-NH3</text>
+<path d="M 1423.84 3120.0 L 1680.0 3120.0 L 1680.0 2800.0 L 1840.0 2800.0 L 1779.2 2823.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1601.52" y="2963.84" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR304.53-DN150-VAK</text>
+<path d="M 1200.0 2540.7999999999997 L 1200.0 2640.0 L 1680.0 2640.0 L 1680.0 2320.0 L 1619.2 2320.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1409.6" y="2422.3999999999996" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR203.32-DN300-KW</text>
+<path d="M 1743.84 2320.0 L 2000.0 2320.0 L 2000.0 2000.0 L 2160.0 2000.0 L 2099.2 2071.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1921.52" y="2187.84" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR205.34-DN250-KW</text>
+<path d="M 3180.7999999999997 423.68 L 3120.0 400.0 L 3120.0 240.0 L 3760.0 240.0 L 3760.0 400.0 L 3680.0 339.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3430.3999999999996" y="373.44" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR106.15-DN80-NH3</text>
+<path d="M 2060.8 2823.68 L 2000.0 2800.0 L 2000.0 2640.0 L 2640.0 2640.0 L 2640.0 2800.0 L 2560.0 2739.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2310.4" y="2773.4399999999996" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR305.54-DN150-VAK</text>
+<path d="M 2880.0 2380.8 L 2960.0 2320.0 L 3379.2 2320.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3129.6" y="2342.4" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR209.42-DN200-SOL</text>
+<path d="M 4960.0 339.2 L 5040.0 400.0 L 5459.2 400.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="5209.6" y="361.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR109.18-DN200-NH3</text>
+<path d="M 4000.0 2380.8 L 4080.0 2320.0 L 4080.0 2480.0 L 4400.0 2480.0 L 4400.0 2320.0 L 4560.0 2320.0 L 4499.2 2343.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="4249.6" y="2354.24" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR213.46-DN100-SOL</text>
+<path d="M 4780.8 2720.0 L 4720.0 2800.0 L 5040.0 2800.0 L 5040.0 2640.0 L 5360.0 2640.0 L 5360.0 2800.0 L 5280.0 2739.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="5030.4" y="2721.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR309.58-DN150-VAK</text>
+<path d="M 1423.84 2960.0 L 1520.0 2960.0 L 1520.0 2800.0 L 1840.0 2800.0 L 1779.2 2823.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1601.52" y="2883.84" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR303.52-DN150-VAK</text>
+<path d="M 1743.84 2160.0 L 1680.0 2160.0 L 1680.0 1840.0 L 2160.0 1840.0 L 2160.0 2000.0 L 2099.2 2071.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1921.52" y="2107.84" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR204.33-DN250-KW</text>
+<path d="M 463.84 400.0 L 400.0 400.0 L 400.0 240.0 L 880.0 240.0 L 880.0 400.0 L 819.2 423.68" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="641.52" y="403.84000000000003" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR101.10-DN150-NH3</text>
+<path d="M 1740.8000000000002 320.0 L 1680.0 400.0 L 1840.0 400.0 L 1840.0 240.0 L 2160.0 240.0 L 2160.0 400.0 L 2080.0 339.2" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1910.4" y="321.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR103.12-DN200-NH3</text>
+<path d="M 2080.0 339.2 L 2160.0 400.0 L 2160.0 80.0 L 2000.0 80.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2040.0" y="201.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR111.20-DN50-NH3</text>
+<path d="M 2560.0 339.2 L 2640.0 400.0 L 2640.0 80.0 L 2480.0 80.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2520.0" y="201.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR112.21-DN50-NH3</text>
+<path d="M 3680.0 339.2 L 3760.0 400.0 L 3920.0 400.0 L 3920.0 80.0 L 3600.0 80.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="3640.0" y="201.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR113.22-DN50-NH3</text>
+<path d="M 2880.0 1939.2 L 2960.0 2000.0 L 3120.0 2000.0 L 3120.0 1680.0 L 2800.0 1680.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2840.0" y="1801.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR215.48-DN50-SOL</text>
+<path d="M 5280.0 2739.2 L 5360.0 2800.0 L 5520.0 2800.0 L 5520.0 2480.0 L 5200.0 2480.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="5240.0" y="2601.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR310.59-DN50-VAK</text>
+<path d="M 2560.0 2739.2 L 2640.0 2800.0 L 2800.0 2800.0 L 2800.0 2480.0 L 2480.0 2480.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="2520.0" y="2601.6" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR311.60-DN50-VAK</text>
+<path d="M 1100.8000000000002 423.68 L 1040.0 400.0 L 1360.0 400.0 L 1299.2 320.0" fill="none" stroke="#0d0d0d" stroke-width="5.0" />
+<text x="1200.0" y="363.84000000000003" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#444">LR102.11-DN150-NH3</text>
+
+<g>
+  <circle cx="400.0" cy="400.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 339.2 400.0 L 400.0 339.2 L 463.84 400.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="400.0" y="478.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">KA-101</text>
+</g>
+
+<g>
+  <circle cx="400.0" cy="560.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 339.2 560.0 L 400.0 499.2 L 463.84 560.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="400.0" y="638.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">KA-102</text>
+</g>
+
+<g>
+  <rect x="819.2" y="339.2" width="281.6" height="281.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" rx="6" />
+  <line x1="852.9920000000001" y1="339.2" x2="852.9920000000001" y2="620.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="1067.008" y1="339.2" x2="1067.008" y2="620.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="960.0" y="485.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-101</text>
+</g>
+
+<g>
+  <rect x="1299.2" y="179.2" width="441.6" height="281.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <circle cx="1431.68" cy="320.0" r="84.48" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <circle cx="1608.3200000000002" cy="320.0" r="84.48" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="1372.544" y1="260.86400000000003" x2="1490.816" y2="379.13599999999997" stroke="#0d0d0d" stroke-width="1.4" />
+  <line x1="1490.816" y1="260.86400000000003" x2="1372.544" y2="379.13599999999997" stroke="#0d0d0d" stroke-width="1.4" />
+  <line x1="1549.1840000000002" y1="260.86400000000003" x2="1667.4560000000001" y2="379.13599999999997" stroke="#0d0d0d" stroke-width="1.4" />
+  <line x1="1667.4560000000001" y1="260.86400000000003" x2="1549.1840000000002" y2="379.13599999999997" stroke="#0d0d0d" stroke-width="1.4" />
+  <text x="1520.0" y="478.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-102</text>
+</g>
+
+<g>
+  <path d="M 1939.2 392.192
+           A 140.8 52.992 0 0 1 2220.8 392.192
+           L 2220.8 727.808
+           A 140.8 52.992 0 0 1 1939.2 727.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2080.0" y="565.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-101</text>
+</g>
+
+<g>
+  <path d="M 1973.76 80.0 L 2026.24 80.0 L 2000.0 36.266666666666666 Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2000.0" y1="36.266666666666666" x2="2000.0" y2="10.026666666666657" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="1982.5066666666667" y1="10.026666666666657" x2="2017.4933333333333" y2="10.026666666666657" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2030.6133333333332" y="66.88" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">SA-101</text>
+</g>
+
+<g>
+  <path d="M 2419.2 392.192
+           A 140.8 52.992 0 0 1 2700.7999999999997 392.192
+           L 2700.7999999999997 727.808
+           A 140.8 52.992 0 0 1 2419.2 727.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2560.0" y="565.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-102</text>
+</g>
+
+<g>
+  <path d="M 2453.76 80.0 L 2506.24 80.0 L 2480.0 36.266666666666666 Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2480.0" y1="36.266666666666666" x2="2480.0" y2="10.026666666666657" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2462.5066666666667" y1="10.026666666666657" x2="2497.4933333333333" y2="10.026666666666657" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2510.6133333333332" y="66.88" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">SA-102</text>
+</g>
+
+<g>
+  <rect x="2899.2" y="339.2" width="281.6" height="281.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" rx="6" />
+  <line x1="2932.9919999999997" y1="339.2" x2="2932.9919999999997" y2="620.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="3147.008" y1="339.2" x2="3147.008" y2="620.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="3040.0" y="485.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-103</text>
+</g>
+
+<g>
+  <path d="M 3539.2 392.192
+           A 140.8 52.992 0 0 1 3820.7999999999997 392.192
+           L 3820.7999999999997 727.808
+           A 140.8 52.992 0 0 1 3539.2 727.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="3680.0" y="565.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-103</text>
+</g>
+
+<g>
+  <path d="M 3573.76 80.0 L 3626.24 80.0 L 3600.0 36.266666666666666 Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="3600.0" y1="36.266666666666666" x2="3600.0" y2="10.026666666666657" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="3582.5066666666667" y1="10.026666666666657" x2="3617.4933333333333" y2="10.026666666666657" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="3630.6133333333332" y="66.88" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">SA-103</text>
+</g>
+
+<g>
+  <rect x="4179.2" y="339.2" width="281.6" height="441.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" rx="6" />
+  <line x1="4212.992" y1="339.2" x2="4212.992" y2="780.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="4427.008" y1="339.2" x2="4427.008" y2="780.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="4320.0" y="565.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-104</text>
+</g>
+
+<g>
+  <path d="M 4819.2 392.192
+           A 140.8 52.992 0 0 1 5100.8 392.192
+           L 5100.8 727.808
+           A 140.8 52.992 0 0 1 4819.2 727.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="4960.0" y="565.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-104</text>
+</g>
+
+<g>
+  <circle cx="5520.0" cy="400.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 5459.2 400.0 L 5520.0 339.2 L 5583.84 400.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="5520.0" y="478.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">KA-103</text>
+</g>
+
+<g>
+  <path d="M 499.2 1355.2640000000001
+           A 140.8 56.064 0 0 1 780.8 1355.2640000000001
+           L 780.8 2644.736
+           A 140.8 56.064 0 0 1 499.2 2644.736
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="527.36" y1="1585.7493333333334" x2="752.64" y2="1585.7493333333334" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="527.36" y1="1704.1066666666668" x2="752.64" y2="1704.1066666666668" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="527.36" y1="1822.464" x2="752.64" y2="1822.464" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="527.36" y1="1940.8213333333333" x2="752.64" y2="1940.8213333333333" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="527.36" y1="2059.1786666666667" x2="752.64" y2="2059.1786666666667" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="527.36" y1="2177.536" x2="752.64" y2="2177.536" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="527.36" y1="2295.8933333333334" x2="752.64" y2="2295.8933333333334" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="527.36" y1="2414.250666666667" x2="752.64" y2="2414.250666666667" stroke="#0d0d0d" stroke-width="1" />
+  
+  <text x="640.0" y="2005.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">KO-201</text>
+</g>
+
+<g>
+  <path d="M 979.2 2292.9919999999997
+           A 220.8 33.792 0 0 1 1420.8000000000002 2292.9919999999997
+           L 1420.8000000000002 2507.008
+           A 220.8 33.792 0 0 1 979.2 2507.008
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="1200.0" y="2405.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-201</text>
+</g>
+
+<g>
+  <circle cx="1680.0" cy="2160.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 1619.2 2160.0 L 1680.0 2099.2 L 1743.84 2160.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="1680.0" y="2238.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PA-201</text>
+</g>
+
+<g>
+  <circle cx="1680.0" cy="2320.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 1619.2 2320.0 L 1680.0 2259.2 L 1743.84 2320.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="1680.0" y="2398.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PA-202</text>
+</g>
+
+<g>
+  <rect x="2099.2" y="1939.2" width="281.6" height="441.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" rx="6" />
+  <line x1="2132.9919999999997" y1="1939.2" x2="2132.9919999999997" y2="2380.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2347.008" y1="1939.2" x2="2347.008" y2="2380.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2240.0" y="2165.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-201</text>
+</g>
+
+<g>
+  <path d="M 2739.2 1992.192
+           A 140.8 52.992 0 0 1 3020.7999999999997 1992.192
+           L 3020.7999999999997 2327.808
+           A 140.8 52.992 0 0 1 2739.2 2327.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2880.0" y="2165.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-202</text>
+</g>
+
+<g>
+  <path d="M 2773.76 1680.0 L 2826.24 1680.0 L 2800.0 1636.2666666666667 Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2800.0" y1="1636.2666666666667" x2="2800.0" y2="1610.0266666666666" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2782.5066666666667" y1="1610.0266666666666" x2="2817.4933333333333" y2="1610.0266666666666" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2830.6133333333332" y="1666.88" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">SA-201</text>
+</g>
+
+<g>
+  <circle cx="3440.0" cy="2160.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 3379.2 2160.0 L 3440.0 2099.2 L 3503.84 2160.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="3440.0" y="2238.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PA-203</text>
+</g>
+
+<g>
+  <circle cx="3440.0" cy="2320.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 3379.2 2320.0 L 3440.0 2259.2 L 3503.84 2320.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="3440.0" y="2398.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PA-204</text>
+</g>
+
+<g>
+  <path d="M 3859.2 1992.192
+           A 140.8 52.992 0 0 1 4140.8 1992.192
+           L 4140.8 2327.808
+           A 140.8 52.992 0 0 1 3859.2 2327.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="4000.0" y="2165.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-203</text>
+</g>
+
+<g>
+  <rect x="4499.2" y="1939.2" width="281.6" height="281.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" rx="6" />
+  <line x1="4532.992" y1="1939.2" x2="4532.992" y2="2220.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="4747.008" y1="1939.2" x2="4747.008" y2="2220.8" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="4640.0" y="2085.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-202</text>
+</g>
+
+<g>
+  <rect x="4499.2" y="2259.2" width="281.6" height="281.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" rx="6" />
+  <line x1="4532.992" y1="2259.2" x2="4532.992" y2="2540.7999999999997" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="4747.008" y1="2259.2" x2="4747.008" y2="2540.7999999999997" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="4640.0" y="2405.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-203</text>
+</g>
+
+<g>
+  <path d="M 5139.2 1992.192
+           A 140.8 52.992 0 0 1 5420.8 1992.192
+           L 5420.8 2327.808
+           A 140.8 52.992 0 0 1 5139.2 2327.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="5280.0" y="2165.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-204</text>
+</g>
+
+<g>
+  <path d="M 659.2 2792.192
+           A 140.8 52.992 0 0 1 940.8000000000001 2792.192
+           L 940.8000000000001 3127.808
+           A 140.8 52.992 0 0 1 659.2 3127.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="800.0" y="2965.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-301</text>
+</g>
+
+<g>
+  <circle cx="1360.0" cy="2960.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 1299.2 2960.0 L 1360.0 2899.2 L 1423.84 2960.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="1360.0" y="3038.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">KA-301</text>
+</g>
+
+<g>
+  <circle cx="1360.0" cy="3120.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 1299.2 3120.0 L 1360.0 3059.2 L 1423.84 3120.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="1360.0" y="3198.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">KA-302</text>
+</g>
+
+<g>
+  <rect x="1779.2" y="2739.2" width="281.6" height="281.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" rx="6" />
+  <line x1="1812.992" y1="2739.2" x2="1812.992" y2="3020.7999999999997" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2027.008" y1="2739.2" x2="2027.008" y2="3020.7999999999997" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="1920.0" y="2885.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-301</text>
+</g>
+
+<g>
+  <path d="M 2419.2 2792.192
+           A 140.8 52.992 0 0 1 2700.7999999999997 2792.192
+           L 2700.7999999999997 3127.808
+           A 140.8 52.992 0 0 1 2419.2 3127.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2560.0" y="2965.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-302</text>
+</g>
+
+<g>
+  <path d="M 2453.76 2480.0 L 2506.24 2480.0 L 2480.0 2436.266666666667 Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2480.0" y1="2436.266666666667" x2="2480.0" y2="2410.0266666666666" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="2462.5066666666667" y1="2410.0266666666666" x2="2497.4933333333333" y2="2410.0266666666666" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="2510.6133333333332" y="2466.88" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">SA-301</text>
+</g>
+
+<g>
+  <circle cx="3120.0" cy="2960.0" r="60.8" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <path d="M 3059.2 2960.0 L 3120.0 2899.2 L 3183.84 2960.0 Z" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="3120.0" y="3038.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PA-301</text>
+</g>
+
+<g>
+  <path d="M 3539.2 2772.9919999999997
+           A 220.8 33.792 0 0 1 3980.7999999999997 2772.9919999999997
+           L 3980.7999999999997 2987.008
+           A 220.8 33.792 0 0 1 3539.2 2987.008
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="3760.0" y="2885.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-303</text>
+</g>
+
+<g>
+  <rect x="4339.2" y="2579.2" width="441.6" height="281.6"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <circle cx="4471.679999999999" cy="2720.0" r="84.48" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <circle cx="4648.32" cy="2720.0" r="84.48" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="4412.543999999999" y1="2660.864" x2="4530.816" y2="2779.136" stroke="#0d0d0d" stroke-width="1.4" />
+  <line x1="4530.816" y1="2660.864" x2="4412.543999999999" y2="2779.136" stroke="#0d0d0d" stroke-width="1.4" />
+  <line x1="4589.183999999999" y1="2660.864" x2="4707.456" y2="2779.136" stroke="#0d0d0d" stroke-width="1.4" />
+  <line x1="4707.456" y1="2660.864" x2="4589.183999999999" y2="2779.136" stroke="#0d0d0d" stroke-width="1.4" />
+  <text x="4560.0" y="2878.7999999999997" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">WA-302</text>
+</g>
+
+<g>
+  <path d="M 5139.2 2792.192
+           A 140.8 52.992 0 0 1 5420.8 2792.192
+           L 5420.8 3127.808
+           A 140.8 52.992 0 0 1 5139.2 3127.808
+           Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="5280.0" y="2965.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">BA-304</text>
+</g>
+
+<g>
+  <path d="M 5173.76 2480.0 L 5226.24 2480.0 L 5200.0 2436.266666666667 Z"
+        fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="5200.0" y1="2436.266666666667" x2="5200.0" y2="2410.0266666666666" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="5182.506666666667" y1="2410.0266666666666" x2="5217.493333333333" y2="2410.0266666666666" stroke="#0d0d0d" stroke-width="4.0" />
+  <text x="5230.613333333334" y="2466.88" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">SA-302</text>
+</g>
+
+<g>
+  <circle cx="400.0" cy="240.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="355.2" y1="240.0" x2="444.8" y2="240.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="400.0" y="237.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIRC</text>
+  <text x="400.0" y="264.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">101</text>
+</g>
+<path d="M 400.0 240.0 L 401.52 240.0 L 401.52 400.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="400.0" cy="560.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="355.2" y1="560.0" x2="444.8" y2="560.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="400.0" y="557.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="400.0" y="584.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">102</text>
+</g>
+<path d="M 400.0 560.0 L 401.52 560.0 L 401.52 400.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="400.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="355.2" y1="400.0" x2="444.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="400.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="400.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">103</text>
+</g>
+<path d="M 400.0 400.0 L 401.52 400.0 L 401.52 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="880.0" cy="240.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="835.2" y1="240.0" x2="924.8" y2="240.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="880.0" y="237.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="880.0" y="264.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">104</text>
+</g>
+<path d="M 880.0 240.0 L 960.0000000000001 240.0 L 960.0000000000001 480.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1360.0" cy="80.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1315.2" y1="80.0" x2="1404.8" y2="80.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1360.0" y="77.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIRC</text>
+  <text x="1360.0" y="104.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">105</text>
+</g>
+<path d="M 1360.0 80.0 L 1520.0 80.0 L 1520.0 330.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1840.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1795.2" y1="400.0" x2="1884.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1840.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="1840.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">106</text>
+</g>
+<path d="M 1840.0 400.0 L 2080.0 400.0 L 2080.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2320.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2275.2" y1="400.0" x2="2364.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2320.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIRC</text>
+  <text x="2320.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">107</text>
+</g>
+<path d="M 2320.0 400.0 L 2080.0 400.0 L 2080.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2320.0" cy="560.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2275.2" y1="560.0" x2="2364.8" y2="560.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2320.0" y="557.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIR</text>
+  <text x="2320.0" y="584.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">108</text>
+</g>
+<path d="M 2320.0 560.0 L 2560.0 560.0 L 2560.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2800.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2755.2" y1="400.0" x2="2844.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2800.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIRC</text>
+  <text x="2800.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">109</text>
+</g>
+<path d="M 2800.0 400.0 L 2560.0 400.0 L 2560.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2960.0" cy="240.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2915.2" y1="240.0" x2="3004.8" y2="240.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2960.0" y="237.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="2960.0" y="264.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">110</text>
+</g>
+<path d="M 2960.0 240.0 L 3040.0 240.0 L 3040.0 480.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3440.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3395.2" y1="400.0" x2="3484.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3440.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIRC</text>
+  <text x="3440.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">111</text>
+</g>
+<path d="M 3440.0 400.0 L 3680.0 400.0 L 3680.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3920.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3875.2" y1="400.0" x2="3964.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3920.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="3920.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">112</text>
+</g>
+<path d="M 3920.0 400.0 L 3680.0 400.0 L 3680.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4240.0" cy="240.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4195.2" y1="240.0" x2="4284.8" y2="240.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4240.0" y="237.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIRC</text>
+  <text x="4240.0" y="264.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">113</text>
+</g>
+<path d="M 4240.0 240.0 L 4320.0 240.0 L 4320.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4240.0" cy="880.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4195.2" y1="880.0" x2="4284.8" y2="880.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4240.0" y="877.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIR</text>
+  <text x="4240.0" y="904.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">114</text>
+</g>
+<path d="M 4240.0 880.0 L 4320.0 880.0 L 4320.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4720.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4675.2" y1="400.0" x2="4764.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4720.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIR</text>
+  <text x="4720.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">115</text>
+</g>
+<path d="M 4720.0 400.0 L 4960.0 400.0 L 4960.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="5200.0" cy="400.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="5155.2" y1="400.0" x2="5244.8" y2="400.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="5200.0" y="397.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="5200.0" y="424.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">116</text>
+</g>
+<path d="M 5200.0 400.0 L 4960.0 400.0 L 4960.0 560.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="5520.0" cy="240.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="5475.2" y1="240.0" x2="5564.8" y2="240.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="5520.0" y="237.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIRC</text>
+  <text x="5520.0" y="264.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">117</text>
+</g>
+<path d="M 5520.0 240.0 L 5521.52 240.0 L 5521.52 400.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="5520.0" cy="560.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="5475.2" y1="560.0" x2="5564.8" y2="560.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="5520.0" y="557.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="5520.0" y="584.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">118</text>
+</g>
+<path d="M 5520.0 560.0 L 5521.52 560.0 L 5521.52 400.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="560.0" cy="1200.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="515.2" y1="1200.0" x2="604.8" y2="1200.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="560.0" y="1197.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="560.0" y="1224.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">201</text>
+</g>
+<path d="M 560.0 1200.0 L 640.0 1200.0 L 640.0 2000.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1040.0" cy="2160.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="995.2" y1="2160.0" x2="1084.8" y2="2160.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1040.0" y="2157.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIRC</text>
+  <text x="1040.0" y="2184.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">202</text>
+</g>
+<path d="M 1040.0 2160.0 L 1200.0 2160.0 L 1200.0 2400.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1680.0" cy="2000.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1635.2" y1="2000.0" x2="1724.8" y2="2000.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1680.0" y="1997.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIRC</text>
+  <text x="1680.0" y="2024.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">203</text>
+</g>
+<path d="M 1680.0 2000.0 L 1681.52 2000.0 L 1681.52 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1680.0" cy="2320.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1635.2" y1="2320.0" x2="1724.8" y2="2320.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1680.0" y="2317.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="1680.0" y="2344.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">204</text>
+</g>
+<path d="M 1680.0 2320.0 L 1681.52 2320.0 L 1681.52 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1680.0" cy="2160.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1635.2" y1="2160.0" x2="1724.8" y2="2160.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1680.0" y="2157.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="1680.0" y="2184.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">205</text>
+</g>
+<path d="M 1680.0 2160.0 L 1681.52 2160.0 L 1681.52 2320.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2160.0" cy="1840.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2115.2" y1="1840.0" x2="2204.8" y2="1840.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2160.0" y="1837.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIRC</text>
+  <text x="2160.0" y="1864.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">206</text>
+</g>
+<path d="M 2160.0 1840.0 L 2240.0 1840.0 L 2240.0 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2160.0" cy="2480.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2115.2" y1="2480.0" x2="2204.8" y2="2480.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2160.0" y="2477.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="2160.0" y="2504.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">207</text>
+</g>
+<path d="M 2160.0 2480.0 L 2240.0 2480.0 L 2240.0 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2640.0" cy="2000.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2595.2" y1="2000.0" x2="2684.8" y2="2000.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2640.0" y="1997.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIRC</text>
+  <text x="2640.0" y="2024.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">208</text>
+</g>
+<path d="M 2640.0 2000.0 L 2880.0 2000.0 L 2880.0 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3120.0" cy="2000.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3075.2" y1="2000.0" x2="3164.8" y2="2000.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3120.0" y="1997.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="3120.0" y="2024.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">209</text>
+</g>
+<path d="M 3120.0 2000.0 L 2880.0 2000.0 L 2880.0 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3440.0" cy="2000.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3395.2" y1="2000.0" x2="3484.8" y2="2000.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3440.0" y="1997.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIRC</text>
+  <text x="3440.0" y="2024.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">210</text>
+</g>
+<path d="M 3440.0 2000.0 L 3441.52 2000.0 L 3441.52 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3440.0" cy="2160.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3395.2" y1="2160.0" x2="3484.8" y2="2160.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3440.0" y="2157.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="3440.0" y="2184.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">211</text>
+</g>
+<path d="M 3440.0 2160.0 L 3441.52 2160.0 L 3441.52 2320.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3760.0" cy="2000.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3715.2" y1="2000.0" x2="3804.8" y2="2000.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3760.0" y="1997.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIR</text>
+  <text x="3760.0" y="2024.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">212</text>
+</g>
+<path d="M 3760.0 2000.0 L 4000.0 2000.0 L 4000.0 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4560.0" cy="1840.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4515.2" y1="1840.0" x2="4604.8" y2="1840.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4560.0" y="1837.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIRC</text>
+  <text x="4560.0" y="1864.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">213</text>
+</g>
+<path d="M 4560.0 1840.0 L 4640.0 1840.0 L 4640.0 2080.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4560.0" cy="2160.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4515.2" y1="2160.0" x2="4604.8" y2="2160.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4560.0" y="2157.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIRC</text>
+  <text x="4560.0" y="2184.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">214</text>
+</g>
+<path d="M 4560.0 2160.0 L 4640.0 2160.0 L 4640.0 2400.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4560.0" cy="2320.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4515.2" y1="2320.0" x2="4604.8" y2="2320.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4560.0" y="2317.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIR</text>
+  <text x="4560.0" y="2344.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">215</text>
+</g>
+<path d="M 4560.0 2320.0 L 4640.0 2320.0 L 4640.0 2080.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4560.0" cy="2640.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4515.2" y1="2640.0" x2="4604.8" y2="2640.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4560.0" y="2637.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIR</text>
+  <text x="4560.0" y="2664.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">216</text>
+</g>
+<path d="M 4560.0 2640.0 L 4640.0 2640.0 L 4640.0 2400.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="5040.0" cy="2000.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4995.2" y1="2000.0" x2="5084.8" y2="2000.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="5040.0" y="1997.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIR</text>
+  <text x="5040.0" y="2024.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">217</text>
+</g>
+<path d="M 5040.0 2000.0 L 5280.0 2000.0 L 5280.0 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="560.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="515.2" y1="2800.0" x2="604.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="560.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIRC</text>
+  <text x="560.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">301</text>
+</g>
+<path d="M 560.0 2800.0 L 800.0 2800.0 L 800.0 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1040.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="995.2" y1="2800.0" x2="1084.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1040.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIR</text>
+  <text x="1040.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">302</text>
+</g>
+<path d="M 1040.0 2800.0 L 800.0 2800.0 L 800.0 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1360.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1315.2" y1="2800.0" x2="1404.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1360.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIRC</text>
+  <text x="1360.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">303</text>
+</g>
+<path d="M 1360.0 2800.0 L 1361.52 2800.0 L 1361.52 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1360.0" cy="3120.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1315.2" y1="3120.0" x2="1404.8" y2="3120.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1360.0" y="3117.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="1360.0" y="3144.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">304</text>
+</g>
+<path d="M 1360.0 3120.0 L 1361.52 3120.0 L 1361.52 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1360.0" cy="2960.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1315.2" y1="2960.0" x2="1404.8" y2="2960.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1360.0" y="2957.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="1360.0" y="2984.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">305</text>
+</g>
+<path d="M 1360.0 2960.0 L 1361.52 2960.0 L 1361.52 3120.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1840.0" cy="2640.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1795.2" y1="2640.0" x2="1884.8" y2="2640.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1840.0" y="2637.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="1840.0" y="2664.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">306</text>
+</g>
+<path d="M 1840.0 2640.0 L 1920.0 2640.0 L 1920.0 2880.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2320.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2275.2" y1="2800.0" x2="2364.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2320.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIRC</text>
+  <text x="2320.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">307</text>
+</g>
+<path d="M 2320.0 2800.0 L 2560.0 2800.0 L 2560.0 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="2800.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="2755.2" y1="2800.0" x2="2844.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="2800.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="2800.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">308</text>
+</g>
+<path d="M 2800.0 2800.0 L 2560.0 2800.0 L 2560.0 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3120.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3075.2" y1="2800.0" x2="3164.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3120.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIRC</text>
+  <text x="3120.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">309</text>
+</g>
+<path d="M 3120.0 2800.0 L 3121.52 2800.0 L 3121.52 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3600.0" cy="2640.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3555.2" y1="2640.0" x2="3644.8" y2="2640.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3600.0" y="2637.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIRC</text>
+  <text x="3600.0" y="2664.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">310</text>
+</g>
+<path d="M 3600.0 2640.0 L 3760.0 2640.0 L 3760.0 2880.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4400.0" cy="2480.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4355.2" y1="2480.0" x2="4444.8" y2="2480.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4400.0" y="2477.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIRC</text>
+  <text x="4400.0" y="2504.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">311</text>
+</g>
+<path d="M 4400.0 2480.0 L 4560.0 2480.0 L 4560.0 2730.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="5040.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4995.2" y1="2800.0" x2="5084.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="5040.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="5040.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">312</text>
+</g>
+<path d="M 5040.0 2800.0 L 5280.0 2800.0 L 5280.0 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="5520.0" cy="2800.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="5475.2" y1="2800.0" x2="5564.8" y2="2800.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="5520.0" y="2797.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">LIR</text>
+  <text x="5520.0" y="2824.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">313</text>
+</g>
+<path d="M 5520.0 2800.0 L 5280.0 2800.0 L 5280.0 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="1840.0" cy="3120.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="1795.2" y1="3120.0" x2="1884.8" y2="3120.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="1840.0" y="3117.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="1840.0" y="3144.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">314</text>
+</g>
+<path d="M 1840.0 3120.0 L 1920.0 3120.0 L 1920.0 2880.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="3600.0" cy="3120.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="3555.2" y1="3120.0" x2="3644.8" y2="3120.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="3600.0" y="3117.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">FIR</text>
+  <text x="3600.0" y="3144.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">315</text>
+</g>
+<path d="M 3600.0 3120.0 L 3760.0 3120.0 L 3760.0 2880.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="880.0" cy="2640.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="835.2" y1="2640.0" x2="924.8" y2="2640.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="880.0" y="2637.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">PIR</text>
+  <text x="880.0" y="2664.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">316</text>
+</g>
+<path d="M 880.0 2640.0 L 800.0 2640.0 L 800.0 2960.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="4400.0" cy="2960.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="4355.2" y1="2960.0" x2="4444.8" y2="2960.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="4400.0" y="2957.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="4400.0" y="2984.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">317</text>
+</g>
+<path d="M 4400.0 2960.0 L 4560.0 2960.0 L 4560.0 2730.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+
+<g>
+  <circle cx="5520.0" cy="2000.0" r="44.800000000000004"
+          fill="white" stroke="#0d0d0d" stroke-width="3.0" />
+  <line x1="5475.2" y1="2000.0" x2="5564.8" y2="2000.0" stroke="#0d0d0d" stroke-width="3.0" />
+  <text x="5520.0" y="1997.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">TIR</text>
+  <text x="5520.0" y="2024.64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">518</text>
+</g>
+<path d="M 5520.0 2000.0 L 5280.0 2000.0 L 5280.0 2160.0" fill="none" stroke="#0d0d0d" stroke-width="3.0" stroke-dasharray="4 3" />
+<text x="60" y="60" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700">P&amp;ID — Kälteerzeugung und Vakuumstation (Synthetic Demo)</text>
+<text x="60" y="86" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#666">ISA-5.1 SYNTHETIC SAMPLE — auto-routed via grid + A*</text>
+
+<g>
+  <rect x="9340" y="3620" width="620" height="160" fill="white" stroke="#0d0d0d" stroke-width="4.0" />
+  <line x1="9340" y1="3672.8" x2="9960" y2="3672.8" stroke="#0d0d0d" stroke-width="1" />
+  <line x1="9340" y1="3725.6" x2="9960" y2="3725.6" stroke="#0d0d0d" stroke-width="1" />
+  <text x="9350" y="3645" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700">PROJECT: ROADSHOW DEMO · DIN EN 10628</text>
+  <text x="9350" y="3697.8" font-family="Helvetica, Arial, sans-serif" font-size="32">TITLE: Kälteerzeugung und Vakuumstation</text>
+  <text x="9350" y="3750.6" font-family="Helvetica, Arial, sans-serif" font-size="32">DWG NO: RI-KAE-VAK-002    REV: 0</text>
+</g>
+</svg>

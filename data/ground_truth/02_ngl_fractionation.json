@@ -1,0 +1,1816 @@
+{
+  "drawing_id": "02",
+  "drawing_type": "P&ID",
+  "title": "NGL Fractionation Train (Deethanizer + Debutanizer)",
+  "drawing_no": "PID-NGL-FRAC-002",
+  "canvas_size": {
+    "width": 6000,
+    "height": 2200
+  },
+  "equipment": [
+    {
+      "tag": "V-201",
+      "type": "vessel",
+      "service": "NGL Feed Drum",
+      "bbox": [
+        179.2,
+        819.2,
+        460.8,
+        1260.8000000000002
+      ]
+    },
+    {
+      "tag": "P-201A",
+      "type": "pump",
+      "service": "Feed Pump A",
+      "bbox": [
+        659.2,
+        819.2,
+        783.84,
+        940.8
+      ]
+    },
+    {
+      "tag": "P-201B",
+      "type": "pump",
+      "service": "Feed Pump B (spare)",
+      "bbox": [
+        659.2,
+        1139.2,
+        783.84,
+        1260.8
+      ]
+    },
+    {
+      "tag": "E-201",
+      "type": "heat_exchanger",
+      "service": "Feed/Bottoms Preheat",
+      "bbox": [
+        979.2,
+        819.2,
+        1260.8000000000002,
+        1100.8000000000002
+      ]
+    },
+    {
+      "tag": "C-201",
+      "type": "column",
+      "service": "Deethanizer",
+      "bbox": [
+        1459.2,
+        339.20000000000005,
+        1740.8000000000002,
+        1580.8
+      ]
+    },
+    {
+      "tag": "E-202",
+      "type": "air_cooler",
+      "service": "C-201 Overhead Condenser",
+      "bbox": [
+        1939.2,
+        339.2,
+        2380.8,
+        640.8
+      ]
+    },
+    {
+      "tag": "V-202",
+      "type": "vessel",
+      "service": "C-201 Reflux Drum",
+      "bbox": [
+        2419.2,
+        339.2,
+        2700.7999999999997,
+        620.8
+      ]
+    },
+    {
+      "tag": "P-202A",
+      "type": "pump",
+      "service": "Reflux/Distillate Pump A",
+      "bbox": [
+        2739.2,
+        499.2,
+        2863.84,
+        620.8
+      ]
+    },
+    {
+      "tag": "P-202B",
+      "type": "pump",
+      "service": "Reflux/Distillate Pump B (spare)",
+      "bbox": [
+        2739.2,
+        659.2,
+        2863.84,
+        780.8
+      ]
+    },
+    {
+      "tag": "PSV-201",
+      "type": "psv",
+      "service": "V-202 reflux drum overpressure",
+      "bbox": [
+        2453.76,
+        810.0266666666666,
+        2566.24,
+        880.0
+      ]
+    },
+    {
+      "tag": "E-203",
+      "type": "heat_exchanger",
+      "service": "C-201 Reboiler",
+      "bbox": [
+        1939.2,
+        1139.2,
+        2220.8,
+        1420.8000000000002
+      ]
+    },
+    {
+      "tag": "V-203",
+      "type": "vessel",
+      "service": "Deethanizer Bottoms Surge",
+      "bbox": [
+        3059.2,
+        1299.2,
+        3340.7999999999997,
+        1580.8000000000002
+      ]
+    },
+    {
+      "tag": "PSV-203",
+      "type": "psv",
+      "service": "V-203 surge drum overpressure",
+      "bbox": [
+        3413.76,
+        1290.0266666666666,
+        3526.24,
+        1360.0
+      ]
+    },
+    {
+      "tag": "P-203A",
+      "type": "pump",
+      "service": "Bottoms Transfer Pump A",
+      "bbox": [
+        3539.2,
+        1459.2,
+        3663.84,
+        1580.8
+      ]
+    },
+    {
+      "tag": "C-202",
+      "type": "column",
+      "service": "Debutanizer",
+      "bbox": [
+        4019.2,
+        339.20000000000005,
+        4300.8,
+        1580.8
+      ]
+    },
+    {
+      "tag": "E-204",
+      "type": "air_cooler",
+      "service": "C-202 Overhead Condenser",
+      "bbox": [
+        4499.2,
+        339.2,
+        4940.8,
+        640.8
+      ]
+    },
+    {
+      "tag": "V-204",
+      "type": "vessel",
+      "service": "C-202 Reflux Drum",
+      "bbox": [
+        4979.2,
+        339.2,
+        5260.8,
+        620.8
+      ]
+    },
+    {
+      "tag": "P-204A",
+      "type": "pump",
+      "service": "C3 Product / Reflux Pump",
+      "bbox": [
+        5299.2,
+        499.2,
+        5423.84,
+        620.8
+      ]
+    },
+    {
+      "tag": "PSV-204",
+      "type": "psv",
+      "service": "V-204 reflux drum overpressure",
+      "bbox": [
+        5013.76,
+        810.0266666666666,
+        5126.24,
+        880.0
+      ]
+    },
+    {
+      "tag": "E-205",
+      "type": "heat_exchanger",
+      "service": "C-202 Reboiler",
+      "bbox": [
+        4499.2,
+        1139.2,
+        4780.8,
+        1420.8000000000002
+      ]
+    },
+    {
+      "tag": "V-205",
+      "type": "vessel",
+      "service": "C4 Bottom Product Drum",
+      "bbox": [
+        4979.2,
+        1299.2,
+        5260.8,
+        1580.8000000000002
+      ]
+    },
+    {
+      "tag": "P-205A",
+      "type": "pump",
+      "service": "C4 Product Pump",
+      "bbox": [
+        5299.2,
+        1459.2,
+        5423.84,
+        1580.8
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "tag": "LT-201",
+      "function": "LT",
+      "loop_id": "201",
+      "located_on": "V-201",
+      "bbox": [
+        35.199999999999996,
+        835.2,
+        124.80000000000001,
+        924.8
+      ]
+    },
+    {
+      "tag": "LIC-201",
+      "function": "LIC",
+      "loop_id": "201",
+      "located_on": "V-201",
+      "bbox": [
+        515.2,
+        835.2,
+        604.8,
+        924.8
+      ]
+    },
+    {
+      "tag": "FT-201",
+      "function": "FT",
+      "loop_id": "201",
+      "located_on": "P-201A",
+      "bbox": [
+        675.2,
+        675.2,
+        764.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "PT-202",
+      "function": "PT",
+      "loop_id": "202",
+      "located_on": "P-201A",
+      "bbox": [
+        835.2,
+        835.2,
+        924.8,
+        924.8
+      ]
+    },
+    {
+      "tag": "TT-203",
+      "function": "TT",
+      "loop_id": "203",
+      "located_on": "E-201",
+      "bbox": [
+        995.2,
+        675.2,
+        1084.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "TIC-203",
+      "function": "TIC",
+      "loop_id": "203",
+      "located_on": "E-201",
+      "bbox": [
+        995.2,
+        1155.2,
+        1084.8,
+        1244.8
+      ]
+    },
+    {
+      "tag": "PT-204",
+      "function": "PT",
+      "loop_id": "204",
+      "located_on": "C-201",
+      "bbox": [
+        1315.2,
+        355.2,
+        1404.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "PIC-204",
+      "function": "PIC",
+      "loop_id": "204",
+      "located_on": "C-201",
+      "bbox": [
+        1795.2,
+        355.2,
+        1884.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "TT-205",
+      "function": "TT",
+      "loop_id": "205",
+      "located_on": "C-201",
+      "bbox": [
+        1315.2,
+        515.2,
+        1404.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "TT-206",
+      "function": "TT",
+      "loop_id": "206",
+      "located_on": "C-201",
+      "bbox": [
+        1795.2,
+        515.2,
+        1884.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "LT-207",
+      "function": "LT",
+      "loop_id": "207",
+      "located_on": "V-202",
+      "bbox": [
+        2435.2,
+        195.2,
+        2524.8,
+        284.8
+      ]
+    },
+    {
+      "tag": "LIC-207",
+      "function": "LIC",
+      "loop_id": "207",
+      "located_on": "V-202",
+      "bbox": [
+        2435.2,
+        675.2,
+        2524.8,
+        764.8
+      ]
+    },
+    {
+      "tag": "FT-208",
+      "function": "FT",
+      "loop_id": "208",
+      "located_on": "P-202A",
+      "bbox": [
+        2755.2,
+        355.2,
+        2844.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "FIC-208",
+      "function": "FIC",
+      "loop_id": "208",
+      "located_on": "P-202A",
+      "bbox": [
+        2915.2,
+        515.2,
+        3004.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "TT-209",
+      "function": "TT",
+      "loop_id": "209",
+      "located_on": "E-203",
+      "bbox": [
+        1955.2,
+        1475.2,
+        2044.8,
+        1564.8
+      ]
+    },
+    {
+      "tag": "LT-210",
+      "function": "LT",
+      "loop_id": "210",
+      "located_on": "V-203",
+      "bbox": [
+        2915.2,
+        1315.2,
+        3004.8,
+        1404.8
+      ]
+    },
+    {
+      "tag": "FT-211",
+      "function": "FT",
+      "loop_id": "211",
+      "located_on": "P-203A",
+      "bbox": [
+        3555.2,
+        1315.2,
+        3644.8,
+        1404.8
+      ]
+    },
+    {
+      "tag": "PT-212",
+      "function": "PT",
+      "loop_id": "212",
+      "located_on": "C-202",
+      "bbox": [
+        3875.2,
+        355.2,
+        3964.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "PIC-212",
+      "function": "PIC",
+      "loop_id": "212",
+      "located_on": "C-202",
+      "bbox": [
+        4355.2,
+        355.2,
+        4444.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "TT-213",
+      "function": "TT",
+      "loop_id": "213",
+      "located_on": "C-202",
+      "bbox": [
+        3875.2,
+        515.2,
+        3964.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "TT-214",
+      "function": "TT",
+      "loop_id": "214",
+      "located_on": "C-202",
+      "bbox": [
+        4355.2,
+        515.2,
+        4444.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "LT-215",
+      "function": "LT",
+      "loop_id": "215",
+      "located_on": "V-204",
+      "bbox": [
+        4995.2,
+        195.2,
+        5084.8,
+        284.8
+      ]
+    },
+    {
+      "tag": "FT-216",
+      "function": "FT",
+      "loop_id": "216",
+      "located_on": "P-204A",
+      "bbox": [
+        5315.2,
+        355.2,
+        5404.8,
+        444.8
+      ]
+    },
+    {
+      "tag": "FIC-216",
+      "function": "FIC",
+      "loop_id": "216",
+      "located_on": "P-204A",
+      "bbox": [
+        5475.2,
+        515.2,
+        5564.8,
+        604.8
+      ]
+    },
+    {
+      "tag": "TT-217",
+      "function": "TT",
+      "loop_id": "217",
+      "located_on": "E-205",
+      "bbox": [
+        4515.2,
+        1475.2,
+        4604.8,
+        1564.8
+      ]
+    },
+    {
+      "tag": "TIC-217",
+      "function": "TIC",
+      "loop_id": "217",
+      "located_on": "E-205",
+      "bbox": [
+        4515.2,
+        995.2,
+        4604.8,
+        1084.8
+      ]
+    },
+    {
+      "tag": "LT-218",
+      "function": "LT",
+      "loop_id": "218",
+      "located_on": "V-205",
+      "bbox": [
+        4835.2,
+        1315.2,
+        4924.8,
+        1404.8
+      ]
+    },
+    {
+      "tag": "LIC-218",
+      "function": "LIC",
+      "loop_id": "218",
+      "located_on": "V-205",
+      "bbox": [
+        5315.2,
+        1315.2,
+        5404.8,
+        1404.8
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "line_no": "6\"-BTM-214-CS",
+      "size": "6\"",
+      "service": "BTM",
+      "spec": "CS",
+      "from_tag": "C-201",
+      "to_tag": "V-203",
+      "geometry": [
+        [
+          1600.0,
+          1580.8
+        ],
+        [
+          1680.0,
+          1520.0
+        ],
+        [
+          2960.0,
+          1520.0
+        ],
+        [
+          2960.0,
+          1200.0
+        ],
+        [
+          3280.0,
+          1200.0
+        ],
+        [
+          3280.0,
+          1360.0
+        ],
+        [
+          3200.0,
+          1299.2
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-BTM-226-CS",
+      "size": "6\"",
+      "service": "BTM",
+      "spec": "CS",
+      "from_tag": "C-202",
+      "to_tag": "V-205",
+      "geometry": [
+        [
+          4160.0,
+          1580.8
+        ],
+        [
+          4240.0,
+          1520.0
+        ],
+        [
+          4880.0,
+          1520.0
+        ],
+        [
+          4880.0,
+          1200.0
+        ],
+        [
+          5200.0,
+          1200.0
+        ],
+        [
+          5200.0,
+          1360.0
+        ],
+        [
+          5120.0,
+          1299.2
+        ]
+      ]
+    },
+    {
+      "line_no": "3\"-RFX-210-CS",
+      "size": "3\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "P-202A",
+      "to_tag": "C-201",
+      "geometry": [
+        [
+          2863.84,
+          560.0
+        ],
+        [
+          2800.0,
+          560.0
+        ],
+        [
+          2800.0,
+          240.0
+        ],
+        [
+          1840.0,
+          240.0
+        ],
+        [
+          1840.0,
+          560.0
+        ],
+        [
+          1680.0,
+          560.0
+        ],
+        [
+          1740.8000000000002,
+          562.688
+        ]
+      ]
+    },
+    {
+      "line_no": "3\"-RFX-221-CS",
+      "size": "3\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "P-204A",
+      "to_tag": "C-202",
+      "geometry": [
+        [
+          5423.84,
+          560.0
+        ],
+        [
+          5360.0,
+          560.0
+        ],
+        [
+          5360.0,
+          720.0
+        ],
+        [
+          4400.0,
+          720.0
+        ],
+        [
+          4400.0,
+          560.0
+        ],
+        [
+          4240.0,
+          560.0
+        ],
+        [
+          4300.8,
+          562.688
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-FED-217-CS",
+      "size": "6\"",
+      "service": "FED",
+      "spec": "CS",
+      "from_tag": "P-203A",
+      "to_tag": "C-202",
+      "geometry": [
+        [
+          3663.84,
+          1520.0
+        ],
+        [
+          3600.0,
+          1520.0
+        ],
+        [
+          3600.0,
+          1040.0
+        ],
+        [
+          4080.0,
+          1040.0
+        ],
+        [
+          4019.2,
+          960.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-NGL-201-CS",
+      "size": "8\"",
+      "service": "NGL",
+      "spec": "CS",
+      "from_tag": "V-201",
+      "to_tag": "P-201A",
+      "geometry": [
+        [
+          320.0,
+          1260.8000000000002
+        ],
+        [
+          400.0,
+          1200.0
+        ],
+        [
+          560.0,
+          1200.0
+        ],
+        [
+          560.0,
+          880.0
+        ],
+        [
+          659.2,
+          880.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-RBO-212-CS",
+      "size": "8\"",
+      "service": "RBO",
+      "spec": "CS",
+      "from_tag": "C-201",
+      "to_tag": "E-203",
+      "geometry": [
+        [
+          1459.2,
+          1481.472
+        ],
+        [
+          1520.0,
+          1520.0
+        ],
+        [
+          1520.0,
+          1680.0
+        ],
+        [
+          2000.0,
+          1680.0
+        ],
+        [
+          2000.0,
+          1360.0
+        ],
+        [
+          1939.2,
+          1336.32
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-RBO-224-CS",
+      "size": "8\"",
+      "service": "RBO",
+      "spec": "CS",
+      "from_tag": "C-202",
+      "to_tag": "E-205",
+      "geometry": [
+        [
+          4019.2,
+          1481.472
+        ],
+        [
+          4080.0,
+          1520.0
+        ],
+        [
+          4080.0,
+          1680.0
+        ],
+        [
+          4560.0,
+          1680.0
+        ],
+        [
+          4560.0,
+          1360.0
+        ],
+        [
+          4499.2,
+          1336.32
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-211-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-202",
+      "to_tag": "PSV-201",
+      "geometry": [
+        [
+          2700.7999999999997,
+          480.0
+        ],
+        [
+          2640.0,
+          560.0
+        ],
+        [
+          2640.0,
+          880.0
+        ],
+        [
+          2480.0,
+          880.0
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-222-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-204",
+      "to_tag": "PSV-204",
+      "geometry": [
+        [
+          5260.8,
+          480.0
+        ],
+        [
+          5200.0,
+          560.0
+        ],
+        [
+          5200.0,
+          880.0
+        ],
+        [
+          5040.0,
+          880.0
+        ]
+      ]
+    },
+    {
+      "line_no": "10\"-RBO-213-CS",
+      "size": "10\"",
+      "service": "RBO",
+      "spec": "CS",
+      "from_tag": "E-203",
+      "to_tag": "C-201",
+      "geometry": [
+        [
+          2220.8,
+          1336.32
+        ],
+        [
+          2160.0,
+          1360.0
+        ],
+        [
+          2320.0,
+          1360.0
+        ],
+        [
+          2320.0,
+          1040.0
+        ],
+        [
+          1840.0,
+          1040.0
+        ],
+        [
+          1840.0,
+          1360.0
+        ],
+        [
+          1680.0,
+          1360.0
+        ],
+        [
+          1740.8000000000002,
+          1394.56
+        ]
+      ]
+    },
+    {
+      "line_no": "10\"-RBO-225-CS",
+      "size": "10\"",
+      "service": "RBO",
+      "spec": "CS",
+      "from_tag": "E-205",
+      "to_tag": "C-202",
+      "geometry": [
+        [
+          4780.8,
+          1336.32
+        ],
+        [
+          4720.0,
+          1360.0
+        ],
+        [
+          4880.0,
+          1360.0
+        ],
+        [
+          4880.0,
+          1040.0
+        ],
+        [
+          4400.0,
+          1040.0
+        ],
+        [
+          4400.0,
+          1360.0
+        ],
+        [
+          4240.0,
+          1360.0
+        ],
+        [
+          4300.8,
+          1394.56
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-C3P-223-CS",
+      "size": "4\"",
+      "service": "C3P",
+      "spec": "CS",
+      "from_tag": "P-204A",
+      "to_tag": "V-204",
+      "geometry": [
+        [
+          5423.84,
+          560.0
+        ],
+        [
+          5360.0,
+          560.0
+        ],
+        [
+          5360.0,
+          400.0
+        ],
+        [
+          5200.0,
+          400.0
+        ],
+        [
+          5120.0,
+          339.2
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-C4P-228-CS",
+      "size": "4\"",
+      "service": "C4P",
+      "spec": "CS",
+      "from_tag": "P-205A",
+      "to_tag": "V-205",
+      "geometry": [
+        [
+          5423.84,
+          1520.0
+        ],
+        [
+          5360.0,
+          1520.0
+        ],
+        [
+          5360.0,
+          1360.0
+        ],
+        [
+          5200.0,
+          1360.0
+        ],
+        [
+          5120.0,
+          1299.2
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-NGL-204-CS",
+      "size": "6\"",
+      "service": "NGL",
+      "spec": "CS",
+      "from_tag": "P-201B",
+      "to_tag": "E-201",
+      "geometry": [
+        [
+          783.84,
+          1200.0
+        ],
+        [
+          880.0,
+          1200.0
+        ],
+        [
+          880.0,
+          880.0
+        ],
+        [
+          1040.0,
+          880.0
+        ],
+        [
+          979.2,
+          903.68
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-OVH-206-CS",
+      "size": "12\"",
+      "service": "OVH",
+      "spec": "CS",
+      "from_tag": "C-201",
+      "to_tag": "E-202",
+      "geometry": [
+        [
+          1600.0,
+          339.20000000000005
+        ],
+        [
+          1680.0,
+          400.0
+        ],
+        [
+          1840.0,
+          400.0
+        ],
+        [
+          1840.0,
+          560.0
+        ],
+        [
+          2000.0,
+          560.0
+        ],
+        [
+          1939.2,
+          480.0
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-OVH-218-CS",
+      "size": "12\"",
+      "service": "OVH",
+      "spec": "CS",
+      "from_tag": "C-202",
+      "to_tag": "E-204",
+      "geometry": [
+        [
+          4160.0,
+          339.20000000000005
+        ],
+        [
+          4240.0,
+          400.0
+        ],
+        [
+          4400.0,
+          400.0
+        ],
+        [
+          4400.0,
+          560.0
+        ],
+        [
+          4560.0,
+          560.0
+        ],
+        [
+          4499.2,
+          480.0
+        ]
+      ]
+    },
+    {
+      "line_no": "8\"-NGL-202-CS",
+      "size": "8\"",
+      "service": "NGL",
+      "spec": "CS",
+      "from_tag": "V-201",
+      "to_tag": "P-201B",
+      "geometry": [
+        [
+          320.0,
+          1260.8000000000002
+        ],
+        [
+          400.0,
+          1200.0
+        ],
+        [
+          400.0,
+          1360.0
+        ],
+        [
+          720.0,
+          1360.0
+        ],
+        [
+          720.0,
+          1200.0
+        ],
+        [
+          659.2,
+          1200.0
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-BTM-216-CS",
+      "size": "6\"",
+      "service": "BTM",
+      "spec": "CS",
+      "from_tag": "V-203",
+      "to_tag": "P-203A",
+      "geometry": [
+        [
+          3200.0,
+          1580.8000000000002
+        ],
+        [
+          3280.0,
+          1520.0
+        ],
+        [
+          3539.2,
+          1520.0
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-OVH-207-CS",
+      "size": "12\"",
+      "service": "OVH",
+      "spec": "CS",
+      "from_tag": "E-202",
+      "to_tag": "V-202",
+      "geometry": [
+        [
+          2380.8,
+          480.0
+        ],
+        [
+          2320.0,
+          560.0
+        ],
+        [
+          2320.0,
+          1040.0
+        ],
+        [
+          2960.0,
+          1040.0
+        ],
+        [
+          2960.0,
+          400.0
+        ],
+        [
+          2640.0,
+          400.0
+        ],
+        [
+          2560.0,
+          339.2
+        ]
+      ]
+    },
+    {
+      "line_no": "12\"-OVH-219-CS",
+      "size": "12\"",
+      "service": "OVH",
+      "spec": "CS",
+      "from_tag": "E-204",
+      "to_tag": "V-204",
+      "geometry": [
+        [
+          4940.8,
+          480.0
+        ],
+        [
+          4880.0,
+          560.0
+        ],
+        [
+          4880.0,
+          1040.0
+        ],
+        [
+          5520.0,
+          1040.0
+        ],
+        [
+          5520.0,
+          240.0
+        ],
+        [
+          5200.0,
+          240.0
+        ],
+        [
+          5200.0,
+          400.0
+        ],
+        [
+          5120.0,
+          339.2
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-RFX-209-CS",
+      "size": "4\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "V-202",
+      "to_tag": "P-202B",
+      "geometry": [
+        [
+          2560.0,
+          620.8
+        ],
+        [
+          2640.0,
+          560.0
+        ],
+        [
+          2640.0,
+          720.0
+        ],
+        [
+          2739.2,
+          720.0
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-NGL-205-CS",
+      "size": "6\"",
+      "service": "NGL",
+      "spec": "CS",
+      "from_tag": "E-201",
+      "to_tag": "C-201",
+      "geometry": [
+        [
+          1260.8000000000002,
+          903.68
+        ],
+        [
+          1200.0,
+          880.0
+        ],
+        [
+          1360.0,
+          880.0
+        ],
+        [
+          1360.0,
+          1040.0
+        ],
+        [
+          1520.0,
+          1040.0
+        ],
+        [
+          1459.2,
+          960.0
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-C4P-227-CS",
+      "size": "4\"",
+      "service": "C4P",
+      "spec": "CS",
+      "from_tag": "V-205",
+      "to_tag": "P-205A",
+      "geometry": [
+        [
+          5120.0,
+          1580.8000000000002
+        ],
+        [
+          5200.0,
+          1520.0
+        ],
+        [
+          5299.2,
+          1520.0
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-RFX-208-CS",
+      "size": "4\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "V-202",
+      "to_tag": "P-202A",
+      "geometry": [
+        [
+          2560.0,
+          620.8
+        ],
+        [
+          2640.0,
+          560.0
+        ],
+        [
+          2739.2,
+          560.0
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-RFX-220-CS",
+      "size": "4\"",
+      "service": "RFX",
+      "spec": "CS",
+      "from_tag": "V-204",
+      "to_tag": "P-204A",
+      "geometry": [
+        [
+          5120.0,
+          620.8
+        ],
+        [
+          5200.0,
+          560.0
+        ],
+        [
+          5299.2,
+          560.0
+        ]
+      ]
+    },
+    {
+      "line_no": "6\"-NGL-203-CS",
+      "size": "6\"",
+      "service": "NGL",
+      "spec": "CS",
+      "from_tag": "P-201A",
+      "to_tag": "E-201",
+      "geometry": [
+        [
+          783.84,
+          880.0
+        ],
+        [
+          720.0,
+          880.0
+        ],
+        [
+          720.0,
+          720.0
+        ],
+        [
+          1040.0,
+          720.0
+        ],
+        [
+          1040.0,
+          880.0
+        ],
+        [
+          979.2,
+          903.68
+        ]
+      ]
+    },
+    {
+      "line_no": "4\"-PSV-215-CS",
+      "size": "4\"",
+      "service": "PSV",
+      "spec": "CS",
+      "from_tag": "V-203",
+      "to_tag": "PSV-203",
+      "geometry": [
+        [
+          3340.7999999999997,
+          1440.0
+        ],
+        [
+          3280.0,
+          1520.0
+        ],
+        [
+          3440.0,
+          1520.0
+        ],
+        [
+          3440.0,
+          1360.0
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from_tag": "V-201",
+      "to_tag": "P-201A",
+      "type": "pipe",
+      "via_line": "8\"-NGL-201-CS"
+    },
+    {
+      "from_tag": "V-201",
+      "to_tag": "P-201B",
+      "type": "pipe",
+      "via_line": "8\"-NGL-202-CS"
+    },
+    {
+      "from_tag": "P-201A",
+      "to_tag": "E-201",
+      "type": "pipe",
+      "via_line": "6\"-NGL-203-CS"
+    },
+    {
+      "from_tag": "P-201B",
+      "to_tag": "E-201",
+      "type": "pipe",
+      "via_line": "6\"-NGL-204-CS"
+    },
+    {
+      "from_tag": "E-201",
+      "to_tag": "C-201",
+      "type": "pipe",
+      "via_line": "6\"-NGL-205-CS"
+    },
+    {
+      "from_tag": "C-201",
+      "to_tag": "E-202",
+      "type": "pipe",
+      "via_line": "12\"-OVH-206-CS"
+    },
+    {
+      "from_tag": "E-202",
+      "to_tag": "V-202",
+      "type": "pipe",
+      "via_line": "12\"-OVH-207-CS"
+    },
+    {
+      "from_tag": "V-202",
+      "to_tag": "P-202A",
+      "type": "pipe",
+      "via_line": "4\"-RFX-208-CS"
+    },
+    {
+      "from_tag": "V-202",
+      "to_tag": "P-202B",
+      "type": "pipe",
+      "via_line": "4\"-RFX-209-CS"
+    },
+    {
+      "from_tag": "P-202A",
+      "to_tag": "C-201",
+      "type": "pipe",
+      "via_line": "3\"-RFX-210-CS"
+    },
+    {
+      "from_tag": "V-202",
+      "to_tag": "PSV-201",
+      "type": "pipe",
+      "via_line": "4\"-PSV-211-CS"
+    },
+    {
+      "from_tag": "C-201",
+      "to_tag": "E-203",
+      "type": "pipe",
+      "via_line": "8\"-RBO-212-CS"
+    },
+    {
+      "from_tag": "E-203",
+      "to_tag": "C-201",
+      "type": "pipe",
+      "via_line": "10\"-RBO-213-CS"
+    },
+    {
+      "from_tag": "C-201",
+      "to_tag": "V-203",
+      "type": "pipe",
+      "via_line": "6\"-BTM-214-CS"
+    },
+    {
+      "from_tag": "V-203",
+      "to_tag": "PSV-203",
+      "type": "pipe",
+      "via_line": "4\"-PSV-215-CS"
+    },
+    {
+      "from_tag": "V-203",
+      "to_tag": "P-203A",
+      "type": "pipe",
+      "via_line": "6\"-BTM-216-CS"
+    },
+    {
+      "from_tag": "P-203A",
+      "to_tag": "C-202",
+      "type": "pipe",
+      "via_line": "6\"-FED-217-CS"
+    },
+    {
+      "from_tag": "C-202",
+      "to_tag": "E-204",
+      "type": "pipe",
+      "via_line": "12\"-OVH-218-CS"
+    },
+    {
+      "from_tag": "E-204",
+      "to_tag": "V-204",
+      "type": "pipe",
+      "via_line": "12\"-OVH-219-CS"
+    },
+    {
+      "from_tag": "V-204",
+      "to_tag": "P-204A",
+      "type": "pipe",
+      "via_line": "4\"-RFX-220-CS"
+    },
+    {
+      "from_tag": "P-204A",
+      "to_tag": "C-202",
+      "type": "pipe",
+      "via_line": "3\"-RFX-221-CS"
+    },
+    {
+      "from_tag": "V-204",
+      "to_tag": "PSV-204",
+      "type": "pipe",
+      "via_line": "4\"-PSV-222-CS"
+    },
+    {
+      "from_tag": "P-204A",
+      "to_tag": "V-204",
+      "type": "pipe",
+      "via_line": "4\"-C3P-223-CS"
+    },
+    {
+      "from_tag": "C-202",
+      "to_tag": "E-205",
+      "type": "pipe",
+      "via_line": "8\"-RBO-224-CS"
+    },
+    {
+      "from_tag": "E-205",
+      "to_tag": "C-202",
+      "type": "pipe",
+      "via_line": "10\"-RBO-225-CS"
+    },
+    {
+      "from_tag": "C-202",
+      "to_tag": "V-205",
+      "type": "pipe",
+      "via_line": "6\"-BTM-226-CS"
+    },
+    {
+      "from_tag": "V-205",
+      "to_tag": "P-205A",
+      "type": "pipe",
+      "via_line": "4\"-C4P-227-CS"
+    },
+    {
+      "from_tag": "P-205A",
+      "to_tag": "V-205",
+      "type": "pipe",
+      "via_line": "4\"-C4P-228-CS"
+    },
+    {
+      "from_tag": "LT-201",
+      "to_tag": "V-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-201",
+      "to_tag": "V-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-201",
+      "to_tag": "P-201A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-202",
+      "to_tag": "P-201A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-203",
+      "to_tag": "E-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TIC-203",
+      "to_tag": "E-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-204",
+      "to_tag": "C-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PIC-204",
+      "to_tag": "C-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-205",
+      "to_tag": "C-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-206",
+      "to_tag": "C-201",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-207",
+      "to_tag": "V-202",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-207",
+      "to_tag": "V-202",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-208",
+      "to_tag": "P-202A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FIC-208",
+      "to_tag": "P-202A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-209",
+      "to_tag": "E-203",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-210",
+      "to_tag": "V-203",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-211",
+      "to_tag": "P-203A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PT-212",
+      "to_tag": "C-202",
+      "type": "signal"
+    },
+    {
+      "from_tag": "PIC-212",
+      "to_tag": "C-202",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-213",
+      "to_tag": "C-202",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-214",
+      "to_tag": "C-202",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-215",
+      "to_tag": "V-204",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FT-216",
+      "to_tag": "P-204A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "FIC-216",
+      "to_tag": "P-204A",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TT-217",
+      "to_tag": "E-205",
+      "type": "signal"
+    },
+    {
+      "from_tag": "TIC-217",
+      "to_tag": "E-205",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LT-218",
+      "to_tag": "V-205",
+      "type": "signal"
+    },
+    {
+      "from_tag": "LIC-218",
+      "to_tag": "V-205",
+      "type": "signal"
+    }
+  ],
+  "expected_anomalies": [
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "medium",
+      "violated_by": "V-205",
+      "description": "C4 product drum V-205 has no dedicated PSV in this excerpt.",
+      "suggestion": "Verify PSV-205 routing or add a relief tag."
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "low",
+      "violated_by": "LT-210",
+      "description": "LT-210 on V-203 has no controller pairing in this excerpt.",
+      "suggestion": "Verify LIC-210 placement or add an explicit control loop."
+    }
+  ]
+}

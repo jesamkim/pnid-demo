@@ -1,0 +1,6685 @@
+{
+  "drawing_id": "00",
+  "image": "images/00.png",
+  "canvas": {
+    "width": 10000,
+    "height": 3800
+  },
+  "events": [
+    {
+      "stage": "render",
+      "detail": "00_complex_refinery.pdf -> 7800x2964 @ 200dpi (PNG)",
+      "elapsed_s": 0.4,
+      "extra": {
+        "canvas_width": 7800,
+        "canvas_height": 2964
+      }
+    },
+    {
+      "stage": "ocr_extract",
+      "detail": "Textract recovered 165 text blocks; line-grammar match deferred to convention detect",
+      "elapsed_s": 5.01,
+      "extra": {
+        "blocks": 165
+      }
+    },
+    {
+      "stage": "convention_detect",
+      "detail": "ISA-5.1 (North America) — source=ocr (isa=111 din=0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "name": "isa",
+        "source": "ocr",
+        "isa_score": 111,
+        "din_score": 0
+      }
+    },
+    {
+      "stage": "extract",
+      "detail": "Eq=43 Inst=49 Lines=38 Conn=33 (hierarchical: 6 zones)",
+      "elapsed_s": 41.18,
+      "extra": {
+        "input_tokens": 25207,
+        "output_tokens": 8424,
+        "tiles_used": 1,
+        "ocr_hints_used": 0
+      }
+    },
+    {
+      "stage": "line_refine",
+      "detail": "OCR-anchored line refinement: matched=0 added=0 (of 0 candidates)",
+      "elapsed_s": 15.39,
+      "extra": {
+        "matched": 0,
+        "added": 0,
+        "candidates": 0,
+        "mode": "vision-only"
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-501 → OCR bbox (5527.4, 12.4, 5670.5, 58.8)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-501",
+        "ocr_text": "PSV-501",
+        "confidence": 71.0
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-501 → OCR bbox (5580.3, 420.1, 5645.3, 443.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-501",
+        "ocr_text": "V-501",
+        "confidence": 98.6
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "C-401 → OCR bbox (5955.2, 606.5, 6018.6, 632.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "C-401",
+        "ocr_text": "C-401",
+        "confidence": 94.0
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-501 → OCR bbox (6328.1, 606.8, 6392.2, 630.8)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-501",
+        "ocr_text": "E-501",
+        "confidence": 96.3
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "F-101 → OCR bbox (1645.2, 204.9, 1711.2, 230.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "F-101",
+        "ocr_text": "F-101",
+        "confidence": 93.0
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "R-101 → OCR bbox (2083.4, 420.0, 2150.3, 444.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "R-101",
+        "ocr_text": "R-101",
+        "confidence": 96.7
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-103 → OCR bbox (2640.2, 357.2, 2714.0, 378.4)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-103",
+        "ocr_text": "E-103",
+        "confidence": 97.6
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-102 → OCR bbox (3086.8, 419.5, 3149.3, 443.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-102",
+        "ocr_text": "V-102",
+        "confidence": 97.0
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-103 → OCR bbox (3460.7, 419.3, 3524.3, 442.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-103",
+        "ocr_text": "V-103",
+        "confidence": 97.7
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-401 → OCR bbox (3959.5, 420.4, 4022.8, 443.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-401",
+        "ocr_text": "V-401",
+        "confidence": 97.7
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-102 → OCR bbox (2322.2, 31.5, 2424.1, 58.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-102",
+        "ocr_text": "PSV-102",
+        "confidence": 94.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-103 → OCR bbox (2322.2, 31.5, 2424.1, 58.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-103",
+        "ocr_text": "PSV-102",
+        "confidence": 94.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-104 → OCR bbox (2322.2, 31.5, 2424.1, 58.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-104",
+        "ocr_text": "PSV-102",
+        "confidence": 94.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-401 → OCR bbox (2074.5, 1902.3, 2172.3, 1927.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-401",
+        "ocr_text": "PSV-301",
+        "confidence": 91.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-101 → OCR bbox (213.7, 419.6, 279.8, 444.5)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-101",
+        "ocr_text": "V-101",
+        "confidence": 95.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "P-101B → OCR bbox (520.2, 475.8, 594.9, 504.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "P-101B",
+        "ocr_text": "P-101B",
+        "confidence": 17.9
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-201 → OCR bbox (337.1, 1105.7, 397.7, 1132.0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-201",
+        "ocr_text": "E-201",
+        "confidence": 97.1
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "F-201 → OCR bbox (772.1, 954.0, 838.2, 979.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "F-201",
+        "ocr_text": "F-201",
+        "confidence": 95.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "C-201 → OCR bbox (1206.8, 1477.4, 1275.4, 1505.8)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "C-201",
+        "ocr_text": "C-201",
+        "confidence": 96.1
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-202 → OCR bbox (1646.0, 1105.4, 1714.4, 1126.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-202",
+        "ocr_text": "E-202",
+        "confidence": 97.5
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-201 → OCR bbox (2081.7, 982.9, 2150.5, 1004.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-201",
+        "ocr_text": "V-201",
+        "confidence": 95.3
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "P-201A → OCR bbox (2395.6, 1223.2, 2469.9, 1249.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "P-201A",
+        "ocr_text": "P-201B",
+        "confidence": 51.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "P-201B → OCR bbox (2395.6, 1223.2, 2469.9, 1249.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "P-201B",
+        "ocr_text": "P-201B",
+        "confidence": 51.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "C-202 → OCR bbox (2770.1, 1544.3, 2839.1, 1568.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "C-202",
+        "ocr_text": "C-202",
+        "confidence": 95.0
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "C-203 → OCR bbox (3024.6, 1543.8, 3087.9, 1566.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "C-203",
+        "ocr_text": "C-203",
+        "confidence": 94.7
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "C-204 → OCR bbox (3270.8, 1543.2, 3335.6, 1569.5)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "C-204",
+        "ocr_text": "C-204",
+        "confidence": 97.4
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-201 → OCR bbox (2074.5, 1902.3, 2172.3, 1927.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-201",
+        "ocr_text": "PSV-301",
+        "confidence": 91.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-101 → OCR bbox (2074.5, 1902.3, 2172.3, 1927.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-101",
+        "ocr_text": "PSV-301",
+        "confidence": 91.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "P-101A → OCR bbox (522.9, 346.5, 596.1, 375.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "P-101A",
+        "ocr_text": "P-101A",
+        "confidence": 24.0
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-101 → OCR bbox (836.1, 358.3, 899.9, 382.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-101",
+        "ocr_text": "E-101",
+        "confidence": 98.3
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-102 → OCR bbox (1209.8, 357.6, 1275.2, 380.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-102",
+        "ocr_text": "E-102",
+        "confidence": 97.9
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-402 → OCR bbox (5207.4, 421.1, 5271.9, 442.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-402",
+        "ocr_text": "V-402",
+        "confidence": 98.1
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-401 → OCR bbox (4766.4, 482.7, 4833.4, 500.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-401",
+        "ocr_text": "E-401",
+        "confidence": 86.2
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-601 → OCR bbox (4208.1, 1357.5, 4271.8, 1376.8)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-601",
+        "ocr_text": "V-601",
+        "confidence": 97.4
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-602 → OCR bbox (4583.6, 1356.0, 4644.1, 1376.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-602",
+        "ocr_text": "V-602",
+        "confidence": 96.0
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-603 → OCR bbox (4957.1, 1357.0, 5021.1, 1376.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-603",
+        "ocr_text": "V-603",
+        "confidence": 96.8
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-604 → OCR bbox (5330.3, 1356.3, 5395.6, 1376.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-604",
+        "ocr_text": "V-604",
+        "confidence": 96.2
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-605 → OCR bbox (5704.4, 1356.1, 5767.4, 1376.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-605",
+        "ocr_text": "V-605",
+        "confidence": 96.7
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "E-601 → OCR bbox (6201.7, 1355.5, 6267.8, 1378.8)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "E-601",
+        "ocr_text": "E-601",
+        "confidence": 96.5
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-907 → OCR bbox (5830.0, 2105.0, 5895.6, 2128.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-907",
+        "ocr_text": "V-907",
+        "confidence": 96.9
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "FH-901 → OCR bbox (6193.0, 1980.2, 6276.0, 2003.0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "FH-901",
+        "ocr_text": "FH-901",
+        "confidence": 96.3
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "V-908 → OCR bbox (6701.5, 1980.3, 6767.6, 2003.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "V-908",
+        "ocr_text": "V-908",
+        "confidence": 97.5
+      }
+    },
+    {
+      "stage": "fusion_match_equipment",
+      "detail": "PSV-908 → OCR bbox (6941.0, 1764.4, 7040.9, 1804.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PSV-908",
+        "ocr_text": "PSV-908",
+        "confidence": 86.1
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-406 → bubble bbox (5770.7, 155.4, 5832.7, 219.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-406",
+        "ocr_text": "406",
+        "confidence": 84.0
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-406 → bubble bbox (5770.7, 155.4, 5832.7, 219.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-406",
+        "ocr_text": "406",
+        "confidence": 84.0
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-405 → bubble bbox (3774.9, 283.7, 3836.2, 346.0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-405",
+        "ocr_text": "401",
+        "confidence": 95.5
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-407 → bubble bbox (6267.7, 405.2, 6329.9, 467.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-407",
+        "ocr_text": "407",
+        "confidence": 82.5
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TIC-106 → bubble bbox (1523.4, 31.6, 1592.0, 95.4)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TIC-106",
+        "ocr_text": "106",
+        "confidence": 74.7
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "FT-107 → bubble bbox (5517.9, 1282.9, 5583.4, 1342.0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "FT-107",
+        "ocr_text": "100",
+        "confidence": 16.6
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-108 → bubble bbox (1898.4, 159.7, 1961.6, 218.5)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-108",
+        "ocr_text": "108",
+        "confidence": 94.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PIC-108 → bubble bbox (1898.4, 159.7, 1961.6, 218.5)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PIC-108",
+        "ocr_text": "108",
+        "confidence": 94.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-109 → bubble bbox (1901.9, 283.1, 1965.0, 346.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-109",
+        "ocr_text": "109",
+        "confidence": 19.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-110 → bubble bbox (2271.1, 285.3, 2335.7, 345.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-110",
+        "ocr_text": "110",
+        "confidence": 95.8
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-111 → bubble bbox (2523.0, 35.4, 2585.4, 96.4)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-111",
+        "ocr_text": "111",
+        "confidence": 81.4
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-112 → bubble bbox (3143.6, 1283.0, 3214.1, 1343.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-112",
+        "ocr_text": "12",
+        "confidence": 27.2
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-113 → bubble bbox (3273.3, 283.7, 3337.8, 344.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-113",
+        "ocr_text": "113",
+        "confidence": 95.6
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-115 → bubble bbox (3275.9, 410.1, 3336.7, 469.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-115",
+        "ocr_text": "15",
+        "confidence": 74.4
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-114 → bubble bbox (3273.3, 283.7, 3337.8, 344.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-114",
+        "ocr_text": "113",
+        "confidence": 95.6
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-401 → bubble bbox (3774.9, 283.7, 3836.2, 346.0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-401",
+        "ocr_text": "401",
+        "confidence": 95.5
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LIC-113 → bubble bbox (3273.3, 283.7, 3337.8, 344.7)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LIC-113",
+        "ocr_text": "113",
+        "confidence": 95.6
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TIC-202 → bubble bbox (4766.1, 1278.6, 4834.7, 1343.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TIC-202",
+        "ocr_text": "602",
+        "confidence": 91.8
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-206 → bubble bbox (2023.9, 1156.0, 2087.6, 1218.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-206",
+        "ocr_text": "206",
+        "confidence": 94.2
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "FT-201 → bubble bbox (760.1, 942.0, 850.2, 991.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "FT-201",
+        "ocr_text": "F-201",
+        "confidence": 95.8
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-203 → bubble bbox (3012.6, 1531.8, 3099.9, 1578.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-203",
+        "ocr_text": "C-203",
+        "confidence": 94.7
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PIC-203 → bubble bbox (3012.6, 1531.8, 3099.9, 1578.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PIC-203",
+        "ocr_text": "C-203",
+        "confidence": 94.7
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "FT-207 → bubble bbox (2023.9, 1156.0, 2087.6, 1218.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "FT-207",
+        "ocr_text": "206",
+        "confidence": 94.2
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "FIC-207 → bubble bbox (2522.5, 1027.4, 2586.6, 1092.4)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "FIC-207",
+        "ocr_text": "FIC/207",
+        "confidence": 28.4
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-204 → bubble bbox (1028.0, 1029.1, 1089.5, 1092.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-204",
+        "ocr_text": "204",
+        "confidence": 78.0
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-205 → bubble bbox (1400.6, 1030.8, 1462.2, 1094.5)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-205",
+        "ocr_text": "205",
+        "confidence": 94.9
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LIC-206 → bubble bbox (2023.9, 1156.0, 2087.6, 1218.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LIC-206",
+        "ocr_text": "206",
+        "confidence": 94.2
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-208 → bubble bbox (2301.4, 1110.6, 2395.7, 1154.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-208",
+        "ocr_text": "X-208",
+        "confidence": 90.7
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-209 → bubble bbox (2023.9, 1156.0, 2087.6, 1218.2)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-209",
+        "ocr_text": "206",
+        "confidence": 94.2
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-210 → bubble bbox (2903.2, 284.2, 2962.9, 347.4)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-210",
+        "ocr_text": "211",
+        "confidence": 22.9
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-211 → bubble bbox (2903.2, 284.2, 2962.9, 347.4)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-211",
+        "ocr_text": "211",
+        "confidence": 22.9
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-101 → bubble bbox (4393.8, 1278.9, 4461.0, 1345.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-101",
+        "ocr_text": "601",
+        "confidence": 92.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LIC-101 → bubble bbox (4393.8, 1278.9, 4461.0, 1345.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LIC-101",
+        "ocr_text": "601",
+        "confidence": 92.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "FT-102 → bubble bbox (3143.6, 1283.0, 3214.1, 1343.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "FT-102",
+        "ocr_text": "12",
+        "confidence": 27.2
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-103 → bubble bbox (3448.7, 407.3, 3536.3, 454.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-103",
+        "ocr_text": "V-103",
+        "confidence": 97.7
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-104 → bubble bbox (778.7, 156.5, 838.8, 220.5)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-104",
+        "ocr_text": "104",
+        "confidence": 92.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-105 → bubble bbox (1148.4, 156.5, 1213.2, 222.5)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-105",
+        "ocr_text": "105",
+        "confidence": 97.9
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "SI-501 → bubble bbox (4393.8, 1278.9, 4461.0, 1345.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "SI-501",
+        "ocr_text": "601",
+        "confidence": 92.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PIC-406 → bubble bbox (5770.7, 155.4, 5832.7, 219.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PIC-406",
+        "ocr_text": "406",
+        "confidence": 84.0
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "TT-606 → bubble bbox (6141.5, 1154.8, 6206.3, 1218.0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "TT-606",
+        "ocr_text": "606",
+        "confidence": 90.1
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-601 → bubble bbox (4393.8, 1278.9, 4461.0, 1345.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-601",
+        "ocr_text": "601",
+        "confidence": 92.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-602 → bubble bbox (4766.1, 1278.6, 4834.7, 1343.9)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-602",
+        "ocr_text": "602",
+        "confidence": 91.8
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-603 → bubble bbox (5143.9, 1278.4, 5209.8, 1343.0)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-603",
+        "ocr_text": "603",
+        "confidence": 82.2
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-604 → bubble bbox (4393.8, 1278.9, 4461.0, 1345.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-604",
+        "ocr_text": "601",
+        "confidence": 92.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-605 → bubble bbox (4393.8, 1278.9, 4461.0, 1345.6)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-605",
+        "ocr_text": "601",
+        "confidence": 92.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-703 → bubble bbox (5514.6, 1907.5, 5583.1, 1966.3)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-703",
+        "ocr_text": "703",
+        "confidence": 96.3
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PT-901 → bubble bbox (6015.7, 1782.5, 6082.8, 1841.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PT-901",
+        "ocr_text": "901",
+        "confidence": 94.9
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "PIC-901 → bubble bbox (6015.7, 1782.5, 6082.8, 1841.1)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "PIC-901",
+        "ocr_text": "901",
+        "confidence": 94.9
+      }
+    },
+    {
+      "stage": "fusion_match_instrument",
+      "detail": "LT-902 → bubble bbox (6512.4, 1784.3, 6582.8, 1841.8)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "tag": "LT-902",
+        "ocr_text": "902",
+        "confidence": 96.4
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-108-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-108-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-109-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-109-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "14\"-EFF-110-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "14\"-EFF-110-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "14\"-EFF-111-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "14\"-EFF-111-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-112-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-112-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-114-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-114-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "16\"-CRD-101-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "16\"-CRD-101-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "16\"-CRD-102-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "16\"-CRD-102-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "14\"-ATM-201-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "14\"-ATM-201-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-206-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-206-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-RFX-207-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-RFX-207-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-RFX-208-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-RFX-208-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-NPH-210-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-NPH-210-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-KER-211-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-KER-211-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "8\"-DIE-212-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "8\"-DIE-212-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-NPH-213-CS → polyline through 1 OCR labels",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-NPH-213-CS",
+        "n_pts": 1
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-KER-214-CS → polyline through 1 OCR labels",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-KER-214-CS",
+        "n_pts": 1
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-DIE-215-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-DIE-215-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-305-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-305-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "8\"-VGO-306-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "8\"-VGO-306-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "8\"-SLW-307-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "8\"-SLW-307-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "8\"-VCO-305-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "8\"-VCO-305-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "10\"-RCY-401-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "10\"-RCY-401-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-402-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-402-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "8\"-RCY-403-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "8\"-RCY-403-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-408-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-408-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "8\"-RAM-411-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "8\"-RAM-411-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "8\"-LAM-412-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "8\"-LAM-412-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-NPH-702-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-NPH-702-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-DIE-701-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-DIE-701-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-VGO-703-CS → polyline through 1 OCR labels",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-VGO-703-CS",
+        "n_pts": 1
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "4\"-PSV-903-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "4\"-PSV-903-CS"
+      }
+    },
+    {
+      "stage": "fusion_match_line",
+      "detail": "6\"-FLR-902-CS → no OCR labels matched (kept Vision endpoints)",
+      "elapsed_s": 0.0,
+      "extra": {
+        "line_no": "6\"-FLR-902-CS"
+      }
+    },
+    {
+      "stage": "fusion_done",
+      "detail": "matched eq=43/43 inst=49/49 line=3/33",
+      "elapsed_s": 0.26,
+      "extra": {}
+    },
+    {
+      "stage": "evaluate",
+      "detail": "verdict=needs_correction rule_anomalies=25 llm_findings=10",
+      "elapsed_s": 16.13,
+      "extra": {}
+    },
+    {
+      "stage": "self_correct_initial_extract",
+      "detail": "Eq=43 Inst=49 Lines=33",
+      "elapsed_s": 0.0,
+      "extra": {
+        "iteration": 0,
+        "verdict_after": "needs_correction"
+      }
+    },
+    {
+      "stage": "self_correct_error_analysis",
+      "detail": "strategy=request_higher_resolution; root_cause=The extraction missed a significant number of clearly visible equipment items (vessels V-701/702/703, PSVs PSV-402/PSV-301, heat exchangers E-203/E-301, column C-301, fired heater F-301, vessel V-301) concentrated in the lower and lower-left regions of the drawing, while also failing to detect PSV connections for 13 pressure-containing vessels and signal lines for 11 instruments. The pattern of missing items clustered in specific drawing regions — with no occlusion flag but consistent absence of entire equipment groups — indicates insufficient resolution or coverage during extraction rather than occlusion or hallucination.",
+      "elapsed_s": 9.0,
+      "extra": {
+        "iteration": 1,
+        "verdict_after": ""
+      }
+    },
+    {
+      "stage": "self_correct_reextract",
+      "detail": "strategy=request_higher_resolution; new Eq=53 Inst=61 Lines=43",
+      "elapsed_s": 60.5,
+      "extra": {
+        "iteration": 1,
+        "verdict_after": ""
+      }
+    },
+    {
+      "stage": "self_correct_re_evaluate",
+      "detail": "rule_anomalies=61 llm_findings=0",
+      "elapsed_s": 6.1,
+      "extra": {
+        "iteration": 1,
+        "verdict_after": "needs_correction"
+      }
+    },
+    {
+      "stage": "self_correct_hold",
+      "detail": "genuine anomalies remain (61 rule violations) — self-correction does not modify them; they are reported to the user as Anomalies",
+      "elapsed_s": 0.0,
+      "extra": {
+        "iteration": 1,
+        "verdict_after": "needs_correction"
+      }
+    },
+    {
+      "stage": "self_correct_done",
+      "detail": "iterations=1 final_verdict=needs_correction",
+      "elapsed_s": 75.52,
+      "extra": {}
+    },
+    {
+      "stage": "valve_scan",
+      "detail": "found 0 new valves across 6 zones",
+      "elapsed_s": 16.16,
+      "extra": {
+        "valves_found": 0,
+        "total_equipment": 53,
+        "zones_scanned": 6
+      }
+    },
+    {
+      "stage": "connection_stitch",
+      "detail": "added 46 new connections (total 59)",
+      "elapsed_s": 18.51,
+      "extra": {
+        "raw_new": 46,
+        "added_after_dedup": 46,
+        "total_connections": 59
+      }
+    },
+    {
+      "stage": "finalize",
+      "detail": "anomalies=61 (convention=isa)",
+      "elapsed_s": 0.0,
+      "extra": {}
+    }
+  ],
+  "extraction": {
+    "equipment": [
+      {
+        "tag": "V-101",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "P-101A",
+        "type": "pump",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "P-101B",
+        "type": "pump",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-101",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-102",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "F-101",
+        "type": "other",
+        "service": "fired heater",
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "R-101",
+        "type": "reactor",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-103",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-102",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-103",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-401",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "K-401",
+        "type": "pump",
+        "service": "compressor",
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-401",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-402",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-501",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "C-401",
+        "type": "column",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-501",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-102",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-103",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-104",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-401",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-402",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-501",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "F-201",
+        "type": "other",
+        "service": "fired heater",
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-201",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "C-201",
+        "type": "column",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-202",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-201",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "P-201A",
+        "type": "pump",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "P-201B",
+        "type": "pump",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-201",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "C-202",
+        "type": "column",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "C-203",
+        "type": "column",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "C-204",
+        "type": "column",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-601",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-602",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-603",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-604",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-605",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-601",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-701",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-702",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-703",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-301",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-301",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-203",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "E-301",
+        "type": "heat_exchanger",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "F-301",
+        "type": "other",
+        "service": "fired heater",
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "C-301",
+        "type": "column",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "FH-901",
+        "type": "other",
+        "service": "fired heater",
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-907",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "V-908",
+        "type": "vessel",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      },
+      {
+        "tag": "PSV-908",
+        "type": "psv",
+        "service": null,
+        "bbox": null,
+        "page": 1,
+        "properties": {}
+      }
+    ],
+    "instruments": [
+      {
+        "tag": "LT-101",
+        "function": "LT",
+        "loop_id": "101",
+        "located_on": "V-101",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LIC-101",
+        "function": "LIC",
+        "loop_id": "101",
+        "located_on": "V-101",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "FT-102",
+        "function": "FT",
+        "loop_id": "102",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-103",
+        "function": "PT",
+        "loop_id": "103",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-104",
+        "function": "TT",
+        "loop_id": "104",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-105",
+        "function": "TT",
+        "loop_id": "105",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TIC-106",
+        "function": "TIC",
+        "loop_id": "106",
+        "located_on": "F-101",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "FT-107",
+        "function": "FT",
+        "loop_id": "107",
+        "located_on": "F-101",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-108",
+        "function": "PT",
+        "loop_id": "108",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PIC-108",
+        "function": "PIC",
+        "loop_id": "108",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-109",
+        "function": "TT",
+        "loop_id": "109",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-110",
+        "function": "TT",
+        "loop_id": "110",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-111",
+        "function": "TT",
+        "loop_id": "111",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-112",
+        "function": "PT",
+        "loop_id": "112",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-113",
+        "function": "TT",
+        "loop_id": "113",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-115",
+        "function": "PT",
+        "loop_id": "115",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LIC-113",
+        "function": "LIC",
+        "loop_id": "113",
+        "located_on": "V-102",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-114",
+        "function": "TT",
+        "loop_id": "114",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-401",
+        "function": "LT",
+        "loop_id": "401",
+        "located_on": "V-401",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "FT-402",
+        "function": "FT",
+        "loop_id": "402",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "ST-501",
+        "function": "ST",
+        "loop_id": "501",
+        "located_on": "K-401",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-403",
+        "function": "TT",
+        "loop_id": "403",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-404",
+        "function": "PT",
+        "loop_id": "404",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-405",
+        "function": "PT",
+        "loop_id": "405",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-406",
+        "function": "LT",
+        "loop_id": "406",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "FT-406",
+        "function": "FT",
+        "loop_id": "406",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-407",
+        "function": "TT",
+        "loop_id": "407",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PIC-406",
+        "function": "PIC",
+        "loop_id": "406",
+        "located_on": "C-401",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TIC-202",
+        "function": "TIC",
+        "loop_id": "202",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "FT-201",
+        "function": "FT",
+        "loop_id": "201",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-203",
+        "function": "PT",
+        "loop_id": "203",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PIC-203",
+        "function": "PIC",
+        "loop_id": "203",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-204",
+        "function": "TT",
+        "loop_id": "204",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-205",
+        "function": "TT",
+        "loop_id": "205",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-206",
+        "function": "LT",
+        "loop_id": "206",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LIC-206",
+        "function": "LIC",
+        "loop_id": "206",
+        "located_on": "V-201",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "FT-207",
+        "function": "FT",
+        "loop_id": "207",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "FIC-207",
+        "function": "FIC",
+        "loop_id": "207",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-208",
+        "function": "LT",
+        "loop_id": "208",
+        "located_on": "C-202",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-209",
+        "function": "LT",
+        "loop_id": "209",
+        "located_on": "C-203",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-210",
+        "function": "LT",
+        "loop_id": "210",
+        "located_on": "C-204",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-211",
+        "function": "TT",
+        "loop_id": "211",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-601",
+        "function": "LT",
+        "loop_id": "601",
+        "located_on": "V-601",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-602",
+        "function": "LT",
+        "loop_id": "602",
+        "located_on": "V-602",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-603",
+        "function": "LT",
+        "loop_id": "603",
+        "located_on": "V-603",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-604",
+        "function": "LT",
+        "loop_id": "604",
+        "located_on": "V-604",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-605",
+        "function": "LT",
+        "loop_id": "605",
+        "located_on": "V-605",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-606",
+        "function": "TT",
+        "loop_id": "606",
+        "located_on": "E-601",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-701",
+        "function": "LT",
+        "loop_id": "701",
+        "located_on": "V-701",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-702",
+        "function": "LT",
+        "loop_id": "702",
+        "located_on": "V-702",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-703",
+        "function": "LT",
+        "loop_id": "703",
+        "located_on": "V-703",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-302",
+        "function": "PT",
+        "loop_id": "302",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PIC-302",
+        "function": "PIC",
+        "loop_id": "302",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TIC-301",
+        "function": "TIC",
+        "loop_id": "301",
+        "located_on": "F-301",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-303",
+        "function": "TT",
+        "loop_id": "303",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TT-304",
+        "function": "TT",
+        "loop_id": "304",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "TIC-211",
+        "function": "TIC",
+        "loop_id": "211",
+        "located_on": "E-301",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-305",
+        "function": "LT",
+        "loop_id": "305",
+        "located_on": "V-301",
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PT-901",
+        "function": "PT",
+        "loop_id": "901",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "PIC-901",
+        "function": "PIC",
+        "loop_id": "901",
+        "located_on": null,
+        "bbox": null,
+        "page": 1
+      },
+      {
+        "tag": "LT-902",
+        "function": "LT",
+        "loop_id": "902",
+        "located_on": "V-908",
+        "bbox": null,
+        "page": 1
+      }
+    ],
+    "lines": [
+      {
+        "line_no": "4\"-PSV-108-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "16\"-CRD-101-CS",
+        "size": "16\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "P-101A",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "16\"-CRD-102-CS",
+        "size": "16\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "P-101B",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "14\"-CR",
+        "size": "14\"",
+        "service": "CR",
+        "spec": null,
+        "from_tag": "E-101",
+        "to_tag": "E-102",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-109-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "14\"-EFF-110-CS",
+        "size": "14\"",
+        "service": "EFF",
+        "spec": "CS",
+        "from_tag": "R-101",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "14\"-EFF-111-CS",
+        "size": "14\"",
+        "service": "EFF",
+        "spec": "CS",
+        "from_tag": "E-103",
+        "to_tag": "V-102",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-112-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-114-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "10\"-RCY-401-CS",
+        "size": "10\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "V-401",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-402-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "8\"-RCY-403-CS",
+        "size": "8\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": "K-401",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "8\"-RCY-404-CS",
+        "size": "8\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": "K-401",
+        "to_tag": "E-401",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-406-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-508-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-MUH",
+        "size": "6\"",
+        "service": "MUH",
+        "spec": null,
+        "from_tag": null,
+        "to_tag": "V-501",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "8\"-LAM-412-CS",
+        "size": "8\"",
+        "service": "LAM",
+        "spec": "CS",
+        "from_tag": "C-401",
+        "to_tag": "E-501",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "8\"-RAM-411-CS",
+        "size": "8\"",
+        "service": "RAM",
+        "spec": "CS",
+        "from_tag": "C-401",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "14\"-ATM-201-CS",
+        "size": "14\"",
+        "service": "ATM",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "14\"-AT",
+        "size": "14\"",
+        "service": "AT",
+        "spec": null,
+        "from_tag": "E-201",
+        "to_tag": "F-201",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-206-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-RFX-",
+        "size": "4\"",
+        "service": "RFX",
+        "spec": null,
+        "from_tag": "V-201",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-RFX-207-CS",
+        "size": "6\"",
+        "service": "RFX",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "P-201A",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-RFX-208-CS",
+        "size": "6\"",
+        "service": "RFX",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "P-201B",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "12\"-AT",
+        "size": "12\"",
+        "service": "AT",
+        "spec": null,
+        "from_tag": "C-201",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-NPH-210-CS",
+        "size": "6\"",
+        "service": "NPH",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "C-202",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-KER-211-CS",
+        "size": "6\"",
+        "service": "KER",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "C-203",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-DIE-212-CS",
+        "size": "6\"",
+        "service": "DIE",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "C-204",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-NPH-213-CS",
+        "size": "4\"",
+        "service": "NPH",
+        "spec": "CS",
+        "from_tag": "C-202",
+        "to_tag": "V-601",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-KER-214-CS",
+        "size": "4\"",
+        "service": "KER",
+        "spec": "CS",
+        "from_tag": "C-203",
+        "to_tag": "V-603",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-DIE-215-CS",
+        "size": "6\"",
+        "service": "DIE",
+        "spec": "CS",
+        "from_tag": "C-204",
+        "to_tag": "V-604",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "8\"-VGO-306-",
+        "size": "8\"",
+        "service": "VGO",
+        "spec": null,
+        "from_tag": "C-204",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-NPH-701-CS",
+        "size": "6\"",
+        "service": "NPH",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "V-701",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-DIE-701-CS",
+        "size": "6\"",
+        "service": "DIE",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "V-702",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-VGO-703-CS",
+        "size": "6\"",
+        "service": "VGO",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": "V-703",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-SLW-307-CS",
+        "size": "6\"",
+        "service": "SLW",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-OVH-303-CS",
+        "size": "6\"",
+        "service": "OVH",
+        "spec": "CS",
+        "from_tag": "C-301",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-OV",
+        "size": "4\"",
+        "service": "OV",
+        "spec": null,
+        "from_tag": null,
+        "to_tag": "V-301",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-305-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "14\"-VA",
+        "size": "14\"",
+        "service": "VA",
+        "spec": null,
+        "from_tag": "C-301",
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-DRN",
+        "size": "4\"",
+        "service": "DRN",
+        "spec": null,
+        "from_tag": null,
+        "to_tag": "V-907",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "6\"-FLR-902-",
+        "size": "6\"",
+        "service": "FLR",
+        "spec": null,
+        "from_tag": null,
+        "to_tag": "V-908",
+        "geometry": null,
+        "page": 1
+      },
+      {
+        "line_no": "4\"-PSV-903-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": null,
+        "to_tag": null,
+        "geometry": null,
+        "page": 1
+      }
+    ],
+    "connections": [
+      {
+        "from_tag": "V-101",
+        "to_tag": "P-101A",
+        "type": "process",
+        "via_line": "16\"-CRD-101-CS"
+      },
+      {
+        "from_tag": "V-101",
+        "to_tag": "P-101B",
+        "type": "process",
+        "via_line": "16\"-CRD-102-CS"
+      },
+      {
+        "from_tag": "E-101",
+        "to_tag": "E-102",
+        "type": "process",
+        "via_line": "14\"-CR"
+      },
+      {
+        "from_tag": "E-103",
+        "to_tag": "V-102",
+        "type": "process",
+        "via_line": "14\"-EFF-111-CS"
+      },
+      {
+        "from_tag": "K-401",
+        "to_tag": "E-401",
+        "type": "process",
+        "via_line": "8\"-RCY-404-CS"
+      },
+      {
+        "from_tag": "C-401",
+        "to_tag": "E-501",
+        "type": "process",
+        "via_line": "8\"-LAM-412-CS"
+      },
+      {
+        "from_tag": "E-201",
+        "to_tag": "F-201",
+        "type": "process",
+        "via_line": "14\"-AT"
+      },
+      {
+        "from_tag": "C-201",
+        "to_tag": "C-202",
+        "type": "process",
+        "via_line": "6\"-NPH-210-CS"
+      },
+      {
+        "from_tag": "C-201",
+        "to_tag": "C-203",
+        "type": "process",
+        "via_line": "6\"-KER-211-CS"
+      },
+      {
+        "from_tag": "C-201",
+        "to_tag": "C-204",
+        "type": "process",
+        "via_line": "6\"-DIE-212-CS"
+      },
+      {
+        "from_tag": "C-202",
+        "to_tag": "V-601",
+        "type": "process",
+        "via_line": "4\"-NPH-213-CS"
+      },
+      {
+        "from_tag": "C-203",
+        "to_tag": "V-603",
+        "type": "process",
+        "via_line": "4\"-KER-214-CS"
+      },
+      {
+        "from_tag": "C-204",
+        "to_tag": "V-604",
+        "type": "process",
+        "via_line": "6\"-DIE-215-CS"
+      },
+      {
+        "from_tag": "P-101A",
+        "to_tag": "E-101",
+        "type": "process",
+        "via_line": "14\"-CR"
+      },
+      {
+        "from_tag": "P-101B",
+        "to_tag": "E-101",
+        "type": "process",
+        "via_line": "14\"-CR"
+      },
+      {
+        "from_tag": "E-102",
+        "to_tag": "F-101",
+        "type": "process",
+        "via_line": "14\"-CR"
+      },
+      {
+        "from_tag": "F-101",
+        "to_tag": "R-101",
+        "type": "process",
+        "via_line": null
+      },
+      {
+        "from_tag": "R-101",
+        "to_tag": "E-103",
+        "type": "process",
+        "via_line": "14\"-EFF-110-CS"
+      },
+      {
+        "from_tag": "V-102",
+        "to_tag": "V-103",
+        "type": "process",
+        "via_line": null
+      },
+      {
+        "from_tag": "V-103",
+        "to_tag": "V-401",
+        "type": "process",
+        "via_line": "10\"-RCY-401-CS"
+      },
+      {
+        "from_tag": "V-401",
+        "to_tag": "K-401",
+        "type": "process",
+        "via_line": "8\"-RCY-403-CS"
+      },
+      {
+        "from_tag": "E-401",
+        "to_tag": "V-402",
+        "type": "process",
+        "via_line": null
+      },
+      {
+        "from_tag": "V-402",
+        "to_tag": "V-501",
+        "type": "process",
+        "via_line": "6\"-MUH"
+      },
+      {
+        "from_tag": "V-501",
+        "to_tag": "C-401",
+        "type": "process",
+        "via_line": null
+      },
+      {
+        "from_tag": "F-201",
+        "to_tag": "C-201",
+        "type": "process",
+        "via_line": "14\"-ATM-201-CS"
+      },
+      {
+        "from_tag": "C-201",
+        "to_tag": "E-202",
+        "type": "process",
+        "via_line": null
+      },
+      {
+        "from_tag": "E-202",
+        "to_tag": "V-201",
+        "type": "process",
+        "via_line": null
+      },
+      {
+        "from_tag": "V-201",
+        "to_tag": "P-201A",
+        "type": "process",
+        "via_line": "6\"-RFX-207-CS"
+      },
+      {
+        "from_tag": "V-201",
+        "to_tag": "P-201B",
+        "type": "process",
+        "via_line": "6\"-RFX-208-CS"
+      },
+      {
+        "from_tag": "C-202",
+        "to_tag": "V-701",
+        "type": "process",
+        "via_line": "6\"-NPH-701-CS"
+      },
+      {
+        "from_tag": "C-203",
+        "to_tag": "V-702",
+        "type": "process",
+        "via_line": "6\"-DIE-701-CS"
+      },
+      {
+        "from_tag": "C-204",
+        "to_tag": "V-703",
+        "type": "process",
+        "via_line": "6\"-VGO-703-CS"
+      },
+      {
+        "from_tag": "C-301",
+        "to_tag": "V-301",
+        "type": "process",
+        "via_line": "4\"-OV"
+      },
+      {
+        "from_tag": "F-301",
+        "to_tag": "C-301",
+        "type": "process",
+        "via_line": "14\"-VA"
+      },
+      {
+        "from_tag": "TIC-106",
+        "to_tag": "F-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "FT-107",
+        "to_tag": "F-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-101",
+        "to_tag": "V-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIC-101",
+        "to_tag": "V-101",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIC-113",
+        "to_tag": "V-102",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-401",
+        "to_tag": "V-401",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "ST-501",
+        "to_tag": "K-401",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "PIC-406",
+        "to_tag": "C-401",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LIC-206",
+        "to_tag": "V-201",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-208",
+        "to_tag": "C-202",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-209",
+        "to_tag": "C-203",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-210",
+        "to_tag": "C-204",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-601",
+        "to_tag": "V-601",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-602",
+        "to_tag": "V-602",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-603",
+        "to_tag": "V-603",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-604",
+        "to_tag": "V-604",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-605",
+        "to_tag": "V-605",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TT-606",
+        "to_tag": "E-601",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-701",
+        "to_tag": "V-701",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-702",
+        "to_tag": "V-702",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-703",
+        "to_tag": "V-703",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIC-301",
+        "to_tag": "F-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "TIC-211",
+        "to_tag": "E-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-305",
+        "to_tag": "V-301",
+        "type": "signal",
+        "via_line": null
+      },
+      {
+        "from_tag": "LT-902",
+        "to_tag": "V-908",
+        "type": "signal",
+        "via_line": null
+      }
+    ]
+  },
+  "anomalies": [
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-101",
+      "description": "Pressure-containing equipment V-101 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "R-101",
+      "description": "Pressure-containing equipment R-101 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-102",
+      "description": "Pressure-containing equipment V-102 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-103",
+      "description": "Pressure-containing equipment V-103 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-401",
+      "description": "Pressure-containing equipment V-401 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-402",
+      "description": "Pressure-containing equipment V-402 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-501",
+      "description": "Pressure-containing equipment V-501 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "C-401",
+      "description": "Pressure-containing equipment C-401 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "C-201",
+      "description": "Pressure-containing equipment C-201 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-201",
+      "description": "Pressure-containing equipment V-201 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "C-202",
+      "description": "Pressure-containing equipment C-202 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "C-203",
+      "description": "Pressure-containing equipment C-203 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "C-204",
+      "description": "Pressure-containing equipment C-204 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-601",
+      "description": "Pressure-containing equipment V-601 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-602",
+      "description": "Pressure-containing equipment V-602 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-603",
+      "description": "Pressure-containing equipment V-603 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-604",
+      "description": "Pressure-containing equipment V-604 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-605",
+      "description": "Pressure-containing equipment V-605 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-701",
+      "description": "Pressure-containing equipment V-701 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-702",
+      "description": "Pressure-containing equipment V-702 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-703",
+      "description": "Pressure-containing equipment V-703 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-301",
+      "description": "Pressure-containing equipment V-301 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "C-301",
+      "description": "Pressure-containing equipment C-301 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-907",
+      "description": "Pressure-containing equipment V-907 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "vessel_without_psv_protection",
+      "severity": "high",
+      "violated_by": "V-908",
+      "description": "Pressure-containing equipment V-908 has no PSV connection in the drawing",
+      "suggestion": "Verify PSV exists upstream/at top of vessel or check if drawing region is occluded"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "FT-102",
+      "description": "Instrument FT-102 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-103",
+      "description": "Instrument PT-103 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-104",
+      "description": "Instrument TT-104 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-105",
+      "description": "Instrument TT-105 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-108",
+      "description": "Instrument PT-108 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PIC-108",
+      "description": "Instrument PIC-108 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-109",
+      "description": "Instrument TT-109 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-110",
+      "description": "Instrument TT-110 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-111",
+      "description": "Instrument TT-111 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-112",
+      "description": "Instrument PT-112 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-113",
+      "description": "Instrument TT-113 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-115",
+      "description": "Instrument PT-115 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-114",
+      "description": "Instrument TT-114 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "FT-402",
+      "description": "Instrument FT-402 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-403",
+      "description": "Instrument TT-403 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-404",
+      "description": "Instrument PT-404 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-405",
+      "description": "Instrument PT-405 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "LT-406",
+      "description": "Instrument LT-406 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "FT-406",
+      "description": "Instrument FT-406 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-407",
+      "description": "Instrument TT-407 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TIC-202",
+      "description": "Instrument TIC-202 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "FT-201",
+      "description": "Instrument FT-201 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-203",
+      "description": "Instrument PT-203 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PIC-203",
+      "description": "Instrument PIC-203 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-204",
+      "description": "Instrument TT-204 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-205",
+      "description": "Instrument TT-205 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "LT-206",
+      "description": "Instrument LT-206 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "FT-207",
+      "description": "Instrument FT-207 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "FIC-207",
+      "description": "Instrument FIC-207 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-211",
+      "description": "Instrument TT-211 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-302",
+      "description": "Instrument PT-302 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PIC-302",
+      "description": "Instrument PIC-302 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-303",
+      "description": "Instrument TT-303 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "TT-304",
+      "description": "Instrument TT-304 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PT-901",
+      "description": "Instrument PT-901 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    },
+    {
+      "rule": "orphan_instrument",
+      "severity": "medium",
+      "violated_by": "PIC-901",
+      "description": "Instrument PIC-901 has no signal line, no panel assignment, and is not located on a known line/equipment",
+      "suggestion": "Trace signal line on the drawing or confirm tag is mistakenly placed"
+    }
+  ],
+  "verdict": "needs_correction",
+  "geometry": {
+    "equipment": [
+      {
+        "tag": "V-101",
+        "type": "vessel",
+        "service": "Crude Surge Drum",
+        "bbox": [
+          179.2,
+          339.2,
+          460.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "PSV-101",
+        "type": "psv",
+        "service": "V-101 surge drum relief",
+        "bbox": [
+          213.76,
+          10.026666666666657,
+          326.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "P-101A",
+        "type": "pump",
+        "service": "Charge Pump A",
+        "bbox": [
+          659.2,
+          339.2,
+          783.84,
+          460.8
+        ]
+      },
+      {
+        "tag": "P-101B",
+        "type": "pump",
+        "service": "Charge Pump B (spare)",
+        "bbox": [
+          659.2,
+          499.2,
+          783.84,
+          620.8
+        ]
+      },
+      {
+        "tag": "E-101",
+        "type": "heat_exchanger",
+        "service": "Crude/Effluent Preheat 1",
+        "bbox": [
+          979.2,
+          339.2,
+          1260.8000000000002,
+          620.8
+        ]
+      },
+      {
+        "tag": "E-102",
+        "type": "heat_exchanger",
+        "service": "Crude/Effluent Preheat 2",
+        "bbox": [
+          1459.2,
+          339.2,
+          1740.8000000000002,
+          620.8
+        ]
+      },
+      {
+        "tag": "F-101",
+        "type": "furnace",
+        "service": "Hydrotreater Charge Heater",
+        "bbox": [
+          1939.2,
+          179.2,
+          2380.8,
+          620.8
+        ]
+      },
+      {
+        "tag": "R-101",
+        "type": "vessel",
+        "service": "Hydrotreater Reactor",
+        "bbox": [
+          2579.2,
+          179.2,
+          2860.7999999999997,
+          940.8
+        ]
+      },
+      {
+        "tag": "PSV-102",
+        "type": "psv",
+        "service": "R-101 reactor relief",
+        "bbox": [
+          2933.76,
+          10.026666666666657,
+          3046.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "E-103",
+        "type": "air_cooler",
+        "service": "Reactor Effluent Air Cooler",
+        "bbox": [
+          3219.2,
+          179.2,
+          3660.7999999999997,
+          480.8
+        ]
+      },
+      {
+        "tag": "V-102",
+        "type": "vessel",
+        "service": "HP Separator",
+        "bbox": [
+          3859.2,
+          339.2,
+          4140.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "PSV-103",
+        "type": "psv",
+        "service": "V-102 HP separator relief",
+        "bbox": [
+          3893.76,
+          10.026666666666657,
+          4006.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "V-103",
+        "type": "vessel",
+        "service": "LP Separator",
+        "bbox": [
+          4339.2,
+          339.2,
+          4620.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "PSV-104",
+        "type": "psv",
+        "service": "V-103 LP separator relief",
+        "bbox": [
+          4373.76,
+          10.026666666666657,
+          4486.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "E-201",
+        "type": "heat_exchanger",
+        "service": "Atm Charge Preheat",
+        "bbox": [
+          339.2,
+          1299.2,
+          620.8,
+          1580.8000000000002
+        ]
+      },
+      {
+        "tag": "F-201",
+        "type": "furnace",
+        "service": "Atmospheric Charge Heater",
+        "bbox": [
+          819.2,
+          1139.2,
+          1260.8000000000002,
+          1580.8000000000002
+        ]
+      },
+      {
+        "tag": "C-201",
+        "type": "column",
+        "service": "Atmospheric Distillation Column",
+        "bbox": [
+          1459.2,
+          1139.2,
+          1740.8000000000002,
+          2700.8
+        ]
+      },
+      {
+        "tag": "E-202",
+        "type": "air_cooler",
+        "service": "C-201 Overhead Condenser",
+        "bbox": [
+          1939.2,
+          1139.2,
+          2380.8,
+          1440.8000000000002
+        ]
+      },
+      {
+        "tag": "V-201",
+        "type": "vessel",
+        "service": "C-201 Reflux Drum",
+        "bbox": [
+          2579.2,
+          1139.2,
+          2860.7999999999997,
+          1420.8000000000002
+        ]
+      },
+      {
+        "tag": "PSV-201",
+        "type": "psv",
+        "service": "V-201 reflux drum relief",
+        "bbox": [
+          2933.76,
+          1130.0266666666666,
+          3046.24,
+          1200.0
+        ]
+      },
+      {
+        "tag": "P-201A",
+        "type": "pump",
+        "service": "C-201 Reflux/Distillate Pump A",
+        "bbox": [
+          3059.2,
+          1299.2,
+          3183.84,
+          1420.8
+        ]
+      },
+      {
+        "tag": "P-201B",
+        "type": "pump",
+        "service": "C-201 Reflux/Distillate Pump B",
+        "bbox": [
+          3059.2,
+          1459.2,
+          3183.84,
+          1580.8
+        ]
+      },
+      {
+        "tag": "C-202",
+        "type": "column",
+        "service": "Naphtha Side-Stripper",
+        "bbox": [
+          3539.2,
+          1619.2,
+          3660.7999999999997,
+          2380.8
+        ]
+      },
+      {
+        "tag": "C-203",
+        "type": "column",
+        "service": "Kerosene Side-Stripper",
+        "bbox": [
+          3859.2,
+          1619.2,
+          3980.7999999999997,
+          2380.8
+        ]
+      },
+      {
+        "tag": "C-204",
+        "type": "column",
+        "service": "Diesel Side-Stripper",
+        "bbox": [
+          4179.2,
+          1619.2,
+          4300.8,
+          2380.8
+        ]
+      },
+      {
+        "tag": "E-203",
+        "type": "heat_exchanger",
+        "service": "C-201 Reboiler (steam)",
+        "bbox": [
+          1779.2,
+          2259.2,
+          2060.8,
+          2540.7999999999997
+        ]
+      },
+      {
+        "tag": "F-301",
+        "type": "furnace",
+        "service": "Vacuum Charge Heater",
+        "bbox": [
+          179.2,
+          2739.2,
+          620.8,
+          3180.7999999999997
+        ]
+      },
+      {
+        "tag": "C-301",
+        "type": "column",
+        "service": "Vacuum Distillation Column",
+        "bbox": [
+          819.2,
+          2419.2,
+          1100.8000000000002,
+          3500.7999999999997
+        ]
+      },
+      {
+        "tag": "E-301",
+        "type": "air_cooler",
+        "service": "Vacuum Top Condenser",
+        "bbox": [
+          1459.2,
+          2419.2,
+          1900.8000000000002,
+          2720.7999999999997
+        ]
+      },
+      {
+        "tag": "V-301",
+        "type": "vessel",
+        "service": "Vacuum Reflux Drum",
+        "bbox": [
+          2259.2,
+          2419.2,
+          2540.7999999999997,
+          2700.7999999999997
+        ]
+      },
+      {
+        "tag": "PSV-301",
+        "type": "psv",
+        "service": "V-301 vacuum reflux relief",
+        "bbox": [
+          2613.76,
+          2410.0266666666666,
+          2726.24,
+          2480.0
+        ]
+      },
+      {
+        "tag": "V-401",
+        "type": "vessel",
+        "service": "Light-Ends KO Drum",
+        "bbox": [
+          4979.2,
+          339.2,
+          5260.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "PSV-401",
+        "type": "psv",
+        "service": "V-401 light-ends KO relief",
+        "bbox": [
+          5013.76,
+          10.026666666666657,
+          5126.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "K-501",
+        "type": "pump",
+        "service": "Recycle Gas Compressor (centrifugal)",
+        "bbox": [
+          5459.2,
+          339.2,
+          5583.84,
+          460.8
+        ]
+      },
+      {
+        "tag": "E-401",
+        "type": "air_cooler",
+        "service": "Recycle Gas Cooler",
+        "bbox": [
+          5939.2,
+          339.2,
+          6380.8,
+          640.8
+        ]
+      },
+      {
+        "tag": "V-402",
+        "type": "vessel",
+        "service": "Recycle Gas KO Drum",
+        "bbox": [
+          6579.2,
+          339.2,
+          6860.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "PSV-402",
+        "type": "psv",
+        "service": "V-402 recycle gas KO relief",
+        "bbox": [
+          6613.76,
+          10.026666666666657,
+          6726.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "V-501",
+        "type": "vessel",
+        "service": "Make-up Hydrogen Drum",
+        "bbox": [
+          7059.2,
+          339.2,
+          7340.8,
+          780.8
+        ]
+      },
+      {
+        "tag": "PSV-501",
+        "type": "psv",
+        "service": "V-501 make-up H2 relief",
+        "bbox": [
+          7093.76,
+          10.026666666666657,
+          7206.24,
+          80.0
+        ]
+      },
+      {
+        "tag": "C-401",
+        "type": "column",
+        "service": "Amine Contactor (sour gas)",
+        "bbox": [
+          7539.2,
+          179.20000000000005,
+          7820.8,
+          1420.8
+        ]
+      },
+      {
+        "tag": "E-501",
+        "type": "heat_exchanger",
+        "service": "Lean/Rich Amine HX",
+        "bbox": [
+          8019.2,
+          659.2,
+          8300.8,
+          940.8000000000001
+        ]
+      },
+      {
+        "tag": "V-601",
+        "type": "vessel",
+        "service": "Naphtha Storage",
+        "bbox": [
+          5299.2,
+          1619.2,
+          5580.8,
+          1900.8000000000002
+        ]
+      },
+      {
+        "tag": "V-602",
+        "type": "vessel",
+        "service": "Kerosene Storage",
+        "bbox": [
+          5779.2,
+          1619.2,
+          6060.8,
+          1900.8000000000002
+        ]
+      },
+      {
+        "tag": "V-603",
+        "type": "vessel",
+        "service": "Diesel Storage",
+        "bbox": [
+          6259.2,
+          1619.2,
+          6540.8,
+          1900.8000000000002
+        ]
+      },
+      {
+        "tag": "V-604",
+        "type": "vessel",
+        "service": "VGO Storage",
+        "bbox": [
+          6739.2,
+          1619.2,
+          7020.8,
+          1900.8000000000002
+        ]
+      },
+      {
+        "tag": "V-605",
+        "type": "vessel",
+        "service": "Slop Wax Storage",
+        "bbox": [
+          7219.2,
+          1619.2,
+          7500.8,
+          1900.8000000000002
+        ]
+      },
+      {
+        "tag": "E-601",
+        "type": "heat_exchanger",
+        "service": "Cooling Water Aux HX",
+        "bbox": [
+          7859.2,
+          1619.2,
+          8140.8,
+          1900.8000000000002
+        ]
+      },
+      {
+        "tag": "V-701",
+        "type": "tank",
+        "service": "Diesel Day Tank",
+        "bbox": [
+          5299.2,
+          2419.2,
+          5740.8,
+          2860.7999999999997
+        ]
+      },
+      {
+        "tag": "V-702",
+        "type": "tank",
+        "service": "Naphtha Day Tank",
+        "bbox": [
+          5939.2,
+          2419.2,
+          6380.8,
+          2860.7999999999997
+        ]
+      },
+      {
+        "tag": "V-703",
+        "type": "tank",
+        "service": "VGO Day Tank",
+        "bbox": [
+          6579.2,
+          2419.2,
+          7020.8,
+          2860.7999999999997
+        ]
+      },
+      {
+        "tag": "V-907",
+        "type": "vessel",
+        "service": "Slop Drum (intentional R1 violation)",
+        "bbox": [
+          7379.2,
+          2579.2,
+          7660.8,
+          2860.7999999999997
+        ]
+      },
+      {
+        "tag": "FH-901",
+        "type": "vessel",
+        "service": "Flare Header",
+        "bbox": [
+          7859.2,
+          2259.2,
+          8140.8,
+          2860.7999999999997
+        ]
+      },
+      {
+        "tag": "V-908",
+        "type": "vessel",
+        "service": "Flare KO Drum",
+        "bbox": [
+          8499.2,
+          2259.2,
+          8780.800000000001,
+          2860.7999999999997
+        ]
+      },
+      {
+        "tag": "PSV-908",
+        "type": "psv",
+        "service": "V-908 flare KO relief",
+        "bbox": [
+          8853.76,
+          2250.0266666666666,
+          8966.24,
+          2320.0
+        ]
+      }
+    ],
+    "instruments": [
+      {
+        "tag": "LT-101",
+        "function": "LT",
+        "located_on": "V-101",
+        "bbox": [
+          35.199999999999996,
+          355.2,
+          124.80000000000001,
+          444.8
+        ]
+      },
+      {
+        "tag": "LIC-101",
+        "function": "LIC",
+        "located_on": "V-101",
+        "bbox": [
+          515.2,
+          355.2,
+          604.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "FT-102",
+        "function": "FT",
+        "located_on": "P-101A",
+        "bbox": [
+          675.2,
+          195.2,
+          764.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "PT-103",
+        "function": "PT",
+        "located_on": "P-101A",
+        "bbox": [
+          835.2,
+          355.2,
+          924.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "TT-104",
+        "function": "TT",
+        "located_on": "E-101",
+        "bbox": [
+          995.2,
+          195.2,
+          1084.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "TT-105",
+        "function": "TT",
+        "located_on": "E-102",
+        "bbox": [
+          1475.2,
+          195.2,
+          1564.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "TIC-106",
+        "function": "TIC",
+        "located_on": "F-101",
+        "bbox": [
+          1955.2,
+          35.199999999999996,
+          2044.8,
+          124.80000000000001
+        ]
+      },
+      {
+        "tag": "FT-107",
+        "function": "FT",
+        "located_on": "F-101",
+        "bbox": [
+          1955.2,
+          675.2,
+          2044.8,
+          764.8
+        ]
+      },
+      {
+        "tag": "PT-108",
+        "function": "PT",
+        "located_on": "R-101",
+        "bbox": [
+          2435.2,
+          195.2,
+          2524.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "PIC-108",
+        "function": "PIC",
+        "located_on": "R-101",
+        "bbox": [
+          2915.2,
+          195.2,
+          3004.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "TT-109",
+        "function": "TT",
+        "located_on": "R-101",
+        "bbox": [
+          2435.2,
+          355.2,
+          2524.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "TT-110",
+        "function": "TT",
+        "located_on": "R-101",
+        "bbox": [
+          2915.2,
+          355.2,
+          3004.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "TT-111",
+        "function": "TT",
+        "located_on": "E-103",
+        "bbox": [
+          3235.2,
+          35.199999999999996,
+          3324.8,
+          124.80000000000001
+        ]
+      },
+      {
+        "tag": "PT-112",
+        "function": "PT",
+        "located_on": "V-102",
+        "bbox": [
+          3715.2,
+          355.2,
+          3804.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "LT-113",
+        "function": "LT",
+        "located_on": "V-102",
+        "bbox": [
+          4195.2,
+          355.2,
+          4284.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "LIC-113",
+        "function": "LIC",
+        "located_on": "V-102",
+        "bbox": [
+          3875.2,
+          835.2,
+          3964.8,
+          924.8
+        ]
+      },
+      {
+        "tag": "LT-114",
+        "function": "LT",
+        "located_on": "V-103",
+        "bbox": [
+          4675.2,
+          355.2,
+          4764.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "PT-115",
+        "function": "PT",
+        "located_on": "V-103",
+        "bbox": [
+          4195.2,
+          515.2,
+          4284.8,
+          604.8
+        ]
+      },
+      {
+        "tag": "FT-201",
+        "function": "FT",
+        "located_on": "E-201",
+        "bbox": [
+          355.2,
+          1155.2,
+          444.8,
+          1244.8
+        ]
+      },
+      {
+        "tag": "TIC-202",
+        "function": "TIC",
+        "located_on": "F-201",
+        "bbox": [
+          835.2,
+          995.2,
+          924.8,
+          1084.8
+        ]
+      },
+      {
+        "tag": "PT-203",
+        "function": "PT",
+        "located_on": "C-201",
+        "bbox": [
+          1315.2,
+          1155.2,
+          1404.8,
+          1244.8
+        ]
+      },
+      {
+        "tag": "PIC-203",
+        "function": "PIC",
+        "located_on": "C-201",
+        "bbox": [
+          1795.2,
+          1155.2,
+          1884.8,
+          1244.8
+        ]
+      },
+      {
+        "tag": "TT-204",
+        "function": "TT",
+        "located_on": "C-201",
+        "bbox": [
+          1315.2,
+          1315.2,
+          1404.8,
+          1404.8
+        ]
+      },
+      {
+        "tag": "TT-205",
+        "function": "TT",
+        "located_on": "C-201",
+        "bbox": [
+          1795.2,
+          1315.2,
+          1884.8,
+          1404.8
+        ]
+      },
+      {
+        "tag": "LT-206",
+        "function": "LT",
+        "located_on": "V-201",
+        "bbox": [
+          2595.2,
+          995.2,
+          2684.8,
+          1084.8
+        ]
+      },
+      {
+        "tag": "LIC-206",
+        "function": "LIC",
+        "located_on": "V-201",
+        "bbox": [
+          2595.2,
+          1475.2,
+          2684.8,
+          1564.8
+        ]
+      },
+      {
+        "tag": "FT-207",
+        "function": "FT",
+        "located_on": "P-201A",
+        "bbox": [
+          3075.2,
+          1155.2,
+          3164.8,
+          1244.8
+        ]
+      },
+      {
+        "tag": "FIC-207",
+        "function": "FIC",
+        "located_on": "P-201A",
+        "bbox": [
+          3235.2,
+          1315.2,
+          3324.8,
+          1404.8
+        ]
+      },
+      {
+        "tag": "LT-208",
+        "function": "LT",
+        "located_on": "C-202",
+        "bbox": [
+          3395.2,
+          1635.2,
+          3484.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "LT-209",
+        "function": "LT",
+        "located_on": "C-203",
+        "bbox": [
+          3715.2,
+          1635.2,
+          3804.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "LT-210",
+        "function": "LT",
+        "located_on": "C-204",
+        "bbox": [
+          4035.2,
+          1635.2,
+          4124.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "TT-211",
+        "function": "TT",
+        "located_on": "E-203",
+        "bbox": [
+          1795.2,
+          2115.2,
+          1884.8,
+          2204.8
+        ]
+      },
+      {
+        "tag": "TIC-211",
+        "function": "TIC",
+        "located_on": "E-203",
+        "bbox": [
+          1955.2,
+          2595.2,
+          2044.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "TIC-301",
+        "function": "TIC",
+        "located_on": "F-301",
+        "bbox": [
+          195.2,
+          2595.2,
+          284.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "PT-302",
+        "function": "PT",
+        "located_on": "C-301",
+        "bbox": [
+          675.2,
+          2435.2,
+          764.8,
+          2524.8
+        ]
+      },
+      {
+        "tag": "PIC-302",
+        "function": "PIC",
+        "located_on": "C-301",
+        "bbox": [
+          1155.2,
+          2435.2,
+          1244.8,
+          2524.8
+        ]
+      },
+      {
+        "tag": "TT-303",
+        "function": "TT",
+        "located_on": "C-301",
+        "bbox": [
+          675.2,
+          2595.2,
+          764.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "TT-304",
+        "function": "TT",
+        "located_on": "C-301",
+        "bbox": [
+          1155.2,
+          2595.2,
+          1244.8,
+          2684.8
+        ]
+      },
+      {
+        "tag": "LT-305",
+        "function": "LT",
+        "located_on": "V-301",
+        "bbox": [
+          2275.2,
+          2275.2,
+          2364.8,
+          2364.8
+        ]
+      },
+      {
+        "tag": "LT-401",
+        "function": "LT",
+        "located_on": "V-401",
+        "bbox": [
+          4835.2,
+          355.2,
+          4924.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "FT-402",
+        "function": "FT",
+        "located_on": "K-501",
+        "bbox": [
+          5475.2,
+          195.2,
+          5564.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "ST-501",
+        "function": "ST",
+        "located_on": "K-501",
+        "bbox": [
+          5475.2,
+          515.2,
+          5564.8,
+          604.8
+        ]
+      },
+      {
+        "tag": "TT-403",
+        "function": "TT",
+        "located_on": "E-401",
+        "bbox": [
+          5955.2,
+          195.2,
+          6044.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "LT-404",
+        "function": "LT",
+        "located_on": "V-402",
+        "bbox": [
+          6915.2,
+          355.2,
+          7004.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "PT-405",
+        "function": "PT",
+        "located_on": "V-501",
+        "bbox": [
+          7395.2,
+          355.2,
+          7484.8,
+          444.8
+        ]
+      },
+      {
+        "tag": "LT-406",
+        "function": "LT",
+        "located_on": "C-401",
+        "bbox": [
+          7395.2,
+          195.2,
+          7484.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "PT-406",
+        "function": "PT",
+        "located_on": "C-401",
+        "bbox": [
+          7875.2,
+          195.2,
+          7964.8,
+          284.8
+        ]
+      },
+      {
+        "tag": "PIC-406",
+        "function": "PIC",
+        "located_on": "C-401",
+        "bbox": [
+          7555.2,
+          1475.2,
+          7644.8,
+          1564.8
+        ]
+      },
+      {
+        "tag": "TT-407",
+        "function": "TT",
+        "located_on": "E-501",
+        "bbox": [
+          8035.2,
+          515.2,
+          8124.8,
+          604.8
+        ]
+      },
+      {
+        "tag": "LT-601",
+        "function": "LT",
+        "located_on": "V-601",
+        "bbox": [
+          5635.2,
+          1635.2,
+          5724.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "LT-602",
+        "function": "LT",
+        "located_on": "V-602",
+        "bbox": [
+          6115.2,
+          1635.2,
+          6204.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "LT-603",
+        "function": "LT",
+        "located_on": "V-603",
+        "bbox": [
+          6595.2,
+          1635.2,
+          6684.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "LT-604",
+        "function": "LT",
+        "located_on": "V-604",
+        "bbox": [
+          7075.2,
+          1635.2,
+          7164.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "LT-605",
+        "function": "LT",
+        "located_on": "V-605",
+        "bbox": [
+          7555.2,
+          1635.2,
+          7644.8,
+          1724.8
+        ]
+      },
+      {
+        "tag": "TT-606",
+        "function": "TT",
+        "located_on": "E-601",
+        "bbox": [
+          7875.2,
+          1475.2,
+          7964.8,
+          1564.8
+        ]
+      },
+      {
+        "tag": "LT-701",
+        "function": "LT",
+        "located_on": "V-701",
+        "bbox": [
+          5795.2,
+          2435.2,
+          5884.8,
+          2524.8
+        ]
+      },
+      {
+        "tag": "LT-702",
+        "function": "LT",
+        "located_on": "V-702",
+        "bbox": [
+          6435.2,
+          2435.2,
+          6524.8,
+          2524.8
+        ]
+      },
+      {
+        "tag": "LT-703",
+        "function": "LT",
+        "located_on": "V-703",
+        "bbox": [
+          7075.2,
+          2435.2,
+          7164.8,
+          2524.8
+        ]
+      },
+      {
+        "tag": "PT-901",
+        "function": "PT",
+        "located_on": "FH-901",
+        "bbox": [
+          7715.2,
+          2275.2,
+          7804.8,
+          2364.8
+        ]
+      },
+      {
+        "tag": "PIC-901",
+        "function": "PIC",
+        "located_on": "FH-901",
+        "bbox": [
+          8195.2,
+          2275.2,
+          8284.8,
+          2364.8
+        ]
+      },
+      {
+        "tag": "LT-902",
+        "function": "LT",
+        "located_on": "V-908",
+        "bbox": [
+          8355.2,
+          2275.2,
+          8444.8,
+          2364.8
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "line_no": "6\"-SLW-307-CS",
+        "size": "6\"",
+        "service": "SLW",
+        "spec": "CS",
+        "from_tag": "C-301",
+        "to_tag": "V-605",
+        "geometry": [
+          [
+            960.0,
+            3500.7999999999997
+          ],
+          [
+            1040.0,
+            3440.0
+          ],
+          [
+            7760.0,
+            3440.0
+          ],
+          [
+            7760.0,
+            1680.0
+          ],
+          [
+            7440.0,
+            1680.0
+          ],
+          [
+            7360.0,
+            1619.2
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-VGO-306-CS",
+        "size": "8\"",
+        "service": "VGO",
+        "spec": "CS",
+        "from_tag": "C-301",
+        "to_tag": "V-604",
+        "geometry": [
+          [
+            1100.8000000000002,
+            2960.0
+          ],
+          [
+            7120.0,
+            2960.0
+          ],
+          [
+            7120.0,
+            1680.0
+          ],
+          [
+            6960.0,
+            1680.0
+          ],
+          [
+            6880.0,
+            1619.2
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-RCY-409-CS",
+        "size": "4\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": "V-501",
+        "to_tag": "R-101",
+        "geometry": [
+          [
+            7200.0,
+            780.8
+          ],
+          [
+            7280.0,
+            720.0
+          ],
+          [
+            7280.0,
+            880.0
+          ],
+          [
+            2960.0,
+            880.0
+          ],
+          [
+            2960.0,
+            240.0
+          ],
+          [
+            2800.0,
+            240.0
+          ],
+          [
+            2720.0,
+            179.2
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-ATM-201-CS",
+        "size": "14\"",
+        "service": "ATM",
+        "spec": "CS",
+        "from_tag": "V-103",
+        "to_tag": "E-201",
+        "geometry": [
+          [
+            4480.0,
+            780.8
+          ],
+          [
+            4560.0,
+            720.0
+          ],
+          [
+            4560.0,
+            1040.0
+          ],
+          [
+            400.0,
+            1040.0
+          ],
+          [
+            400.0,
+            1360.0
+          ],
+          [
+            339.2,
+            1383.68
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-SOR-410-CS",
+        "size": "8\"",
+        "service": "SOR",
+        "spec": "CS",
+        "from_tag": "V-103",
+        "to_tag": "C-401",
+        "geometry": [
+          [
+            4480.0,
+            339.2
+          ],
+          [
+            4560.0,
+            400.0
+          ],
+          [
+            4560.0,
+            240.0
+          ],
+          [
+            7440.0,
+            240.0
+          ],
+          [
+            7440.0,
+            880.0
+          ],
+          [
+            7600.0,
+            880.0
+          ],
+          [
+            7539.2,
+            800.0
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-DIE-215-CS",
+        "size": "6\"",
+        "service": "DIE",
+        "spec": "CS",
+        "from_tag": "C-204",
+        "to_tag": "V-603",
+        "geometry": [
+          [
+            4240.0,
+            2380.8
+          ],
+          [
+            4240.0,
+            2320.0
+          ],
+          [
+            6640.0,
+            2320.0
+          ],
+          [
+            6640.0,
+            1680.0
+          ],
+          [
+            6480.0,
+            1680.0
+          ],
+          [
+            6400.0,
+            1619.2
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-KER-214-CS",
+        "size": "4\"",
+        "service": "KER",
+        "spec": "CS",
+        "from_tag": "C-203",
+        "to_tag": "V-602",
+        "geometry": [
+          [
+            3920.0,
+            2380.8
+          ],
+          [
+            3920.0,
+            2320.0
+          ],
+          [
+            4080.0,
+            2320.0
+          ],
+          [
+            4080.0,
+            1520.0
+          ],
+          [
+            6000.0,
+            1520.0
+          ],
+          [
+            6000.0,
+            1680.0
+          ],
+          [
+            5920.0,
+            1619.2
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-NPH-213-CS",
+        "size": "4\"",
+        "service": "NPH",
+        "spec": "CS",
+        "from_tag": "C-202",
+        "to_tag": "V-601",
+        "geometry": [
+          [
+            3600.0,
+            2380.8
+          ],
+          [
+            3600.0,
+            2320.0
+          ],
+          [
+            3760.0,
+            2320.0
+          ],
+          [
+            3760.0,
+            1360.0
+          ],
+          [
+            5520.0,
+            1360.0
+          ],
+          [
+            5520.0,
+            1680.0
+          ],
+          [
+            5440.0,
+            1619.2
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-DIE-212-CS",
+        "size": "8\"",
+        "service": "DIE",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "C-204",
+        "geometry": [
+          [
+            1740.8000000000002,
+            1920.0
+          ],
+          [
+            1680.0,
+            2000.0
+          ],
+          [
+            3440.0,
+            2000.0
+          ],
+          [
+            3440.0,
+            2480.0
+          ],
+          [
+            4400.0,
+            2480.0
+          ],
+          [
+            4400.0,
+            2000.0
+          ],
+          [
+            4179.2,
+            2000.0
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-KER-211-CS",
+        "size": "6\"",
+        "service": "KER",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "C-203",
+        "geometry": [
+          [
+            1740.8000000000002,
+            1920.0
+          ],
+          [
+            1680.0,
+            2000.0
+          ],
+          [
+            1840.0,
+            2000.0
+          ],
+          [
+            1840.0,
+            1680.0
+          ],
+          [
+            3440.0,
+            1680.0
+          ],
+          [
+            3440.0,
+            1520.0
+          ],
+          [
+            3760.0,
+            1520.0
+          ],
+          [
+            3760.0,
+            2000.0
+          ],
+          [
+            3859.2,
+            2000.0
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-NPH-210-CS",
+        "size": "6\"",
+        "service": "NPH",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "C-202",
+        "geometry": [
+          [
+            1740.8000000000002,
+            1920.0
+          ],
+          [
+            1680.0,
+            2000.0
+          ],
+          [
+            1840.0,
+            2000.0
+          ],
+          [
+            1840.0,
+            2160.0
+          ],
+          [
+            3440.0,
+            2160.0
+          ],
+          [
+            3440.0,
+            2000.0
+          ],
+          [
+            3539.2,
+            2000.0
+          ]
+        ]
+      },
+      {
+        "line_no": "16\"-VAC-301-CS",
+        "size": "16\"",
+        "service": "VAC",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "F-301",
+        "geometry": [
+          [
+            1600.0,
+            2700.8
+          ],
+          [
+            1680.0,
+            2640.0
+          ],
+          [
+            1680.0,
+            2800.0
+          ],
+          [
+            1200.0,
+            2800.0
+          ],
+          [
+            1200.0,
+            2320.0
+          ],
+          [
+            80.0,
+            2320.0
+          ],
+          [
+            80.0,
+            3120.0
+          ],
+          [
+            240.0,
+            3120.0
+          ],
+          [
+            179.2,
+            3048.32
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-RFX-209-CS",
+        "size": "4\"",
+        "service": "RFX",
+        "spec": "CS",
+        "from_tag": "P-201A",
+        "to_tag": "C-201",
+        "geometry": [
+          [
+            3183.84,
+            1360.0
+          ],
+          [
+            2960.0,
+            1360.0
+          ],
+          [
+            2960.0,
+            1520.0
+          ],
+          [
+            1840.0,
+            1520.0
+          ],
+          [
+            1840.0,
+            1360.0
+          ],
+          [
+            1680.0,
+            1360.0
+          ],
+          [
+            1740.8000000000002,
+            1420.288
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-DIE-701-CS",
+        "size": "6\"",
+        "service": "DIE",
+        "spec": "CS",
+        "from_tag": "V-603",
+        "to_tag": "V-701",
+        "geometry": [
+          [
+            6400.0,
+            1900.8000000000002
+          ],
+          [
+            6480.0,
+            1840.0
+          ],
+          [
+            6480.0,
+            2160.0
+          ],
+          [
+            5520.0,
+            2160.0
+          ],
+          [
+            5520.0,
+            2419.2
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-FLR-902-CS",
+        "size": "6\"",
+        "service": "FLR",
+        "spec": "CS",
+        "from_tag": "FH-901",
+        "to_tag": "V-908",
+        "geometry": [
+          [
+            8000.0,
+            2860.7999999999997
+          ],
+          [
+            8080.0,
+            2800.0
+          ],
+          [
+            8400.0,
+            2800.0
+          ],
+          [
+            8400.0,
+            2160.0
+          ],
+          [
+            8720.0,
+            2160.0
+          ],
+          [
+            8720.0,
+            2320.0
+          ],
+          [
+            8640.0,
+            2259.2
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-NPH-702-CS",
+        "size": "6\"",
+        "service": "NPH",
+        "spec": "CS",
+        "from_tag": "V-601",
+        "to_tag": "V-702",
+        "geometry": [
+          [
+            5440.0,
+            1900.8000000000002
+          ],
+          [
+            5520.0,
+            1840.0
+          ],
+          [
+            5520.0,
+            2000.0
+          ],
+          [
+            6160.0,
+            2000.0
+          ],
+          [
+            6160.0,
+            2419.2
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-EFF-110-CS",
+        "size": "14\"",
+        "service": "EFF",
+        "spec": "CS",
+        "from_tag": "R-101",
+        "to_tag": "E-103",
+        "geometry": [
+          [
+            2720.0,
+            940.8
+          ],
+          [
+            2800.0,
+            880.0
+          ],
+          [
+            3120.0,
+            880.0
+          ],
+          [
+            3120.0,
+            400.0
+          ],
+          [
+            3280.0,
+            400.0
+          ],
+          [
+            3219.2,
+            320.0
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-RAM-411-CS",
+        "size": "8\"",
+        "service": "RAM",
+        "spec": "CS",
+        "from_tag": "C-401",
+        "to_tag": "E-501",
+        "geometry": [
+          [
+            7680.0,
+            1420.8
+          ],
+          [
+            7760.0,
+            1360.0
+          ],
+          [
+            7920.0,
+            1360.0
+          ],
+          [
+            7920.0,
+            720.0
+          ],
+          [
+            8080.0,
+            720.0
+          ],
+          [
+            8019.2,
+            743.68
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-LAM-412-CS",
+        "size": "8\"",
+        "service": "LAM",
+        "spec": "CS",
+        "from_tag": "E-501",
+        "to_tag": "C-401",
+        "geometry": [
+          [
+            8300.8,
+            856.32
+          ],
+          [
+            8240.0,
+            880.0
+          ],
+          [
+            8400.0,
+            880.0
+          ],
+          [
+            8400.0,
+            400.0
+          ],
+          [
+            7760.0,
+            400.0
+          ],
+          [
+            7820.8,
+            402.688
+          ]
+        ]
+      },
+      {
+        "line_no": "10\"-EFF-113-CS",
+        "size": "10\"",
+        "service": "EFF",
+        "spec": "CS",
+        "from_tag": "V-102",
+        "to_tag": "V-103",
+        "geometry": [
+          [
+            4000.0,
+            780.8
+          ],
+          [
+            4080.0,
+            720.0
+          ],
+          [
+            4240.0,
+            720.0
+          ],
+          [
+            4240.0,
+            240.0
+          ],
+          [
+            4560.0,
+            240.0
+          ],
+          [
+            4560.0,
+            400.0
+          ],
+          [
+            4480.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-MUH-407-CS",
+        "size": "6\"",
+        "service": "MUH",
+        "spec": "CS",
+        "from_tag": "V-402",
+        "to_tag": "V-501",
+        "geometry": [
+          [
+            6720.0,
+            780.8
+          ],
+          [
+            6800.0,
+            720.0
+          ],
+          [
+            6960.0,
+            720.0
+          ],
+          [
+            6960.0,
+            240.0
+          ],
+          [
+            7280.0,
+            240.0
+          ],
+          [
+            7280.0,
+            400.0
+          ],
+          [
+            7200.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "12\"-ATM-203-CS",
+        "size": "12\"",
+        "service": "ATM",
+        "spec": "CS",
+        "from_tag": "F-201",
+        "to_tag": "C-201",
+        "geometry": [
+          [
+            1260.8000000000002,
+            1315.84
+          ],
+          [
+            1200.0,
+            1360.0
+          ],
+          [
+            1360.0,
+            1360.0
+          ],
+          [
+            1360.0,
+            2000.0
+          ],
+          [
+            1520.0,
+            2000.0
+          ],
+          [
+            1459.2,
+            1920.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-DRN-901-CS",
+        "size": "4\"",
+        "service": "DRN",
+        "spec": "CS",
+        "from_tag": "V-907",
+        "to_tag": "FH-901",
+        "geometry": [
+          [
+            7520.0,
+            2579.2
+          ],
+          [
+            7600.0,
+            2640.0
+          ],
+          [
+            7600.0,
+            2480.0
+          ],
+          [
+            7280.0,
+            2480.0
+          ],
+          [
+            7280.0,
+            2960.0
+          ],
+          [
+            8080.0,
+            2960.0
+          ],
+          [
+            8080.0,
+            2800.0
+          ],
+          [
+            8000.0,
+            2860.7999999999997
+          ]
+        ]
+      },
+      {
+        "line_no": "16\"-CRD-101-CS",
+        "size": "16\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": "V-101",
+        "to_tag": "P-101A",
+        "geometry": [
+          [
+            320.0,
+            780.8
+          ],
+          [
+            400.0,
+            720.0
+          ],
+          [
+            560.0,
+            720.0
+          ],
+          [
+            560.0,
+            400.0
+          ],
+          [
+            659.2,
+            400.0
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-RCY-403-CS",
+        "size": "8\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": "V-401",
+        "to_tag": "K-501",
+        "geometry": [
+          [
+            5120.0,
+            780.8
+          ],
+          [
+            5200.0,
+            720.0
+          ],
+          [
+            5520.0,
+            720.0
+          ],
+          [
+            5520.0,
+            400.0
+          ],
+          [
+            5459.2,
+            400.0
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-OVH-303-CS",
+        "size": "14\"",
+        "service": "OVH",
+        "spec": "CS",
+        "from_tag": "C-301",
+        "to_tag": "E-301",
+        "geometry": [
+          [
+            960.0,
+            2419.2
+          ],
+          [
+            1040.0,
+            2480.0
+          ],
+          [
+            1360.0,
+            2480.0
+          ],
+          [
+            1360.0,
+            2640.0
+          ],
+          [
+            1520.0,
+            2640.0
+          ],
+          [
+            1459.2,
+            2560.0
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-OVH-304-CS",
+        "size": "14\"",
+        "service": "OVH",
+        "spec": "CS",
+        "from_tag": "E-301",
+        "to_tag": "V-301",
+        "geometry": [
+          [
+            1900.8000000000002,
+            2560.0
+          ],
+          [
+            1840.0,
+            2640.0
+          ],
+          [
+            2160.0,
+            2640.0
+          ],
+          [
+            2160.0,
+            2320.0
+          ],
+          [
+            2480.0,
+            2320.0
+          ],
+          [
+            2480.0,
+            2480.0
+          ],
+          [
+            2400.0,
+            2419.2
+          ]
+        ]
+      },
+      {
+        "line_no": "10\"-RCY-401-CS",
+        "size": "10\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": "V-103",
+        "to_tag": "V-401",
+        "geometry": [
+          [
+            4480.0,
+            339.2
+          ],
+          [
+            4560.0,
+            400.0
+          ],
+          [
+            4880.0,
+            400.0
+          ],
+          [
+            4880.0,
+            240.0
+          ],
+          [
+            5200.0,
+            240.0
+          ],
+          [
+            5200.0,
+            400.0
+          ],
+          [
+            5120.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-VGO-703-CS",
+        "size": "6\"",
+        "service": "VGO",
+        "spec": "CS",
+        "from_tag": "V-604",
+        "to_tag": "V-703",
+        "geometry": [
+          [
+            6880.0,
+            1900.8000000000002
+          ],
+          [
+            6960.0,
+            1840.0
+          ],
+          [
+            6960.0,
+            2320.0
+          ],
+          [
+            6800.0,
+            2320.0
+          ],
+          [
+            6800.0,
+            2419.2
+          ]
+        ]
+      },
+      {
+        "line_no": "16\"-CRD-102-CS",
+        "size": "16\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": "V-101",
+        "to_tag": "P-101B",
+        "geometry": [
+          [
+            320.0,
+            780.8
+          ],
+          [
+            400.0,
+            720.0
+          ],
+          [
+            400.0,
+            880.0
+          ],
+          [
+            720.0,
+            880.0
+          ],
+          [
+            720.0,
+            560.0
+          ],
+          [
+            659.2,
+            560.0
+          ]
+        ]
+      },
+      {
+        "line_no": "12\"-CRD-107-CS",
+        "size": "12\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": "F-101",
+        "to_tag": "R-101",
+        "geometry": [
+          [
+            2380.8,
+            355.84
+          ],
+          [
+            2320.0,
+            400.0
+          ],
+          [
+            2480.0,
+            400.0
+          ],
+          [
+            2480.0,
+            80.0
+          ],
+          [
+            2800.0,
+            80.0
+          ],
+          [
+            2800.0,
+            240.0
+          ],
+          [
+            2720.0,
+            179.2
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-OVH-204-CS",
+        "size": "14\"",
+        "service": "OVH",
+        "spec": "CS",
+        "from_tag": "C-201",
+        "to_tag": "E-202",
+        "geometry": [
+          [
+            1600.0,
+            1139.2
+          ],
+          [
+            1680.0,
+            1200.0
+          ],
+          [
+            1840.0,
+            1200.0
+          ],
+          [
+            1840.0,
+            1360.0
+          ],
+          [
+            2000.0,
+            1360.0
+          ],
+          [
+            1939.2,
+            1280.0
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-OVH-205-CS",
+        "size": "14\"",
+        "service": "OVH",
+        "spec": "CS",
+        "from_tag": "E-202",
+        "to_tag": "V-201",
+        "geometry": [
+          [
+            2380.8,
+            1280.0
+          ],
+          [
+            2320.0,
+            1360.0
+          ],
+          [
+            2480.0,
+            1360.0
+          ],
+          [
+            2480.0,
+            1040.0
+          ],
+          [
+            2800.0,
+            1040.0
+          ],
+          [
+            2800.0,
+            1200.0
+          ],
+          [
+            2720.0,
+            1139.2
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-RCY-405-CS",
+        "size": "8\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": "E-401",
+        "to_tag": "V-402",
+        "geometry": [
+          [
+            6380.8,
+            480.0
+          ],
+          [
+            6320.0,
+            560.0
+          ],
+          [
+            6480.0,
+            560.0
+          ],
+          [
+            6480.0,
+            240.0
+          ],
+          [
+            6800.0,
+            240.0
+          ],
+          [
+            6800.0,
+            400.0
+          ],
+          [
+            6720.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-RFX-208-CS",
+        "size": "6\"",
+        "service": "RFX",
+        "spec": "CS",
+        "from_tag": "V-201",
+        "to_tag": "P-201B",
+        "geometry": [
+          [
+            2720.0,
+            1420.8000000000002
+          ],
+          [
+            2800.0,
+            1360.0
+          ],
+          [
+            2800.0,
+            1520.0
+          ],
+          [
+            3059.2,
+            1520.0
+          ]
+        ]
+      },
+      {
+        "line_no": "8\"-RCY-404-CS",
+        "size": "8\"",
+        "service": "RCY",
+        "spec": "CS",
+        "from_tag": "K-501",
+        "to_tag": "E-401",
+        "geometry": [
+          [
+            5583.84,
+            400.0
+          ],
+          [
+            5840.0,
+            400.0
+          ],
+          [
+            5840.0,
+            560.0
+          ],
+          [
+            6000.0,
+            560.0
+          ],
+          [
+            5939.2,
+            480.0
+          ]
+        ]
+      },
+      {
+        "line_no": "6\"-RFX-207-CS",
+        "size": "6\"",
+        "service": "RFX",
+        "spec": "CS",
+        "from_tag": "V-201",
+        "to_tag": "P-201A",
+        "geometry": [
+          [
+            2720.0,
+            1420.8000000000002
+          ],
+          [
+            2800.0,
+            1360.0
+          ],
+          [
+            3059.2,
+            1360.0
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-EFF-111-CS",
+        "size": "14\"",
+        "service": "EFF",
+        "spec": "CS",
+        "from_tag": "E-103",
+        "to_tag": "V-102",
+        "geometry": [
+          [
+            3660.7999999999997,
+            320.0
+          ],
+          [
+            3600.0,
+            400.0
+          ],
+          [
+            3760.0,
+            400.0
+          ],
+          [
+            3760.0,
+            240.0
+          ],
+          [
+            4080.0,
+            240.0
+          ],
+          [
+            4080.0,
+            400.0
+          ],
+          [
+            4000.0,
+            339.2
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-108-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-101",
+        "to_tag": "PSV-101",
+        "geometry": [
+          [
+            320.0,
+            339.2
+          ],
+          [
+            400.0,
+            400.0
+          ],
+          [
+            400.0,
+            80.0
+          ],
+          [
+            240.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-109-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "R-101",
+        "to_tag": "PSV-102",
+        "geometry": [
+          [
+            2720.0,
+            179.2
+          ],
+          [
+            2800.0,
+            240.0
+          ],
+          [
+            2960.0,
+            240.0
+          ],
+          [
+            2960.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-112-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-102",
+        "to_tag": "PSV-103",
+        "geometry": [
+          [
+            4000.0,
+            339.2
+          ],
+          [
+            4080.0,
+            400.0
+          ],
+          [
+            4080.0,
+            80.0
+          ],
+          [
+            3920.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-114-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-103",
+        "to_tag": "PSV-104",
+        "geometry": [
+          [
+            4480.0,
+            339.2
+          ],
+          [
+            4560.0,
+            400.0
+          ],
+          [
+            4560.0,
+            80.0
+          ],
+          [
+            4400.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-402-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-401",
+        "to_tag": "PSV-401",
+        "geometry": [
+          [
+            5120.0,
+            339.2
+          ],
+          [
+            5200.0,
+            400.0
+          ],
+          [
+            5360.0,
+            400.0
+          ],
+          [
+            5360.0,
+            80.0
+          ],
+          [
+            5040.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-406-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-402",
+        "to_tag": "PSV-402",
+        "geometry": [
+          [
+            6720.0,
+            339.2
+          ],
+          [
+            6800.0,
+            400.0
+          ],
+          [
+            6800.0,
+            80.0
+          ],
+          [
+            6640.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-408-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-501",
+        "to_tag": "PSV-501",
+        "geometry": [
+          [
+            7200.0,
+            339.2
+          ],
+          [
+            7280.0,
+            400.0
+          ],
+          [
+            7280.0,
+            80.0
+          ],
+          [
+            7120.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-CRD-104-CS",
+        "size": "14\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": "P-101B",
+        "to_tag": "E-101",
+        "geometry": [
+          [
+            783.84,
+            560.0
+          ],
+          [
+            880.0,
+            560.0
+          ],
+          [
+            880.0,
+            400.0
+          ],
+          [
+            1040.0,
+            400.0
+          ],
+          [
+            979.2,
+            423.68
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-903-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-908",
+        "to_tag": "PSV-908",
+        "geometry": [
+          [
+            8640.0,
+            2259.2
+          ],
+          [
+            8720.0,
+            2320.0
+          ],
+          [
+            8880.0,
+            2320.0
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-CRD-106-CS",
+        "size": "14\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": "E-102",
+        "to_tag": "F-101",
+        "geometry": [
+          [
+            1740.8000000000002,
+            423.68
+          ],
+          [
+            1680.0,
+            400.0
+          ],
+          [
+            1840.0,
+            400.0
+          ],
+          [
+            1840.0,
+            560.0
+          ],
+          [
+            2000.0,
+            560.0
+          ],
+          [
+            1939.2,
+            488.32
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-ATM-202-CS",
+        "size": "14\"",
+        "service": "ATM",
+        "spec": "CS",
+        "from_tag": "E-201",
+        "to_tag": "F-201",
+        "geometry": [
+          [
+            620.8,
+            1383.68
+          ],
+          [
+            560.0,
+            1360.0
+          ],
+          [
+            720.0,
+            1360.0
+          ],
+          [
+            720.0,
+            1520.0
+          ],
+          [
+            880.0,
+            1520.0
+          ],
+          [
+            819.2,
+            1448.32
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-VAC-302-CS",
+        "size": "14\"",
+        "service": "VAC",
+        "spec": "CS",
+        "from_tag": "F-301",
+        "to_tag": "C-301",
+        "geometry": [
+          [
+            620.8,
+            2915.84
+          ],
+          [
+            560.0,
+            2960.0
+          ],
+          [
+            819.2,
+            2960.0
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-CRD-103-CS",
+        "size": "14\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": "P-101A",
+        "to_tag": "E-101",
+        "geometry": [
+          [
+            783.84,
+            400.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            720.0,
+            240.0
+          ],
+          [
+            1040.0,
+            240.0
+          ],
+          [
+            1040.0,
+            400.0
+          ],
+          [
+            979.2,
+            423.68
+          ]
+        ]
+      },
+      {
+        "line_no": "14\"-CRD-105-CS",
+        "size": "14\"",
+        "service": "CRD",
+        "spec": "CS",
+        "from_tag": "E-101",
+        "to_tag": "E-102",
+        "geometry": [
+          [
+            1260.8000000000002,
+            423.68
+          ],
+          [
+            1200.0,
+            400.0
+          ],
+          [
+            1520.0,
+            400.0
+          ],
+          [
+            1459.2,
+            423.68
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-206-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-201",
+        "to_tag": "PSV-201",
+        "geometry": [
+          [
+            2860.7999999999997,
+            1280.0
+          ],
+          [
+            2800.0,
+            1360.0
+          ],
+          [
+            2960.0,
+            1360.0
+          ],
+          [
+            2960.0,
+            1200.0
+          ]
+        ]
+      },
+      {
+        "line_no": "4\"-PSV-305-CS",
+        "size": "4\"",
+        "service": "PSV",
+        "spec": "CS",
+        "from_tag": "V-301",
+        "to_tag": "PSV-301",
+        "geometry": [
+          [
+            2540.7999999999997,
+            2560.0
+          ],
+          [
+            2480.0,
+            2640.0
+          ],
+          [
+            2640.0,
+            2640.0
+          ],
+          [
+            2640.0,
+            2480.0
+          ]
+        ]
+      }
+    ]
+  },
+  "summary": "이 도면(00번)은 원유/진공/수소처리 통합 트레인(Crude / Vacuum / Hydrotreater Integrated Train) 합성 데모 P&ID입니다. 추출 결과 장비 53개, 계장 61개, 배관 라인 43개, 연결 59개가 식별되었습니다. 자기수정 루프가 1회 실행되어 초기 추출 오류를 보정한 뒤 최종 결과가 확정되었습니다. ISA-5.1 룰 검증 결과 총 5건의 고위험(high) 이상이 검출되었으며, 그 중 V-101과 R-101은 압력 용기임에도 도면 내 PSV 연결이 확인되지 않아 우선 검토가 필요합니다. 추출된 전체 데이터는 BM25 및 Cohere Embed v4 기반 SearchIndex에 인덱싱되었고, AgentCore Memory에 크로스 세션으로 저장되어 언제든지 자연어 질의가 가능합니다.",
+  "metrics": {
+    "equipment": 53,
+    "instruments": 61,
+    "lines": 43,
+    "connections": 59
+  },
+  "qa": [
+    {
+      "question": "이 도면에 안전 밸브(PSV)는 몇 개이고 어디에 있나요?",
+      "answer": "## 안전밸브 현황\n\n이 도면에는 안전밸브가 총 **9개** 있습니다.\n\n| 태그 | 보호 대상 / 서비스 |\n|------|------|\n| **PSV-102** | — |\n| **PSV-103** | — |\n| **PSV-104** | — |\n| **PSV-401** | — |\n| **PSV-402** | — |\n| **PSV-501** | — |\n| **PSV-201** | — |\n| **PSV-301** | — |\n| **PSV-908** | — |",
+      "sources": [
+        {
+          "tag": "PSV-102",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "PSV-103",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "PSV-104",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "PSV-401",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "PSV-402",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "PSV-501",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "PSV-201",
+          "kind": "equipment",
+          "score": 1.0
+        },
+        {
+          "tag": "PSV-301",
+          "kind": "equipment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "question": "펌프와 연결된 라인의 사양을 알려주세요.",
+      "answer": "검색된 문서를 기반으로, drawing 00에서 확인된 펌프와 연결된 라인 정보는 다음과 같습니다.\n\n**펌프 목록 및 연결 장비:**\n- **P-101A / P-101B** (drawing 00): Upstream → V-101, Downstream → E-101\n- **P-201A / P-201B** (drawing 00): Upstream → V-201, Downstream 정보는 문서에 기술되어 있지 않음\n- **K-401** (drawing 00, 컴프레서/펌프): Upstream → V-401, ST-501, Downstream → E-401\n\n**펌프와 직접 연결된 것으로 확인된 라인 사양:**\n\n| 라인 태그 | 구경 | 서비스 | 스펙 | 출발지 → 목적지 |\n|---|---|---|---|---|\n| `8\"-RCY-404-CS` (drawing 00) | 8\" | RCY | CS | K-401 → E-401 |\n\n그 외 P-101A/B 및 P-201A/B에 직접 연결된 라인 태그(번호 포함)는 검색된 문서에 구체적으로 기술되어 있지 않습니다. 다만 장비 연결 관계상 V-101 → P-101A/B → E-101, V-201 → P-201A/B 경로가 drawing 00에 명시되어 있습니다.",
+      "sources": [
+        {
+          "tag": "8\"-VGO-306-",
+          "kind": "line",
+          "score": 0.28
+        },
+        {
+          "tag": "4\"-PSV-406-CS",
+          "kind": "line",
+          "score": 0.28
+        },
+        {
+          "tag": "4\"-PSV-206-CS",
+          "kind": "line",
+          "score": 0.28
+        },
+        {
+          "tag": "4\"-PSV-402-CS",
+          "kind": "line",
+          "score": 0.277
+        }
+      ]
+    },
+    {
+      "question": "이 공정에 어떤 주요 장비(vessel, column 등)가 있나요?",
+      "answer": "## 주요 장비 목록 (Drawing 00)\n\nDrawing 00에는 다음과 같은 주요 장비들이 확인됩니다.\n\n---\n\n### 🏛️ Column (증류/분별 컬럼) — 6기\n- **C-201** : 메인 증류 컬럼 (F-201 → C-201 → C-202/C-203/C-204)\n- **C-202** : C-201 하류 분리 컬럼 → V-601, V-701\n- **C-203** : C-201 하류 분리 컬럼 → V-603, V-702\n- **C-204** : C-201 하류 분리 컬럼 → V-604, V-703\n- **C-301** : F-301 → C-301 → V-301\n- **C-401** : V-501 → C-401 → E-501\n\n---\n\n### 🫙 Vessel (압력 용기) — 16기\n- **V-101, V-102, V-103** : 원료/반응계 계통\n- **V-201** : 증류계통 수기 (E-202 하류)\n- **V-301** : C-301 하류\n- **V-401, V-402, V-501** : 압축/재순환 계통\n- **V-601~V-605, V-701~V-703** : 각 컬럼 제품 수기\n- **V-907, V-908** : 기타 압력 용기\n\n---\n\n### ⚗️ Reactor (반응기) — 1기\n- **R-101** : F-101 → R-101 → E-103\n\n---\n\n### 🔥 Fired Heater (가열로) — 4기\n- **F-101, F-201, F-301, FH-901**\n\n> 모든 태그는 **drawing 00** 기준입니다.",
+      "sources": [
+        {
+          "tag": "C-401",
+          "kind": "equipment",
+          "score": 0.44
+        },
+        {
+          "tag": "C-204",
+          "kind": "equipment",
+          "score": 0.433
+        },
+        {
+          "tag": "C-301",
+          "kind": "equipment",
+          "score": 0.43
+        },
+        {
+          "tag": "C-202",
+          "kind": "equipment",
+          "score": 0.43
+        }
+      ]
+    },
+    {
+      "question": "계장(instrument) 중 제어 루프를 구성하는 것은 무엇인가요?",
+      "answer": "## 제어 루프(Control Loop)를 구성하는 계장\n\nDrawing 00에서 ISA 기능 코드에 **\"C\"(Controller)**가 포함된 계장들이 제어 루프를 구성합니다.\n\n### 종류별 목록\n\n**압력 제어 (PIC – Pressure Indicator Controller)**\n- `PIC-302` (Loop 302), `PIC-901` (Loop 901), `PIC-108` (Loop 108), `PIC-406` (Loop 406, C-401), `PIC-203` (Loop 203)\n\n**레벨 제어 (LIC – Level Indicator Controller)**\n- `LIC-101` (Loop 101, V-101), `LIC-113` (Loop 113, V-102), `LIC-206` (Loop 206, V-201)\n\n**온도 제어 (TIC – Temperature Indicator Controller)**\n- `TIC-106` (Loop 106, F-101), `TIC-301` (Loop 301, F-301), `TIC-202` (Loop 202), `TIC-211` (Loop 211, E-301)\n\n**유량 제어 (FIC – Flow Indicator Controller)**\n- `FIC-207` (Loop 207)\n\n이들은 모두 **drawing 00** 기준이며, 각각 Transmitter(측정)–Controller(제어)–Valve(조작) 구조의 폐루프 제어를 담당합니다. 대응하는 트랜스미터(예: PT, LT, TT, FT)와 함께 제어 루프를 형성합니다.",
+      "sources": [
+        {
+          "tag": "PIC-302",
+          "kind": "instrument",
+          "score": 0.65
+        },
+        {
+          "tag": "LIC-101",
+          "kind": "instrument",
+          "score": 0.647
+        },
+        {
+          "tag": "LIC-113",
+          "kind": "instrument",
+          "score": 0.645
+        },
+        {
+          "tag": "PIC-901",
+          "kind": "instrument",
+          "score": 0.645
+        }
+      ]
+    },
+    {
+      "question": "탑(column)으로 들어가고 나가는 라인을 정리해 주세요.",
+      "answer": "아래는 drawing 00에서 확인된 각 탑(Column)의 입출구 라인 정리입니다.\n\n---\n\n### C-201 (drawing 00)\n- **IN:** F-201 (fired heater에서 유입)\n- **OUT:**\n  - → C-202 (6\"-NPH-210-CS, NPH 서비스)\n  - → C-203 (6\"-KER-211-CS, KER 서비스)\n  - → C-204 (6\"-DIE-212-CS, DIE 서비스)\n  - → E-202 (열교환기로 유출)\n\n---\n\n### C-202 (drawing 00)\n- **IN:** C-201, LT-208\n- **OUT:**\n  - → V-601 (4\"-NPH-213-CS, NPH 서비스)\n  - → V-701\n\n---\n\n### C-203 (drawing 00)\n- **IN:** C-201, LT-209\n- **OUT:**\n  - → V-603 (4\"-KER-214-CS, KER 서비스)\n  - → V-702\n\n---\n\n### C-204 (drawing 00)\n- **IN:** C-201, LT-210\n- **OUT:**\n  - → V-604 (6\"-DIE-215-CS, DIE 서비스)\n  - → V-703\n\n---\n\n### C-301 (drawing 00)\n- **IN:** F-301 (fired heater에서 유입)\n- **OUT:** → V-301\n\n---\n\n### C-401 (drawing 00)\n- **IN:** V-501, PIC-406\n- **OUT:** → E-501 (8\"-LAM-412-CS, LAM 서비스)\n\n---\n\n> **참고:** 일부 라인(예: RFX, OVH 계열)은 From/To 정보가 문서에 명시되지 않아 상세 연결 관계를 확인할 수 없습니다.",
+      "sources": [
+        {
+          "tag": "C-201",
+          "kind": "equipment",
+          "score": 0.569
+        },
+        {
+          "tag": "C-301",
+          "kind": "equipment",
+          "score": 0.567
+        },
+        {
+          "tag": "C-401",
+          "kind": "equipment",
+          "score": 0.566
+        },
+        {
+          "tag": "C-202",
+          "kind": "equipment",
+          "score": 0.559
+        }
+      ]
+    }
+  ],
+  "frozen_at": "2026-06-02T21:49:58"
+}

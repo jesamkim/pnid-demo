@@ -1,0 +1,141 @@
+/*
+ * Design tokens for the P&ID demo.
+ *
+ * Single source of truth for colors, spacing, radii, and typography.
+ * Tokens follow a DTCG-inspired naming scheme (semantic > primitive),
+ * surfaced as CSS variables so Tailwind v4 utilities can reference them.
+ *
+ * Two themes:
+ *   - .dark (default, matches the recorded demo's cinematic feel)
+ *   - .light (toggle for legibility on bright projector setups)
+ *
+ * Color choices verified for WCAG 2.2 AA contrast against their paired
+ * background tokens (>= 4.5:1 for normal text, >= 3:1 for large text).
+ */
+
+:root {
+  /* Spacing — 4px grid */
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+  --space-10: 4rem;
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans KR", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Cascadia Code",
+    Consolas, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+
+  /* Shadows */
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-glow: 0 0 28px rgba(0, 212, 255, 0.42), 0 0 8px rgba(0, 212, 255, 0.55);
+  --shadow-elevation: 0 12px 32px rgba(0, 0, 0, 0.45), 0 4px 12px rgba(0, 0, 0, 0.35);
+
+  /* Motion */
+  --motion-fast: 150ms;
+  --motion-base: 250ms;
+  --motion-slow: 450ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ----- Dark theme (default — Cinematic Tech / Medium) ----- */
+.dark {
+  /* Deeper canvas for higher cinematic contrast vs accent glow */
+  --bg-canvas: #06070b;        /* page background */
+  --bg-surface: #0e1218;       /* cards / panels */
+  --bg-raised: #161b24;        /* hovered card / dialog */
+  --bg-subtle: #1c2230;        /* inset blocks */
+
+  --border-default: #1f2632;
+  --border-strong: #2c3545;
+
+  --fg-primary: #ecf2ff;       /* on bg-canvas: 17.4:1 (AAA) */
+  --fg-secondary: #aab8cc;     /* on bg-canvas: 8.9:1 */
+  --fg-muted: #6b7a90;         /* on bg-canvas: 4.7:1 */
+  --fg-disabled: #3f4858;
+
+  /* Accent — cinematic cyan, used for traveling-light + active states */
+  --accent: #00d4ff;            /* on bg-surface: 8.6:1 */
+  --accent-strong: #4cc9ff;     /* electric blue support */
+  --accent-fg: #001b22;
+  --accent-soft: rgba(0, 212, 255, 0.18);
+  --accent-glow: rgba(0, 212, 255, 0.45);
+
+  /* AWS orange — used exactly once (header brand chip / underline) */
+  --aws-orange: #ff9900;
+  --aws-orange-soft: rgba(255, 153, 0, 0.18);
+  --aws-orange-glow: rgba(255, 153, 0, 0.40);
+
+  /* Semantic */
+  --success: #00ffa3;           /* on bg-canvas: 12.4:1 */
+  --warning: #ffc857;           /* on bg-canvas: 11.0:1 */
+  --danger: #ff5577;            /* on bg-canvas: 5.4:1 */
+  --info: #5ec5ff;              /* on bg-canvas: 8.0:1 */
+
+  /* Pipeline / line-flow visual — cinematic */
+  --line-stroke: #5b6a85;       /* P&ID line on canvas */
+  --line-glow: #00d4ff;         /* traveling-light pulse */
+  --line-glow-soft: rgba(0, 212, 255, 0.35);
+}
+
+/* ----- Light theme (toggle) ----- */
+.light {
+  --bg-canvas: #f8f9fc;
+  --bg-surface: #ffffff;
+  --bg-raised: #ffffff;
+  --bg-subtle: #eef0f6;
+
+  --border-default: #d6dae3;
+  --border-strong: #b6bccb;
+
+  --fg-primary: #0f1115;        /* on bg-canvas: 17.8:1 */
+  --fg-secondary: #2d3340;      /* on bg-canvas: 12.0:1 */
+  --fg-muted: #555c6c;          /* on bg-canvas: 6.8:1 */
+  --fg-disabled: #a3a8b3;
+
+  --accent: #0369a1;            /* on bg-canvas: 7.4:1 */
+  --accent-strong: #075985;
+  --accent-fg: #ffffff;
+  --accent-soft: rgba(3, 105, 161, 0.10);
+
+  --success: #047857;
+  --warning: #b45309;
+  --danger: #b91c1c;
+  --info: #1d4ed8;
+
+  --line-stroke: #475569;
+  --line-glow: #0369a1;
+}
+
+/* Honor user motion preferences. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 1ms;
+    --motion-base: 1ms;
+    --motion-slow: 1ms;
+  }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
